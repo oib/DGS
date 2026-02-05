@@ -1,10 +1,24 @@
+'use client'
+
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { BookOpen, ArrowLeft, Clock, Target, CheckCircle, Play } from 'lucide-react'
+import { useState, useEffect } from 'react'
 
-const lessons = [
+interface Lesson {
+  id: string;
+  title: string;
+  description: string;
+  level: number;
+  duration: string;
+  objectives: string[];
+  vocabulary: string[];
+  status: string;
+}
+
+const lessons: Lesson[] = [
   {
     id: 'basics-1',
     title: 'Grundlagen: Begrüßungen',
@@ -30,7 +44,7 @@ const lessons = [
       'Beziehungen ausdrücken',
       'Persönliche Informationen austauschen'
     ],
-    vocabulary: ['Mutter', 'Vater', 'Bruder', 'Schwester', 'Familie'],
+    vocabulary: ['Familie', 'Mutter', 'Vater', 'Bruder', 'Schwester'],
     status: 'available'
   },
   {
@@ -44,7 +58,7 @@ const lessons = [
       'Zahlen 1-10 gebärden',
       'Einfache Beschreibungen machen'
     ],
-    vocabulary: ['Rot', 'Blau', 'Gelb', 'Grün', 'Schwarz', 'Weiß', 'Eins', 'Zwei', 'Drei'],
+    vocabulary: ['Rot', 'Blau', 'Gelb', 'Grün', 'Eins', 'Zwei', 'Drei'],
     status: 'available'
   },
   {
@@ -104,6 +118,90 @@ const lessons = [
     status: 'available'
   },
   {
+    id: 'level5-1',
+    title: 'Level 5: Erweiterte Kommunikation',
+    description: 'Vertiefe deine Kommunikationsfähigkeiten in komplexen Situationen',
+    level: 5,
+    duration: '35 Minuten',
+    objectives: [
+      'Komplexe Sätze bilden',
+      'Abstrakte Konzepte ausdrücken',
+      'Professionelle Gespräche führen'
+    ],
+    vocabulary: ['Denken', 'Fühlen', 'Verstehen', 'Erklären', 'Diskutieren'],
+    status: 'available'
+  },
+  {
+    id: 'level6-1',
+    title: 'Level 6: Fachsprache',
+    description: 'Lerne fachspezifische Begriffe und Terminologie',
+    level: 6,
+    duration: '40 Minuten',
+    objectives: [
+      'Fachbegriffe anwenden',
+      'Spezialisierte Themen besprechen',
+      'Professionelle Kommunikation'
+    ],
+    vocabulary: ['Wissenschaft', 'Technologie', 'Kunst', 'Literatur', 'Geschichte'],
+    status: 'available'
+  },
+  {
+    id: 'level7-1',
+    title: 'Level 7: Kulturelle Aspekte',
+    description: 'Entdecke kulturelle Nuancen und Traditionen in DGS',
+    level: 7,
+    duration: '45 Minuten',
+    objectives: [
+      'Kulturelle Unterschiede verstehen',
+      'Traditionen ausdrücken',
+      'Interkulturelle Kommunikation'
+    ],
+    vocabulary: ['Kultur', 'Tradition', 'Gewohnheit', 'Brauch', 'Identität'],
+    status: 'available'
+  },
+  {
+    id: 'level8-1',
+    title: 'Level 8: Fortgeschrittene Grammatik',
+    description: 'Meistere komplexe grammatikalische Strukturen',
+    level: 8,
+    duration: '50 Minuten',
+    objectives: [
+      'Komplexe Satzstrukturen bilden',
+      'Zeitformen korrekt anwenden',
+      'Nuancierte Ausdrücke verwenden'
+    ],
+    vocabulary: ['Vergangenheit', 'Zukunft', 'Bedingung', 'Möglichkeit', 'Wahrscheinlichkeit'],
+    status: 'available'
+  },
+  {
+    id: 'level9-1',
+    title: 'Level 9: Spezialisierte Themen',
+    description: 'Spezialisiere dich auf fortgeschrittene Themenbereiche',
+    level: 9,
+    duration: '55 Minuten',
+    objectives: [
+      'Spezialisierte Vokabulare beherrschen',
+      'Fachdiskussionen führen',
+      'Expertenwissen anwenden'
+    ],
+    vocabulary: ['Experte', 'Spezialist', 'Forschung', 'Analyse', 'Innovation'],
+    status: 'available'
+  },
+  {
+    id: 'level10-1',
+    title: 'Level 10: Gebärdensprache-Meister',
+    description: 'Erreiche das höchste Niveau der DGS-Beherrschung',
+    level: 10,
+    duration: '60 Minuten',
+    objectives: [
+      'Flüssig und natürlich gebärden',
+      'Alle Nuancen ausdrücken',
+      'Als Muttersprachler kommunizieren'
+    ],
+    vocabulary: ['Meisterschaft', 'Perfektion', 'Ausdruckskraft', 'Intuition', 'Meisterwerk'],
+    status: 'available'
+  },
+  {
     id: 'expert-1',
     title: 'Experte: Abstrakte Konzepte',
     description: 'Erkunde komplexe philosophische und abstrakte Themen in DGS',
@@ -116,16 +214,61 @@ const lessons = [
     ],
     vocabulary: ['Philosophie', 'Bewusstsein', 'Existenz', 'Wahrheit', 'Ethik'],
     status: 'available'
-  }
+  },
 ]
 
+const groupedLessons = lessons.reduce((acc: any, lesson: Lesson) => {
+  const level = lesson.level
+  if (!acc[level]) acc[level] = []
+  acc[level].push(lesson)
+  return acc
+}, {}) as Record<number, Lesson[]>
+
+// Translation dictionaries
+const translations = {
+  en: {
+    'back_to_home': 'Back to Home',
+    'lessons_title': 'DGS Lessons',
+    'lessons_subtitle': 'Structured learning paths for German Sign Language',
+    'lessons_count': 'lessons',
+    'vocab_count': 'words',
+    'learning_methods': 'Learning Methods',
+    'learning_goals': 'Learning Goals',
+    'how_it_works': 'How do the lessons work?',
+    'lesson_in_development': 'Lessons in Development',
+    'coming_soon': 'Interactive lessons will be available soon. In the meantime, you can:',
+    'explore_vocab': 'Explore Vocabulary',
+    'take_tests': 'Take Tests',
+  } as Record<string, string>,
+  de: {
+    'back_to_home': 'Zurück zur Startseite',
+    'lessons_title': 'DGS Lektionen',
+    'lessons_subtitle': 'Strukturierte Lernpfade für die Deutsche Gebärdensprache',
+    'lessons_count': 'Lektionen',
+    'vocab_count': 'Wörter',
+    'learning_methods': 'Lernmethoden',
+    'learning_goals': 'Lernziele',
+    'how_it_works': 'Wie funktionieren die Lektionen?',
+    'lesson_in_development': 'Lektionen in Entwicklung',
+    'coming_soon': 'Die interaktiven Lektionen werden bald verfügbar sein. In der Zwischenzeit kannst du:',
+    'explore_vocab': 'Wörterbuch erkunden',
+    'take_tests': 'Tests absolvieren',
+  } as Record<string, string>
+}
+
 export default function LessonsPage() {
-  const groupedLessons = lessons.reduce((acc, lesson) => {
-    const level = lesson.level
-    if (!acc[level]) acc[level] = []
-    acc[level].push(lesson)
-    return acc
-  }, {} as Record<number, typeof lessons>)
+  const [language, setLanguage] = useState<'en' | 'de'>('de')
+
+  useEffect(() => {
+    const savedLang = localStorage.getItem('language') as 'en' | 'de'
+    const browserLang = navigator.language.startsWith('de') ? 'de' : 'en'
+    const initialLang = savedLang || browserLang
+    setLanguage(initialLang)
+  }, [])
+
+  const t = (key: string): string => {
+    return translations[language][key] || translations.de[key] || key
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-8">
@@ -134,15 +277,15 @@ export default function LessonsPage() {
           <Link href="/">
             <Button variant="outline" className="mb-4">
               <ArrowLeft className="w-4 h-4 mr-2" />
-              Zurück zur Startseite
+              {t('back_to_home')}
             </Button>
           </Link>
 
           <h1 className="text-4xl font-bold text-center mb-4 text-gray-900">
-            DGS Lektionen
+            {t('lessons_title')}
           </h1>
           <p className="text-center text-gray-600 mb-8">
-            Strukturierte Lernpfade für die Deutsche Gebärdensprache
+            {t('lessons_subtitle')}
           </p>
         </div>
 
@@ -153,25 +296,42 @@ export default function LessonsPage() {
                 <CardTitle className="flex items-center justify-center gap-2">
                   <BookOpen className="w-5 h-5" />
                   Level {level}
-                  <Badge variant="secondary">{levelLessons.length} Lektionen</Badge>
+                  <Badge variant="secondary">{levelLessons.length} {t('lessons_count')}</Badge>
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-3">
                   {levelLessons.map((lesson) => (
-                    <div key={lesson.id} className="p-3 bg-white rounded-lg border">
-                      <h4 className="font-semibold text-sm mb-1">{lesson.title}</h4>
-                      <p className="text-xs text-gray-600 mb-2">{lesson.description}</p>
-                      <div className="flex items-center justify-between">
-                        <span className="text-xs text-gray-500 flex items-center gap-1">
-                          <Clock className="w-3 h-3" />
-                          {lesson.duration}
-                        </span>
-                        <Badge variant="outline" className="text-xs">
-                          {lesson.vocabulary.length} Wörter
-                        </Badge>
-                      </div>
-                    </div>
+                    <Link key={lesson.id} href={`/lessons/${lesson.id}`}>
+                      <Card className="hover:shadow-lg transition-shadow cursor-pointer">
+                        <CardHeader>
+                          <CardTitle className="flex items-center justify-center gap-2">
+                            <BookOpen className="w-5 h-5" />
+                            {lesson.title}
+                          </CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                          <p className="text-sm text-gray-600 mb-3">{lesson.description}</p>
+                          <div className="space-y-2">
+                            <div className="flex items-center gap-2 text-sm text-gray-600">
+                              <Clock className="w-3 h-3" />
+                              <span>{lesson.duration}</span>
+                            </div>
+                            <Badge variant="outline" className="text-xs">
+                              {lesson.vocabulary.length} {t('vocab_count')}
+                            </Badge>
+                          </div>
+                          <div className="mt-3">
+                            <h4 className="text-sm font-semibold mb-2">{t('learning_goals')}:</h4>
+                            <ul className="text-xs text-gray-600 space-y-1">
+                              {lesson.objectives.map((objective, idx) => (
+                                <li key={idx}>• {objective}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        </CardContent>
+                      </Card>
+                    </Link>
                   ))}
                 </div>
               </CardContent>
@@ -182,11 +342,11 @@ export default function LessonsPage() {
         <div className="bg-white rounded-lg p-6 shadow-sm mb-8">
           <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
             <Target className="w-5 h-5" />
-            Wie funktionieren die Lektionen?
+            {t('how_it_works')}
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <h4 className="font-semibold mb-2">📚 Lernmethode</h4>
+              <h4 className="font-semibold mb-2">📚 {t('learning_methods')}</h4>
               <ul className="text-sm text-gray-600 space-y-1">
                 <li>• Schritt-für-Schritt Anleitungen</li>
                 <li>• Interaktive Übungen</li>
@@ -195,7 +355,7 @@ export default function LessonsPage() {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-2">🎯 Lernziele</h4>
+              <h4 className="font-semibold mb-2">🎯 {t('learning_goals')}</h4>
               <ul className="text-sm text-gray-600 space-y-1">
                 <li>• Praktische Kommunikationsfähigkeiten</li>
                 <li>• Kulturelles Verständnis der DGS</li>
@@ -208,21 +368,21 @@ export default function LessonsPage() {
 
         <div className="text-center">
           <div className="bg-blue-50 rounded-lg p-6 mb-6">
-            <h3 className="text-lg font-semibold mb-2">🚧 Lektionen in Entwicklung</h3>
+            <h3 className="text-lg font-semibold mb-2">🚧 {t('lesson_in_development')}</h3>
             <p className="text-gray-600 mb-4">
-              Die interaktiven Lektionen werden bald verfügbar sein. In der Zwischenzeit kannst du:
+              {t('coming_soon')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/vocabulary">
                 <Button>
                   <BookOpen className="w-4 h-4 mr-2" />
-                  Wörterbuch erkunden
+                  {t('explore_vocab')}
                 </Button>
               </Link>
               <Link href="/tests">
                 <Button variant="outline">
-                  <CheckCircle className="w-4 h-4 mr-2" />
-                  Tests absolvieren
+                  <Play className="w-4 h-4 mr-2" />
+                  {t('take_tests')}
                 </Button>
               </Link>
             </div>

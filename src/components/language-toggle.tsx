@@ -44,7 +44,7 @@ export function LanguageToggle() {
         className="w-12 px-0"
         disabled
       >
-        <Languages className="h-[1.2rem] w-[1.2rem]" />
+        <Languages className="h-[1.2rem] w-[1.2rem]" suppressHydrationWarning />
       </Button>
     )
   }
@@ -57,7 +57,7 @@ export function LanguageToggle() {
       className="w-12 px-0"
       title="Sprache wechseln (EN/DE)"
     >
-      <Languages className="h-[1.2rem] w-[1.2rem]" />
+      <Languages className="h-[1.2rem] w-[1.2rem]" suppressHydrationWarning />
       <span className="ml-1 text-xs font-bold">
         {language.toUpperCase()}
       </span>

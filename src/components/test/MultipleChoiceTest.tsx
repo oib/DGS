@@ -17,7 +17,6 @@ interface TestWithQuestions extends Test {
 interface MultipleChoiceTestProps {
   test: TestWithQuestions;
   onComplete: (result: UserTestResult) => void;
-  userId: string;
 }
 
 interface UserTestResult {
@@ -32,11 +31,11 @@ interface UserTestResult {
   }[];
 }
 
-export function MultipleChoiceTest({ test, onComplete, userId }: MultipleChoiceTestProps) {
+export function MultipleChoiceTest({ test, onComplete }: MultipleChoiceTestProps) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [answers, setAnswers] = useState<UserTestResult['answers']>([]);
-  const [timeLeft, setTimeLeft] = useState(test.timeLimit ? test.timeLimit * 60 : null);
+  const [timeLeft, setTimeLeft] = useState(Math.min(test.questions.length * 20, 180));
   const [startTime] = useState(Date.now());
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [showResults, setShowResults] = useState(false);
@@ -46,15 +45,15 @@ export function MultipleChoiceTest({ test, onComplete, userId }: MultipleChoiceT
   const progress = ((currentQuestionIndex + 1) / test.questions.length) * 100;
 
   useEffect(() => {
-    if (timeLeft === null || timeLeft <= 0) return;
+    if (timeLeft <= 0) return;
     
     const timer = setInterval(() => {
       setTimeLeft(prev => {
-        if (prev !== null && prev <= 1) {
+        if (prev <= 1) {
           handleSubmitTest();
           return 0;
         }
-        return prev !== null ? prev - 1 : null;
+        return prev - 1;
       });
     }, 1000);
 
@@ -125,7 +124,7 @@ export function MultipleChoiceTest({ test, onComplete, userId }: MultipleChoiceT
     setCurrentQuestionIndex(0);
     setSelectedOption(null);
     setAnswers([]);
-    setTimeLeft(test.timeLimit ? test.timeLimit * 60 : null);
+    setTimeLeft(Math.min(test.questions.length * 20, 180));
     setIsSubmitted(false);
     setShowResults(false);
     setTestResult(null);
@@ -140,9 +139,9 @@ export function MultipleChoiceTest({ test, onComplete, userId }: MultipleChoiceT
           <CardHeader className="text-center">
             <div className="flex justify-center mb-4">
               {passed ? (
-                <CheckCircle className="w-16 h-16 text-green-500" />
+                <CheckCircle suppressHydrationWarning className="w-16 h-16 text-green-500" />
               ) : (
-                <XCircle className="w-16 h-16 text-red-500" />
+                <XCircle suppressHydrationWarning className="w-16 h-16 text-red-500" />
               )}
             </div>
             <CardTitle className="text-2xl">
@@ -173,9 +172,9 @@ export function MultipleChoiceTest({ test, onComplete, userId }: MultipleChoiceT
                 return (
                   <div key={question.id} className="flex items-center gap-2 p-2 rounded">
                     {isCorrect ? (
-                      <CheckCircle className="w-4 h-4 text-green-500" />
+                      <CheckCircle suppressHydrationWarning className="w-4 h-4 text-green-500" />
                     ) : (
-                      <XCircle className="w-4 h-4 text-red-500" />
+                      <XCircle suppressHydrationWarning className="w-4 h-4 text-red-500" />
                     )}
                     <span className="text-sm">Frage {idx + 1}: {question.text}</span>
                   </div>
@@ -184,7 +183,7 @@ export function MultipleChoiceTest({ test, onComplete, userId }: MultipleChoiceT
             </div>
             
             <Button onClick={handleRestart} className="w-full">
-              <RotateCcw className="w-4 h-4 mr-2" />
+              <RotateCcw suppressHydrationWarning className="w-4 h-4 mr-2" />
               Test wiederholen
             </Button>
           </CardContent>
@@ -200,7 +199,7 @@ export function MultipleChoiceTest({ test, onComplete, userId }: MultipleChoiceT
           <h1 className="text-2xl font-bold">{test.title}</h1>
           {timeLeft !== null && (
             <Badge variant={timeLeft < 60 ? "destructive" : "secondary"}>
-              <Clock className="w-4 h-4 mr-1" />
+              <Clock suppressHydrationWarning className="w-4 h-4 mr-1" />
               {formatTime(timeLeft)}
             </Badge>
           )}
@@ -243,7 +242,7 @@ export function MultipleChoiceTest({ test, onComplete, userId }: MultipleChoiceT
                     : 'border-muted-foreground'
                 }`}>
                   {selectedOption === option.id && (
-                    <div className="w-2 h-2 rounded-full bg-white m-auto" />
+                    <div className="w-2 h-2 rounded-full bg-primary-foreground m-auto" />
                   )}
                 </div>
                 <span>{option.text}</span>

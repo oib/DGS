@@ -1,4 +1,3 @@
-import { GetStaticProps } from 'next'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -9,6 +8,8 @@ import { BookOpen, ArrowLeft, Search } from 'lucide-react'
 import { ThemeToggle } from '@/components/theme-toggle'
 
 export default function VocabularyPage() {
+  const totalWords = Object.values(DGS_VOCABULARY).flatMap((level: any) => Object.values(level).flat()).length
+
   const level1Words = getVocabularyForLevel(1)
   const level2Words = getVocabularyForLevel(2)
   const level3Words = getVocabularyForLevel(3)
@@ -65,7 +66,7 @@ export default function VocabularyPage() {
           <div className="flex items-center gap-4">
             <Link href="/">
               <Button variant="outline" size="sm">
-                <ArrowLeft className="w-4 h-4 mr-2" />
+                <ArrowLeft suppressHydrationWarning className="w-4 h-4 mr-2" />
                 Zurück
               </Button>
             </Link>
@@ -74,7 +75,7 @@ export default function VocabularyPage() {
                 DGS Wörterbuch
               </h1>
               <p className="text-gray-600 dark:text-gray-300">
-                926 Zeichen nach Level und Kategorie geordnet
+                {totalWords} Zeichen nach Level und Kategorie geordnet
               </p>
             </div>
           </div>
@@ -82,7 +83,7 @@ export default function VocabularyPage() {
         </div>
 
         <Tabs defaultValue="level1" className="w-full">
-          <TabsList className="grid w-full grid-cols-3">
+          <TabsList className="flex w-full flex-wrap">
             <TabsTrigger value="level1" className="flex items-center gap-2">
               <Badge variant="secondary">1</Badge>
               Anfänger ({Object.values(level1Words).flat().length} Wörter)
@@ -94,6 +95,34 @@ export default function VocabularyPage() {
             <TabsTrigger value="level3" className="flex items-center gap-2">
               <Badge variant="secondary">3</Badge>
               Fortgeschritten ({Object.values(level3Words).flat().length} Wörter)
+            </TabsTrigger>
+            <TabsTrigger value="level4" className="flex items-center gap-2">
+              <Badge variant="secondary">4</Badge>
+              Level 4 ({Object.values(level4Words).flat().length} Wörter)
+            </TabsTrigger>
+            <TabsTrigger value="level5" className="flex items-center gap-2">
+              <Badge variant="secondary">5</Badge>
+              Level 5 ({Object.values(level5Words).flat().length} Wörter)
+            </TabsTrigger>
+            <TabsTrigger value="level6" className="flex items-center gap-2">
+              <Badge variant="secondary">6</Badge>
+              Level 6 ({Object.values(level6Words).flat().length} Wörter)
+            </TabsTrigger>
+            <TabsTrigger value="level7" className="flex items-center gap-2">
+              <Badge variant="secondary">7</Badge>
+              Level 7 ({Object.values(level7Words).flat().length} Wörter)
+            </TabsTrigger>
+            <TabsTrigger value="level8" className="flex items-center gap-2">
+              <Badge variant="secondary">8</Badge>
+              Level 8 ({Object.values(level8Words).flat().length} Wörter)
+            </TabsTrigger>
+            <TabsTrigger value="level9" className="flex items-center gap-2">
+              <Badge variant="secondary">9</Badge>
+              Level 9 ({Object.values(level9Words).flat().length} Wörter)
+            </TabsTrigger>
+            <TabsTrigger value="level10" className="flex items-center gap-2">
+              <Badge variant="secondary">10</Badge>
+              Level 10 ({Object.values(level10Words).flat().length} Wörter)
             </TabsTrigger>
           </TabsList>
 
@@ -108,11 +137,39 @@ export default function VocabularyPage() {
           <TabsContent value="level3" className="mt-6">
             {renderVocabularySection(level3Words, 3)}
           </TabsContent>
+
+          <TabsContent value="level4" className="mt-6">
+            {renderVocabularySection(level4Words, 4)}
+          </TabsContent>
+
+          <TabsContent value="level5" className="mt-6">
+            {renderVocabularySection(level5Words, 5)}
+          </TabsContent>
+
+          <TabsContent value="level6" className="mt-6">
+            {renderVocabularySection(level6Words, 6)}
+          </TabsContent>
+
+          <TabsContent value="level7" className="mt-6">
+            {renderVocabularySection(level7Words, 7)}
+          </TabsContent>
+
+          <TabsContent value="level8" className="mt-6">
+            {renderVocabularySection(level8Words, 8)}
+          </TabsContent>
+
+          <TabsContent value="level9" className="mt-6">
+            {renderVocabularySection(level9Words, 9)}
+          </TabsContent>
+
+          <TabsContent value="level10" className="mt-6">
+            {renderVocabularySection(level10Words, 10)}
+          </TabsContent>
         </Tabs>
 
         <div className="mt-12 bg-white rounded-lg p-6 shadow-sm">
           <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
-            <Search className="w-5 h-5" />
+            <Search suppressHydrationWarning className="w-5 h-5" />
             Wie man DGS Zeichen lernt
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

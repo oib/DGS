@@ -7,70 +7,70 @@ export const DGS_VOCABULARY = {
       {
         german: "Hallo",
         english: "Hello",
-        description: "Flache Hand heben und von links nach rechts bewegen",
+        description: "Rechte flache Hand, vom Mund zur Seite wippen",
         difficulty: 1,
         category: "Begrüßungen"
       },
       {
         german: "Auf Wiedersehen",
         english: "Goodbye",
-        description: "Flache Hand vom Gesicht weg bewegen",
+        description: "Rechte flache Hand vom Gesicht weg bewegen",
         difficulty: 1,
         category: "Begrüßungen"
       },
       {
         german: "Danke",
         english: "Thank you",
-        description: "Flache Hand auf dem Herzen",
+        description: "Rechte flache Hand auf dem Herzen, kleine Kreise",
         difficulty: 1,
         category: "Begrüßungen"
       },
       {
         german: "Bitte",
         english: "Please/You're welcome",
-        description: "Hand vom Mund weg bewegen",
+        description: "Rechte flache Hand vom Mund nach außen wippen",
         difficulty: 1,
         category: "Begrüßungen"
       },
       {
         german: "Entschuldigung",
         english: "Excuse me/Sorry",
-        description: "Hände drehen oder auf Brust klopfen",
+        description: "Rechte Hand dreht sich auf dem Handrücken",
         difficulty: 1,
         category: "Begrüßungen"
       },
       {
         german: "Guten Morgen",
         english: "Good morning",
-        description: "Morgensonne zeigen",
+        description: "Rechte Hand über Kopf heben, aufsteigen lassen",
         difficulty: 1,
         category: "Begrüßungen"
       },
       {
         german: "Guten Tag",
         english: "Good day",
-        description: "Tag-Sonne zeigen",
+        description: "Rechte Hand über Kopf, Kreis zeichnen",
         difficulty: 1,
         category: "Begrüßungen"
       },
       {
         german: "Guten Abend",
         english: "Good evening",
-        description: "Abend-Sonne zeigen",
+        description: "Rechte Hand über Kopf, nach unten sinken lassen",
         difficulty: 1,
         category: "Begrüßungen"
       },
       {
         german: "Gute Nacht",
         english: "Good night",
-        description: "Schlafen zeigen",
+        description: "Beide Hände flach zusammen an Wange legen, Kopf neigen, Augen schließen",
         difficulty: 1,
         category: "Begrüßungen"
       },
       {
         german: "Wie geht's",
         english: "How are you",
-        description: "Herz berühren und fragend blicken",
+        description: "Rechte Hand Herz berühren, dann fragend nach vorne, Augenbrauen hoch",
         difficulty: 1,
         category: "Begrüßungen"
       }
@@ -79,105 +79,105 @@ export const DGS_VOCABULARY = {
       {
         german: "Familie",
         english: "Family",
-        description: "Beide Hände zusammenführen",
+        description: "Linke Faust auf dem Handrücken drehen",
         difficulty: 1,
         category: "Familie"
       },
       {
         german: "Mutter",
         english: "Mother",
-        description: "Wange berühren",
+        description: "Rechte Faust an die Wange, kleine Kreise",
         difficulty: 1,
         category: "Familie"
       },
       {
         german: "Vater",
         english: "Father",
-        description: "Stirn berühren",
+        description: "Rechte Faust an die Stirn, kleine Kreise",
         difficulty: 1,
         category: "Familie"
       },
       {
         german: "Bruder",
         english: "Brother",
-        description: "Brust berühren + männlich",
+        description: "Rechte Faust an Brust (Geschwister), dann rechte Hand Zeige- und Mittelfinger von Stirn nach unten (männlich)",
         difficulty: 1,
         category: "Familie"
       },
       {
         german: "Schwester",
         english: "Sister",
-        description: "Brust berühren + weiblich",
+        description: "Rechte Faust an Brust (Geschwister), dann rechter Zeigefinger am Kinn ansetzen und nach unten ziehen (weiblich)",
         difficulty: 1,
         category: "Familie"
       },
       {
         german: "Eltern",
         english: "Parents",
-        description: "Mutter und Vater zusammen",
+        description: "Rechte Faust an Stirn (Vater), rechte Faust an Wange (Mutter) (Eltern)",
         difficulty: 1,
         category: "Familie"
       },
       {
         german: "Kind",
         english: "Child",
-        description: "Klein zeigen",
+        description: "Rechte Hand flach, Handfläche nach unten, Höhe eines Kindes andeuten",
         difficulty: 1,
         category: "Familie"
       },
       {
         german: "Baby",
         english: "Baby",
-        description: "Sehr klein zeigen",
+        description: "Beide Arme wiegen wie ein Baby halten, sanfte Schaukelbewegung",
         difficulty: 1,
         category: "Familie"
       },
       {
         german: "Großmutter",
         english: "Grandmother",
-        description: "Mutter + alt zeigen",
+        description: "Rechte Faust an Wange (Mutter), dann gespreizte Finger nach unten (alt)",
         difficulty: 1,
         category: "Familie"
       },
       {
         german: "Großvater",
         english: "Grandfather",
-        description: "Vater + alt zeigen",
+        description: "Rechte Faust an Stirn (Vater), dann gespreizte Finger nach unten (alt)",
         difficulty: 1,
         category: "Familie"
       },
       {
         german: "Onkel",
         english: "Uncle",
-        description: "Bruder des Elternteils",
+        description: "Rechte Faust an Stirn (Vater), dann Zeichen für Bruder (Faust an Brust)",
         difficulty: 1,
         category: "Familie"
       },
       {
         german: "Tante",
         english: "Aunt",
-        description: "Schwester des Elternteils",
+        description: "Rechte Faust an Wange (Mutter), dann Zeichen für Schwester (Faust an Brust)",
         difficulty: 1,
         category: "Familie"
       },
       {
         german: "Cousin",
         english: "Cousin",
-        description: "Kind von Onkel/Tante",
+        description: "Zeichen für Onkel/Tante, dann Zeichen für Kind (flache Hand, Höhe andeuten)",
         difficulty: 1,
         category: "Familie"
       },
       {
         german: "Ehemann",
         english: "Husband",
-        description: "Mann + verheiratet zeigen",
+        description: "Rechte Hand Faust an Stirn (Vater-Zeichen), dann Ringfinger antippen (verheiratet)",
         difficulty: 1,
         category: "Familie"
       },
       {
         german: "Ehefrau",
         english: "Wife",
-        description: "Frau + verheiratet zeigen",
+        description: "Rechte Faust an Wange (Mutter-Zeichen), dann Ringfinger antippen (verheiratet)",
         difficulty: 1,
         category: "Familie"
       }
@@ -186,105 +186,105 @@ export const DGS_VOCABULARY = {
       {
         german: "Rot",
         english: "Red",
-        description: "Wange berühren",
+        description: "Rechte Faust an die Wange, kleine Kreise",
         difficulty: 1,
         category: "Farben"
       },
       {
         german: "Blau",
         english: "Blue",
-        description: "Luftzeichen",
+        description: "Rechte flache Hand, kleine Wellenbewegung",
         difficulty: 1,
         category: "Farben"
       },
       {
         german: "Gelb",
         english: "Yellow",
-        description: "Bart berühren",
+        description: "Rechte flache Hand streicht am Kinn nach außen/unten (gelb)",
         difficulty: 1,
         category: "Farben"
       },
       {
         german: "Grün",
         english: "Green",
-        description: "Seite des Halses berühren",
+        description: "Rechte flache Hand an der Halsseite",
         difficulty: 1,
         category: "Farben"
       },
       {
         german: "Schwarz",
         english: "Black",
-        description: "Schulter berühren",
+        description: "Rechte Faust an die Schulter, kleine Kreise",
         difficulty: 1,
         category: "Farben"
       },
       {
         german: "Weiß",
         english: "White",
-        description: "Brust berühren",
+        description: "Rechte Faust an die Brust, kleine Kreise",
         difficulty: 1,
         category: "Farben"
       },
       {
         german: "Braun",
         english: "Brown",
-        description: "Haarfarbe zeigen",
+        description: "Rechte flache Hand streicht kurz über Haar/Schläfe (braun)",
         difficulty: 1,
         category: "Farben"
       },
       {
         german: "Orange",
         english: "Orange",
-        description: "Rot + gelb mischen",
+        description: "Rechte Hand Orange, Rot+Gelb mischen",
         difficulty: 1,
         category: "Farben"
       },
       {
         german: "Lila",
         english: "Purple",
-        description: "Rot + blau mischen",
+        description: "Rechte Hand Lila, Rot+Blau mischen",
         difficulty: 1,
         category: "Farben"
       },
       {
         german: "Pink",
         english: "Pink",
-        description: "Hellrot zeigen",
+        description: "Rechte Hand streicht 1x über Wange (rot), dann Finger öffnen/aufhellen (pink)",
         difficulty: 1,
         category: "Farben"
       },
       {
         german: "Grau",
         english: "Gray",
-        description: "Mischung von schwarz und weiß",
+        description: "Rechte Hand Grau, Schwarz+Weiß mischen",
         difficulty: 1,
         category: "Farben"
       },
       {
         german: "Hell",
         english: "Light",
-        description: "Helligkeit zeigen",
+        description: "Rechte Hand flach vor Gesicht, Finger spreizen/öffnen nach außen (hell)",
         difficulty: 1,
         category: "Farben"
       },
       {
         german: "Dunkel",
         english: "Dark",
-        description: "Dunkelheit zeigen",
+        description: "Rechte Hand flach vor Gesicht, Finger schließen (hell -> dunkel)",
         difficulty: 1,
         category: "Farben"
       },
       {
         german: "Bunt",
         english: "Colorful",
-        description: "Viele Farben zeigen",
+        description: "Rechte Hand kreist vor dem Körper, Finger spreizen (viele Farben/bunt)",
         difficulty: 1,
         category: "Farben"
       },
       {
         german: "Transparent",
         english: "Transparent",
-        description: "Durchsichtig zeigen",
+        description: "Rechte Hand flach vor Augen, langsam nach vorne schieben (durchsichtig/transparent)",
         difficulty: 1,
         category: "Farben"
       }
@@ -293,7 +293,7 @@ export const DGS_VOCABULARY = {
       {
         german: "Eins",
         english: "One",
-        description: "Zeigefinger ausstrecken",
+        description: "Zeigefinger nach oben ausstrecken",
         difficulty: 1,
         category: "Zahlen"
       },
@@ -307,91 +307,91 @@ export const DGS_VOCABULARY = {
       {
         german: "Drei",
         english: "Three",
-        description: "Drei Finger ausstrecken",
+        description: "Rechte Hand drei Finger ausstrecken, Drei",
         difficulty: 1,
         category: "Zahlen"
       },
       {
         german: "Vier",
         english: "Four",
-        description: "Vier Finger ausstrecken",
+        description: "Rechte Hand vier Finger ausstrecken, Vier",
         difficulty: 1,
         category: "Zahlen"
       },
       {
         german: "Fünf",
         english: "Five",
-        description: "Alle Finger ausstrecken",
+        description: "Rechte Hand alle Finger ausstrecken, Fünf",
         difficulty: 1,
         category: "Zahlen"
       },
       {
         german: "Null",
         english: "Zero",
-        description: "Faust zeigen",
+        description: "Rechte Hand formt runden Kreis (O-Handform) vor dem Körper (0)",
         difficulty: 1,
         category: "Zahlen"
       },
       {
         german: "Sechs",
         english: "Six",
-        description: "Fünf + eins",
+        description: "Rechte Hand alle fünf Finger, linke Hand Zeigefinger dazu",
         difficulty: 1,
         category: "Zahlen"
       },
       {
         german: "Sieben",
         english: "Seven",
-        description: "Fünf + zwei",
+        description: "Rechte Hand alle fünf Finger, linke Hand Zeige- und Mittelfinger dazu",
         difficulty: 1,
         category: "Zahlen"
       },
       {
         german: "Acht",
         english: "Eight",
-        description: "Fünf + drei",
+        description: "Rechte Hand alle fünf Finger, linke Hand drei Finger dazu",
         difficulty: 1,
         category: "Zahlen"
       },
       {
         german: "Neun",
         english: "Nine",
-        description: "Fünf + vier",
+        description: "Rechte Hand alle fünf Finger, linke Hand vier Finger dazu",
         difficulty: 1,
         category: "Zahlen"
       },
       {
         german: "Zehn",
         english: "Ten",
-        description: "Beide Hände fünf zeigen",
+        description: "Beide Hände offen mit gespreizten Fingern (5+5) (10)",
         difficulty: 1,
         category: "Zahlen"
       },
       {
         german: "Zwanzig",
         english: "Twenty",
-        description: "Zwei + zehn",
+        description: "Zeige- und Mittelfinger (2), dann beide Hände alle Finger (10)",
         difficulty: 1,
         category: "Zahlen"
       },
       {
         german: "Dreißig",
         english: "Thirty",
-        description: "Drei + zehn",
+        description: "Drei Finger (3), dann beide Hände alle Finger (10)",
         difficulty: 1,
         category: "Zahlen"
       },
       {
         german: "Vierzig",
         english: "Forty",
-        description: "Vier + zehn",
+        description: "Vier Finger (4), dann beide Hände alle Finger (10)",
         difficulty: 1,
         category: "Zahlen"
       },
       {
         german: "Fünfzig",
         english: "Fifty",
-        description: "Fünf + zehn",
+        description: "Alle fünf Finger (5), dann beide Hände alle Finger (10)",
         difficulty: 1,
         category: "Zahlen"
       }
@@ -400,108 +400,108 @@ export const DGS_VOCABULARY = {
       {
         german: "Haus",
         english: "House",
-        description: "Dächer formen mit Händen",
+        description: "Beide Hände Dachform über dem Kopf",
         difficulty: 1,
         category: "Objekte"
       },
       {
         german: "Auto",
         english: "Car",
-        description: "Lenkrad drehen",
+        description: "Beide Hände am Lenkrad, Kreise drehen",
         difficulty: 1,
         category: "Objekte"
       },
       {
         german: "Buch",
         english: "Book",
-        description: "Seiten umblättern",
+        description: "Beide Hände aufschlagen wie Buchseiten",
         difficulty: 1,
         category: "Objekte"
       },
       {
         german: "Essen",
         english: "Food",
-        description: "Mund berühren",
+        description: "Rechte Faust zum Mund führen, kauen",
         difficulty: 1,
         category: "Objekte"
       },
       {
         german: "Trinken",
         english: "Drink",
-        description: "Faust zum Mund führen",
+        description: "Rechte Faust als Tasse zum Mund führen",
         difficulty: 1,
         category: "Objekte"
       },
       {
         german: "Tisch",
         english: "Table",
-        description: "Flache Oberfläche zeigen",
+        description: "Rechte flache Hand horizontal, nach unten tippen",
         difficulty: 1,
         category: "Objekte"
       },
       {
         german: "Stuhl",
         english: "Chair",
-        description: "Sitzen zeigen",
+        description: "Rechte Hand sitzen auf Oberschenkel",
         difficulty: 1,
         category: "Objekte"
       },
       {
         german: "Tür",
         english: "Door",
-        description: "Tür öffnen",
+        description: "Rechte Hand Tür öffnen, Tür",
         difficulty: 1,
         category: "Objekte"
       },
       {
         german: "Fenster",
         english: "Window",
-        description: "Quadrat in Luft zeichnen",
+        description: "Rechte Hand Quadrat in Luft zeichnen",
         difficulty: 1,
         category: "Objekte"
       },
       {
         german: "Bett",
         english: "Bed",
-        description: "Schlafen zeigen",
+        description: "Beide Hände flach zusammen an Wange legen, Kopf neigen (schlafen)",
         difficulty: 1,
         category: "Objekte"
       },
       {
         german: "Bad",
         english: "Bathroom",
-        description: "Waschen zeigen",
+        description: "Beide Hände reiben Oberarme auf und ab (waschen/duschen)",
         difficulty: 1,
         category: "Objekte"
       },
       {
         german: "Küche",
         english: "Kitchen",
-        description: "Kochen zeigen",
+        description: "Rechte Hand flach, Pfannenwenden imitieren, dann Topf rühren",
         difficulty: 1,
         category: "Objekte"
       },
       {
         german: "Schule",
         english: "School",
-        description: "Lernen zeigen",
+        description: "Rechte Hand tippt auf linke flache Hand (wie Lehrer auf Tafel schreibt)",
         difficulty: 1,
         category: "Objekte"
       },
       {
         german: "Telefon",
         english: "Telephone",
-        description: "Telefonieren",
+        description: "Rechte Hand Y-Form am Ohr, wie Hörer",
         difficulty: 1,
         category: "Objekte"
       },
       {
         german: "Computer",
         english: "Computer",
-        description: "Tasten drücken",
+        description: "Beide Hände Tastatur tippen, Finger bewegen",
         difficulty: 1,
         category: "Objekte"
-      }
+      },
     ]
   },
   level2: {
@@ -509,105 +509,105 @@ export const DGS_VOCABULARY = {
       {
         german: "Zeit",
         english: "Time",
-        description: "Handgelenk berühren",
+        description: "Linke Hand Handgelenk, Zeigefinger berühren",
         difficulty: 2,
         category: "Zeit"
       },
       {
         german: "Heute",
         english: "Today",
-        description: "Hand nach vorne schieben",
+        description: "Rechte flache Hand, nach vorne schieben",
         difficulty: 2,
         category: "Zeit"
       },
       {
         german: "Morgen",
         english: "Tomorrow",
-        description: "Hand nach vorne ziehen",
+        description: "Rechte flache Hand, nach vorne ziehen",
         difficulty: 2,
         category: "Zeit"
       },
       {
         german: "Gestern",
         english: "Yesterday",
-        description: "Hand nach hinten schieben",
+        description: "Rechte flache Hand, nach hinten schieben",
         difficulty: 2,
         category: "Zeit"
       },
       {
         german: "Stunde",
         english: "Hour",
-        description: "Uhr zeigen",
+        description: "Rechte Hand Zeigefinger tippt auf linkes Handgelenk (Uhr), dann Kreis",
         difficulty: 2,
         category: "Zeit"
       },
       {
         german: "Minute",
         english: "Minute",
-        description: "Kleiner Kreis mit Fingern",
+        description: "Rechte Hand kleiner Kreis, Minute",
         difficulty: 2,
         category: "Zeit"
       },
       {
         german: "Sekunde",
         english: "Second",
-        description: "Sehr kleine Bewegung",
+        description: "Rechte Hand kleine Bewegung, Sekunde",
         difficulty: 2,
         category: "Zeit"
       },
       {
         german: "Tag",
         english: "Day",
-        description: "Sonne zeigen",
+        description: "Rechte Hand formt Sonne über Kopf (Kreis), dann kurze Strahlenbewegung (Tag)",
         difficulty: 2,
         category: "Zeit"
       },
       {
         german: "Nacht",
         english: "Night",
-        description: "Mond zeigen",
+        description: "Rechte Hand formt Halbmond über Kopf, dann Hand senkt sich ruhig (Nacht)",
         difficulty: 2,
         category: "Zeit"
       },
       {
         german: "Woche",
         english: "Week",
-        description: "Sieben Tage zeigen",
+        description: "Rechte Hand sieben Tage, Woche",
         difficulty: 2,
         category: "Zeit"
       },
       {
         german: "Monat",
         english: "Month",
-        description: "Mondzyklus zeigen",
+        description: "Rechte Hand Mondzyklus, Monat",
         difficulty: 2,
         category: "Zeit"
       },
       {
         german: "Jahr",
         english: "Year",
-        description: "Jahreskreis zeigen",
+        description: "Rechte Hand Jahreskreis, Jahr",
         difficulty: 2,
         category: "Zeit"
       },
       {
         german: "Früh",
         english: "Early",
-        description: "Früh morgens zeigen",
+        description: "Rechte Hand steigt über Kopf (Sonne aufgehen), dann Hand flach nach vorne (früh)",
         difficulty: 2,
         category: "Zeit"
       },
       {
         german: "Spät",
         english: "Late",
-        description: "Spät abends zeigen",
+        description: "Rechte Hand sinkt nach unten (Sonne untergeht), dann Hand bewegt nach hinten (spät)",
         difficulty: 2,
         category: "Zeit"
       },
       {
         german: "Jetzt",
         english: "Now",
-        description: "Gegenwart zeigen",
+        description: "Beide Hände flach vor Körper, kurz nach unten drücken",
         difficulty: 2,
         category: "Zeit"
       }
@@ -616,105 +616,105 @@ export const DGS_VOCABULARY = {
       {
         german: "Wetter",
         english: "Weather",
-        description: "Hände öffnen und schließen",
+        description: "Rechte Hand Wetter, Hände öffnen schließen",
         difficulty: 2,
         category: "Wetter"
       },
       {
         german: "Sonne",
         english: "Sun",
-        description: "Kreis über Kopf formen",
+        description: "Rechte Hand Kreis über Kopf, dann Finger spreizen als Strahlen nach außen (Sonne)",
         difficulty: 2,
         category: "Wetter"
       },
       {
         german: "Regen",
         english: "Rain",
-        description: "Finger nach unten bewegen",
+        description: "Beide Hände Finger nach unten wippen",
         difficulty: 2,
         category: "Wetter"
       },
       {
         german: "Schnee",
         english: "Snow",
-        description: "Finger flattern lassen",
+        description: "Beide Hände Finger flattern lassen, nach unten",
         difficulty: 2,
         category: "Wetter"
       },
       {
         german: "Wind",
         english: "Wind",
-        description: "Hand wellenförmig bewegen",
+        description: "Rechte Hand wellenförmig von links nach rechts",
         difficulty: 2,
         category: "Wetter"
       },
       {
         german: "Kalt",
         english: "Cold",
-        description: "Arme um Körper schlingen",
+        description: "Beide Arme um Körper schlingen, zittern",
         difficulty: 2,
         category: "Wetter"
       },
       {
         german: "Warm",
         english: "Warm",
-        description: "Wärme ausstrahlen",
+        description: "Rechte Hand vom Mund weg, Wärme ausstrahlen",
         difficulty: 2,
         category: "Wetter"
       },
       {
         german: "Wolke",
         english: "Cloud",
-        description: "Wolke formen",
+        description: "Rechte Hand Wolke formen, Wolke",
         difficulty: 2,
         category: "Wetter"
       },
       {
         german: "Sturm",
         english: "Storm",
-        description: "Starke Windbewegung",
+        description: "Rechte Hand Sturm, starke Windbewegung",
         difficulty: 2,
         category: "Wetter"
       },
       {
         german: "Blitz",
         english: "Lightning",
-        description: "Blitzstrahl zeigen",
+        description: "Rechte Hand Blitzstrahl, Blitz",
         difficulty: 2,
         category: "Wetter"
       },
       {
         german: "Donner",
         english: "Thunder",
-        description: "Donnergeräusch imitieren",
+        description: "Rechte Hand Donner, Donnergeräusch",
         difficulty: 2,
         category: "Wetter"
       },
       {
         german: "Nebel",
         english: "Fog",
-        description: "Verschwommen zeigen",
+        description: "Rechte Hand Nebel, verschwommen",
         difficulty: 2,
         category: "Wetter"
       },
       {
         german: "Hagel",
         english: "Hail",
-        description: "Eiskugeln zeigen",
+        description: "Rechte Hand Hagel, Eiskugeln",
         difficulty: 2,
         category: "Wetter"
       },
       {
         german: "Tau",
         english: "Dew",
-        description: "Feuchtigkeit zeigen",
+        description: "Rechte Hand Tau, Feuchtigkeit",
         difficulty: 2,
         category: "Wetter"
       },
       {
         german: "Regenbogen",
         english: "Rainbow",
-        description: "Bogen formen",
+        description: "Rechte Hand zeichnet großen Bogen über Kopf von links nach rechts",
         difficulty: 2,
         category: "Wetter"
       }
@@ -723,140 +723,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Brot",
         english: "Bread",
-        description: "Rechteck formen und schneiden",
+        description: "Beide Hände Rechteck formen, dann schneiden",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Wasser",
         english: "Water",
-        description: "Welle mit Hand",
+        description: "Rechte Hand Welle, drei Wellenbewegungen",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Kaffee",
         english: "Coffee",
-        description: "Tasse an Mund führen",
+        description: "Rechte Faust als Tasse, zum Mund führen",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Milch",
         english: "Milk",
-        description: "Kuhmelkbewegung",
+        description: "Beide Hände melken, abwechselnd drücken",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Apfel",
         english: "Apple",
-        description: "Frucht pflücken",
+        description: "Rechte Hand dreht, Apfel vom Baum pflücken",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Gemüse",
         english: "Vegetable",
-        description: "Pflanze ziehen",
+        description: "Rechte Hand Pflanze ziehen, Gemüse",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Fleisch",
         english: "Meat",
-        description: "Muskel zeigen",
+        description: "Rechte Hand greift/quetscht Oberarmmuskel (Fleisch/Muskel)",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Fisch",
         english: "Fish",
-        description: "Schwimmbewegung",
+        description: "Rechte Hand Fisch schwimmen, Schwimmbewegung",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Ei",
         english: "Egg",
-        description: "Ei formen",
+        description: "Rechte Hand Ei formen, rund",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Käse",
         english: "Cheese",
-        description: "Käse schneiden",
+        description: "Rechte Hand Käse schneiden, Scheibe",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Suppe",
         english: "Soup",
-        description: "Löffeln",
+        description: "Linke Faust als Teller, rechte Hand Löffelbewegung",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Salat",
         english: "Salad",
-        description: "Blätter zupfen",
+        description: "Rechte Hand Blätter zupfen, Salat",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Pizza",
         english: "Pizza",
-        description: "Kreis schneiden",
+        description: "Rechte Hand Kreis schneiden, Pizza",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Kuchen",
         english: "Cake",
-        description: "Kuchen schneiden",
+        description: "Rechte Hand Kuchen schneiden, Stück",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Schokolade",
         english: "Chocolate",
-        description: "Süß zeigen",
+        description: "Rechte Hand Daumen an Wange streichen, dann Finger lecken (süß)",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Salz",
         english: "Salt",
-        description: "Streuen",
+        description: "Rechte Hand Daumen und Zeigefinger reiben, Streubewegung über linker Hand",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Pfeffer",
         english: "Pepper",
-        description: "Mahlen",
+        description: "Rechte Faust dreht wie Pfeffermühle über linker flacher Hand",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Zucker",
         english: "Sugar",
-        description: "Süß machen",
+        description: "Rechte Hand Daumen an Wange streichen (süß), dann Streubewegung",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Öl",
         english: "Oil",
-        description: "Flüssig zeigen",
+        description: "Rechte Hand gießt aus Flasche, flüssige Bewegung",
         difficulty: 2,
         category: "Essen"
       },
       {
         german: "Essig",
         english: "Vinegar",
-        description: "Sauer zeigen",
+        description: "Rechte Hand gießt, dann Gesicht verziehen (sauer)",
         difficulty: 2,
         category: "Essen"
       }
@@ -865,105 +865,105 @@ export const DGS_VOCABULARY = {
       {
         german: "Glücklich",
         english: "Happy",
-        description: "Lächeln und Wangen berühren",
+        description: "Rechte Hand Wangen berühren, lächeln",
         difficulty: 2,
         category: "Emotionen"
       },
       {
         german: "Traurig",
         english: "Sad",
-        description: "Träne von Auge wischen",
+        description: "Rechte Hand Träne vom Auge wischen",
         difficulty: 2,
         category: "Emotionen"
       },
       {
         german: "Wütend",
         english: "Angry",
-        description: "Faust schütteln",
+        description: "Rechte Faust schütteln, Gesicht verziehen",
         difficulty: 2,
         category: "Emotionen"
       },
       {
         german: "Lieben",
         english: "Love",
-        description: "Herz berühren",
+        description: "Rechte Hand Herz berühren, Liebe",
         difficulty: 2,
         category: "Emotionen"
       },
       {
         german: "Lachen",
         english: "Laugh",
-        description: "Mundwinkel hochziehen",
+        description: "Rechte Hand Mundwinkel hochziehen, Lachen",
         difficulty: 2,
         category: "Emotionen"
       },
       {
         german: "Weinen",
         english: "Cry",
-        description: "Tränen zeigen",
+        description: "Beide Zeigefinger ziehen von den Augen nach unten (Tränen), Gesicht traurig (weinen)",
         difficulty: 2,
         category: "Emotionen"
       },
       {
         german: "Ärger",
         english: "Annoyed",
-        description: "Leicht verärgert zeigen",
+        description: "Rechte Hand leicht verärgert, Ärger",
         difficulty: 2,
         category: "Emotionen"
       },
       {
         german: "Überrascht",
         english: "Surprised",
-        description: "Erstaunt blicken",
+        description: "Rechte Hand erstaunt blicken, Überrascht",
         difficulty: 2,
         category: "Emotionen"
       },
       {
         german: "Ängstlich",
         english: "Scared",
-        description: "Angst zeigen",
+        description: "Beide Hände vor Brust zittern, Augen weit, Körper zurückweichen",
         difficulty: 2,
         category: "Emotionen"
       },
       {
         german: "Nervös",
         english: "Nervous",
-        description: "Unruhig zeigen",
+        description: "Rechte Hand Finger trommeln auf linker Hand, Schultern leicht hochziehen (nervös)",
         difficulty: 2,
         category: "Emotionen"
       },
       {
         german: "Aufgeregt",
         english: "Excited",
-        description: "Begeistert zeigen",
+        description: "Beide Hände mit gespreizten Fingern vor Brust kurz schütteln, Gesicht begeistert",
         difficulty: 2,
         category: "Emotionen"
       },
       {
         german: "Enttäuscht",
         english: "Disappointed",
-        description: "Enttäuschung zeigen",
+        description: "Rechte Hand von Brust nach unten sinken lassen, Schultern hängen",
         difficulty: 2,
         category: "Emotionen"
       },
       {
         german: "Eifersüchtig",
         english: "Jealous",
-        description: "Neid zeigen",
+        description: "Rechte Hand greift nach etwas, Augen zusammenkneifen, Mund verziehen",
         difficulty: 2,
         category: "Emotionen"
       },
       {
         german: "Stolz",
         english: "Proud",
-        description: "Stolz zeigen",
+        description: "Beide Hände an Brust, Brust rausdrücken, Kinn heben",
         difficulty: 2,
         category: "Emotionen"
       },
       {
         german: "Schüchtern",
         english: "Shy",
-        description: "Zurückhaltend zeigen",
+        description: "Kopf senken, Blick abwenden, Hände vor Körper verschränken",
         difficulty: 2,
         category: "Emotionen"
       }
@@ -972,105 +972,105 @@ export const DGS_VOCABULARY = {
       {
         german: "Gehen",
         english: "Go/Walk",
-        description: "Beine imitieren",
+        description: "Beide Hände Zeige- und Mittelfinger als Beine, abwechselnd nach vorne laufen lassen (gehen)",
         difficulty: 2,
         category: "Aktionen"
       },
       {
         german: "Kommen",
         english: "Come",
-        description: "Hand zu sich ziehen",
+        description: "Rechte Hand zu sich ziehen, Handfläche nach oben",
         difficulty: 2,
         category: "Aktionen"
       },
       {
         german: "Sehen",
         english: "See",
-        description: "Augen berühren",
+        description: "Rechte Hand Zeigefinger an die Augen",
         difficulty: 2,
         category: "Aktionen"
       },
       {
         german: "Hören",
         english: "Hear",
-        description: "Ohr berühren",
+        description: "Rechte Hand Zeigefinger am Ohr",
         difficulty: 2,
         category: "Aktionen"
       },
       {
         german: "Sprechen",
         english: "Speak",
-        description: "Mund berühren",
+        description: "Rechte Hand Zeigefinger am Mund, dann nach vorne bewegen (Worte kommen raus)",
         difficulty: 2,
         category: "Aktionen"
       },
       {
         german: "Schreiben",
         english: "Write",
-        description: "Schreiben imitieren",
+        description: "Rechte Hand schreiben imitieren, Schreiben",
         difficulty: 2,
         category: "Aktionen"
       },
       {
         german: "Lesen",
         english: "Read",
-        description: "Buch lesen",
+        description: "Rechte Hand flach, Augen folgen der Hand von links nach rechts (Zeilen lesen)",
         difficulty: 2,
         category: "Aktionen"
       },
       {
         german: "Schlafen",
         english: "Sleep",
-        description: "Kopf legen",
+        description: "Rechte Hand auf Wange, Kopf zur Seite neigen",
         difficulty: 2,
         category: "Aktionen"
       },
       {
         german: "Essen",
         english: "Eat",
-        description: "Mund berühren",
+        description: "Rechte Hand gebündelte Finger zum Mund führen, mehrmals (kauen)",
         difficulty: 2,
         category: "Aktionen"
       },
       {
         german: "Trinken",
         english: "Drink",
-        description: "Faust zum Mund führen",
+        description: "Rechte Hand Faust zum Mund, Trinken",
         difficulty: 2,
         category: "Aktionen"
       },
       {
         german: "Laufen",
         english: "Run",
-        description: "Schnell laufen",
+        description: "Beide Hände bilden laufende Beine (Zeige- und Mittelfinger), schnell nach vorne bewegen",
         difficulty: 2,
         category: "Aktionen"
       },
       {
         german: "Springen",
         english: "Jump",
-        description: "Springen zeigen",
+        description: "Beide Hände flach nach unten, dann kurz nach oben schnellen (Sprung)",
         difficulty: 2,
         category: "Aktionen"
       },
       {
         german: "Sitzen",
         english: "Sit",
-        description: "Sitzen zeigen",
+        description: "Rechte Hand in '2'-Handform (Zeige/Mittel) auf linken Handrücken setzen (Person sitzt)",
         difficulty: 2,
         category: "Aktionen"
       },
       {
         german: "Stehen",
         english: "Stand",
-        description: "Stehen zeigen",
+        description: "Rechte Hand in '2'-Handform (Zeige/Mittel) auf linker flacher Hand aufstellen (Person steht)",
         difficulty: 2,
         category: "Aktionen"
       },
       {
         german: "Liegen",
         english: "Lie down",
-        description: "Liegen zeigen",
+        description: "Rechte Hand flach, Handfläche nach oben, horizontal vor Körper legen",
         difficulty: 2,
         category: "Aktionen"
       }
@@ -1079,105 +1079,105 @@ export const DGS_VOCABULARY = {
       {
         german: "Aufstehen",
         english: "Get up",
-        description: "Aufstehen zeigen",
+        description: "Rechte Hand in '2'-Handform (Beine) von linker flacher Hand nach oben weg bewegen (aufstehen)",
         difficulty: 2,
         category: "Alltag"
       },
       {
         german: "Anziehen",
         english: "Get dressed",
-        description: "Kleidung anziehen",
+        description: "Rechte Hand Kleidung anziehen, Anziehen",
         difficulty: 2,
         category: "Alltag"
       },
       {
         german: "Waschen",
         english: "Wash",
-        description: "Waschen zeigen",
+        description: "Beide Hände reiben, wie Hände waschen",
         difficulty: 2,
         category: "Alltag"
       },
       {
         german: "Frühstück",
         english: "Breakfast",
-        description: "Morgens essen",
+        description: "Rechte Hand morgens essen, Frühstück",
         difficulty: 2,
         category: "Alltag"
       },
       {
         german: "Mittagessen",
         english: "Lunch",
-        description: "Mittags essen",
+        description: "Rechte Hand mittags essen, Mittagessen",
         difficulty: 2,
         category: "Alltag"
       },
       {
         german: "Abendessen",
         english: "Dinner",
-        description: "Abends essen",
+        description: "Rechte Hand abends essen, Abendessen",
         difficulty: 2,
         category: "Alltag"
       },
       {
         german: "Arbeiten",
         english: "Work",
-        description: "Arbeiten zeigen",
+        description: "Rechte Faust schlägt 2x auf linke Faust (arbeiten)",
         difficulty: 2,
         category: "Alltag"
       },
       {
         german: "Lernen",
         english: "Learn",
-        description: "Lernen zeigen",
+        description: "Rechte Hand greift von linker flacher Hand (Buch) zum Kopf (Wissen aufnehmen)",
         difficulty: 2,
         category: "Alltag"
       },
       {
         german: "Einkaufen",
         english: "Shop",
-        description: "Einkaufen",
+        description: "Rechte Hand Einkaufstasche tragen",
         difficulty: 2,
         category: "Alltag"
       },
       {
         german: "Kochen",
         english: "Cook",
-        description: "Kochen zeigen",
+        description: "Rechte Hand rührt in linker Faust (Topf), dann Pfanne wenden",
         difficulty: 2,
         category: "Alltag"
       },
       {
         german: "Putzen",
         english: "Clean",
-        description: "Putzen zeigen",
+        description: "Rechte flache Hand wischt über linke flache Hand (putzen/wischen)",
         difficulty: 2,
         category: "Alltag"
       },
       {
         german: "Ruhen",
         english: "Rest",
-        description: "Ausruhen",
+        description: "Beide Hände flach auf Brust legen, Augen schließen, entspannen",
         difficulty: 2,
         category: "Alltag"
       },
       {
         german: "Entspannen",
         english: "Relax",
-        description: "Entspannen zeigen",
+        description: "Beide Hände sinken locker nach unten, Schultern fallen lassen, ausatmen",
         difficulty: 2,
         category: "Alltag"
       },
       {
         german: "Ausruhen",
         english: "Rest",
-        description: "Ausruhen zeigen",
+        description: "Beide Hände flach auf Bauch/Brust, Schultern sinken, kurze Pause",
         difficulty: 2,
         category: "Alltag"
       },
       {
         german: "Schlafen gehen",
         english: "Go to bed",
-        description: "Ins Bett gehen",
+        description: "Rechte Hand zeigt nach unten (Bett), dann Hände zusammen an Wange legen (schlafen)",
         difficulty: 2,
         category: "Alltag"
       }
@@ -1188,140 +1188,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Lehrer",
         english: "Teacher",
-        description: "Tafel beschriften",
+        description: "Rechte Hand schreibt auf linker flacher Hand",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Arzt",
         english: "Doctor",
-        description: "Kreuz auf Brust",
+        description: "Linke Faust auf der Brust, Zeigefinger nach oben",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Polizist",
         english: "Police Officer",
-        description: "Mütze aufsetzen",
+        description: "Rechte Hand Mütze auf Kopf setzen",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Koch",
         english: "Cook",
-        description: "Rühren",
+        description: "Rechte Hand rührt in linker Faust",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Fahrer",
         english: "Driver",
-        description: "Lenkrad drehen",
+        description: "Beide Hände am Lenkrad, Kreise drehen",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Student",
         english: "Student",
-        description: "Buch lesen",
+        description: "Beide Hände Buch aufschlagen, lesen",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Ingenieur",
         english: "Engineer",
-        description: "Konstruieren",
+        description: "Beide Hände zeichnen technische Linien in der Luft, dann Zahnrad drehen",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Anwalt",
         english: "Lawyer",
-        description: "Gesetz zeigen",
+        description: "Rechte Hand hält unsichtbares Buch (Gesetzbuch), dann argumentiert",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Verkäufer",
         english: "Salesperson",
-        description: "Verkaufen",
+        description: "Rechte Hand gibt etwas, linke Hand nimmt Geld entgegen",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Mechaniker",
         english: "Mechanic",
-        description: "Reparieren",
+        description: "Rechte Hand dreht Schraubenschlüssel, dann unter Auto arbeiten",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Krankenschwester",
         english: "Nurse",
-        description: "Pflegen",
+        description: "Rechte Hand Kreuz auf linker Brust, dann Puls fühlen am Handgelenk",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Programmierer",
         english: "Programmer",
-        description: "Codieren",
+        description: "Beide Hände tippen auf Tastatur, dann Code-Zeilen in Luft zeichnen",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Journalist",
         english: "Journalist",
-        description: "Schreiben",
+        description: "Rechte Hand hält Stift, schreibt schnell auf Notizblock",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Architekt",
         english: "Architect",
-        description: "Entwerfen",
+        description: "Beide Hände zeichnen Hausumriss in der Luft, dann Lineal anlegen",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Fotograf",
         english: "Photographer",
-        description: "Foto machen",
+        description: "Beide Hände halten Kamera vor Auge, Zeigefinger drückt Auslöser",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Friseur",
         english: "Hairdresser",
-        description: "Haare schneiden",
+        description: "Rechte Hand Zeige- und Mittelfinger schneiden wie Schere am Kopf",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Bäcker",
         english: "Baker",
-        description: "Brot backen",
+        description: "Beide Hände kneten Teig, dann in Ofen schieben",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Postbote",
         english: "Mail Carrier",
-        description: "Briefe zustellen",
+        description: "Rechte Hand hält Briefe, steckt sie in unsichtbaren Briefkasten",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Feuerwehrmann",
         english: "Firefighter",
-        description: "Feuer löschen",
+        description: "Beide Hände halten Schlauch, Wasser sprüht nach vorne",
         difficulty: 3,
         category: "Berufe"
       },
       {
         german: "Elektriker",
         english: "Electrician",
-        description: "Strom reparieren",
+        description: "Rechte Hand hält Schraubenzieher, arbeitet an Steckdose, Blitz-Zeichen",
         difficulty: 3,
         category: "Berufe"
       }
@@ -1330,140 +1330,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Schule",
         english: "School",
-        description: "Tafel zeigen",
+        description: "Rechte Hand Tafel mit Kreide",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Arbeit",
         english: "Work",
-        description: "Arbeiten imitieren",
+        description: "Rechte Faust schlägt auf linke Faust (hämmern/arbeiten)",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Supermarkt",
         english: "Supermarket",
-        description: "Einkaufen",
+        description: "Rechte Hand Einkaufswagen schieben",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Restaurant",
         english: "Restaurant",
-        description: "Essen servieren",
+        description: "Rechte Hand führt Gabel/Löffel zum Mund (essen), dann rechte Hand trägt Teller nach vorne (servieren) (Restaurant)",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Bahnhof",
         english: "Train Station",
-        description: "Zug fahren",
+        description: "Rechte Hand Zeige- und Mittelfinger fahren auf linkem Arm (Schienen)",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Krankenhaus",
         english: "Hospital",
-        description: "Kreuz zeigen",
+        description: "Rechte Hand Kreuz auf linker Brust",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Bank",
         english: "Bank",
-        description: "Geld zählen",
+        description: "Rechte Hand Geld zählen, Bank",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Bibliothek",
         english: "Library",
-        description: "Bücher stapeln",
+        description: "Beide Hände öffnen und schließen Bücher, dann auf Regal stellen",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Kirche",
         english: "Church",
-        description: "Kreuz formen",
+        description: "Beide Hände formen Kirchturm mit Spitze über Kopf",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Museum",
         english: "Museum",
-        description: "Kunst zeigen",
+        description: "Rechte Hand zeigt auf unsichtbare Bilder an Wand, betrachtet sie",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Park",
         english: "Park",
-        description: "Gras zeigen",
+        description: "Linker Unterarm senkrecht (Stamm), rechte Hand spreizt als Krone; dann beide Hände flach nach unten (Wiese) (Park)",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Zoo",
         english: "Zoo",
-        description: "Tiere zeigen",
+        description: "Rechte Hand macht Tier-Geste (z.B. Mähne/Ohren), dann beide Hände formen Gitterstäbe vor dem Körper (Zoo)",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Theater",
         english: "Theater",
-        description: "Schauspielen",
+        description: "Beide Hände vor Gesicht, Masken wechseln (lachend/weinend)",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Kino",
         english: "Cinema",
-        description: "Film zeigen",
+        description: "Rechte Hand formt Filmrolle und dreht, dann beide Hände wie Fernglas zum Schauen (Kino)",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Sportplatz",
         english: "Sports Field",
-        description: "Sport treiben",
+        description: "Beide Hände zeichnen großes Rechteck (Spielfeld), dann Ball werfen",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Flughafen",
         english: "Airport",
-        description: "Flugzeug zeigen",
+        description: "Rechte Hand flach, Daumen und kleiner Finger gespreizt (Flugzeug), startet",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Post",
         english: "Post Office",
-        description: "Briefe zeigen",
+        description: "Rechte Hand hält Brief, steckt ihn in Schlitz (Briefkasten)",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Apotheke",
         english: "Pharmacy",
-        description: "Medizin zeigen",
+        description: "Rechte Hand formt Kreuz (Apotheken-Symbol), dann Tablette schlucken",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Tankstelle",
         english: "Gas Station",
-        description: "Tanken",
+        description: "Rechte Hand hält Zapfpistole, steckt sie in Auto (tanken)",
         difficulty: 3,
         category: "Orte"
       },
       {
         german: "Schwimmbad",
         english: "Swimming Pool",
-        description: "Schwimmen",
+        description: "Beide Arme führen Schwimmbewegung (Brust/Kraul), dann beide Hände Wellenbewegung vor dem Körper (Schwimmbad)",
         difficulty: 3,
         category: "Orte"
       }
@@ -1472,140 +1472,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Groß",
         english: "Big",
-        description: "Hände auseinander",
+        description: "Beide Hände parallel vor Körper und weit auseinanderziehen (groß)",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Klein",
         english: "Small",
-        description: "Hände zusammen",
+        description: "Beide Hände parallel vor Körper und nah zusammenhalten (klein)",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Gut",
         english: "Good",
-        description: "Daumen hoch",
+        description: "Linke Faust unter dem Kinn, Daumen nach oben wippen",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Schlecht",
         english: "Bad",
-        description: "Daumen runter",
+        description: "Rechte Faust nach unten drehen, Daumen zeigt nach unten",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Schnell",
         english: "Fast",
-        description: "Schnelle Bewegung",
+        description: "Rechte Hand flach, schnelle kurze Vorwärtsbewegung vor dem Körper",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Langsam",
         english: "Slow",
-        description: "Langsame Bewegung",
+        description: "Rechte Hand flach, sehr langsame Vorwärtsbewegung vor dem Körper",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Neu",
         english: "New",
-        description: "Etwas präsentieren",
+        description: "Beide Hände flach, etwas nach vorne anbieten/präsentieren",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Alt",
         english: "Old",
-        description: "Runzeln zeigen",
+        description: "Rechte flache Hand, runzeln und nach unten",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Schön",
         english: "Beautiful",
-        description: "Schönheit zeigen",
+        description: "Rechte Hand flach, vom Kinn nach außen streichen (schön)",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Hässlich",
         english: "Ugly",
-        description: "Hässlichkeit zeigen",
+        description: "Rechte Hand vor Gesicht, Finger krümmen, Gesicht verziehen (hässlich)",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Teuer",
         english: "Expensive",
-        description: "Geld zeigen",
+        description: "Rechte Hand reibt Daumen an Zeige- und Mittelfinger (Geld), Gesicht 'aua'",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Billig",
         english: "Cheap",
-        description: "Wenig Geld zeigen",
+        description: "Rechte Hand reibt Daumen an Zeigefinger (wenig Geld), kleines Nicken",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Interessant",
         english: "Interesting",
-        description: "Aufmerksamkeit zeigen",
+        description: "Rechter Zeigefinger tippt an Schläfe, dann zeigt nach vorne (interessant)",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Langweilig",
         english: "Boring",
-        description: "Gähnen",
+        description: "Rechte Hand vor Mund, Mund weit öffnen (gähnen), Gesicht gelangweilt",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Einfach",
         english: "Easy",
-        description: "Leicht zeigen",
+        description: "Rechte Hand flach, locker nach vorne schieben (leicht/einfach)",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Schwierig",
         english: "Difficult",
-        description: "Schwer zeigen",
+        description: "Rechte Hand Faust, langsam nach oben ziehen (schwer/schwierig), Gesicht anstrengen",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Wichtig",
         english: "Important",
-        description: "Hervorheben",
+        description: "Rechter Zeigefinger tippt 2x auf linke flache Hand (markieren: wichtig)",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Unwichtig",
         english: "Unimportant",
-        description: "Wegwischen",
+        description: "Rechte Hand flach wischt seitlich weg (egal/unwichtig)",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Richtig",
         english: "Correct/Right",
-        description: "Bestätigen",
+        description: "Rechte Faust mit Daumen hoch, kurz nach oben wippen (richtig)",
         difficulty: 3,
         category: "Adjektive"
       },
       {
         german: "Falsch",
         english: "Wrong",
-        description: "Ablehnen",
+        description: "Rechte Hand flach, Handfläche nach außen, kurz wegwischen (falsch/nein)",
         difficulty: 3,
         category: "Adjektive"
       }
@@ -1614,105 +1614,105 @@ export const DGS_VOCABULARY = {
       {
         german: "Wer",
         english: "Who",
-        description: "Person zeigen",
+        description: "Rechter Zeigefinger zeigt auf Person, dann fragend zurück (wer?)",
         difficulty: 3,
         category: "Fragen"
       },
       {
         german: "Was",
         english: "What",
-        description: "Schultern zucken",
+        description: "Beide Hände Handflächen oben, Schultern zucken, Augenbrauen hoch (was?)",
         difficulty: 3,
         category: "Fragen"
       },
       {
         german: "Wo",
         english: "Where",
-        description: "Umsehen",
+        description: "Rechter Zeigefinger kreist suchend im Raum, Kopf dreht sich (wo?)",
         difficulty: 3,
         category: "Fragen"
       },
       {
         german: "Wann",
         english: "When",
-        description: "Uhr zeigen",
+        description: "Rechter Zeigefinger tippt auf linkes Handgelenk (Uhr), fragender Blick",
         difficulty: 3,
         category: "Fragen"
       },
       {
         german: "Warum",
         english: "Why",
-        description: "Kopf schräg legen",
+        description: "Rechte Hand in Y-Form am Kinn, Kopf leicht schräg, Augenbrauen hoch (warum)",
         difficulty: 3,
         category: "Fragen"
       },
       {
         german: "Wie",
         english: "How",
-        description: "Bewegung machen",
+        description: "Beide Hände flach, gegeneinander kreisen (wie/auf welche Weise), fragender Blick",
         difficulty: 3,
         category: "Fragen"
       },
       {
         german: "Welcher",
         english: "Which",
-        description: "Auswahl zeigen",
+        description: "Rechter Zeigefinger wechselt zwischen zwei Punkten links/rechts (welcher)",
         difficulty: 3,
         category: "Fragen"
       },
       {
         german: "Wieviel",
         english: "How much",
-        description: "Menge zeigen",
+        description: "Rechte Hand Daumen reibt an Zeigefinger (Preis/Geld), fragender Blick",
         difficulty: 3,
         category: "Fragen"
       },
       {
         german: "Woher",
         english: "Where from",
-        description: "Herkunft zeigen",
+        description: "Rechte Hand flach zieht von hinten/seitlich nach vorne (woher), fragender Blick",
         difficulty: 3,
         category: "Fragen"
       },
       {
         german: "Wohin",
         english: "Where to",
-        description: "Ziel zeigen",
+        description: "Rechter Zeigefinger zeigt nach vorne in die Ferne (wohin), fragender Blick",
         difficulty: 3,
         category: "Fragen"
       },
       {
         german: "Wie viel",
         english: "How many",
-        description: "Zählen zeigen",
+        description: "Rechte Hand zählt Finger der linken Hand ab (wie viele)",
         difficulty: 3,
         category: "Fragen"
       },
       {
         german: "Wie lange",
         english: "How long",
-        description: "Dauer zeigen",
+        description: "Rechte Hand zieht Linie auf linker flacher Hand (Zeitspanne), fragender Blick",
         difficulty: 3,
         category: "Fragen"
       },
       {
         german: "Was für",
         english: "What kind of",
-        description: "Art zeigen",
+        description: "Rechte Hand kreist fragend vor dem Körper (welche Art), Augenbrauen hoch",
         difficulty: 3,
         category: "Fragen"
       },
       {
         german: "Wer ist",
         english: "Who is",
-        description: "Person vorstellen",
+        description: "Rechter Zeigefinger zeigt Person an, dann fragend zurück zu dir (wer ist)",
         difficulty: 3,
         category: "Fragen"
       },
       {
         german: "Was ist",
         english: "What is",
-        description: "Erklärung zeigen",
+        description: "Beide Hände flach, Handflächen oben, nach vorne öffnen (was ist das?)",
         difficulty: 3,
         category: "Fragen"
       }
@@ -1721,105 +1721,105 @@ export const DGS_VOCABULARY = {
       {
         german: "Wichtig",
         english: "Important",
-        description: "Etwas hervorheben",
+        description: "Rechter Zeigefinger tippt 2x auf linke flache Hand (markieren: wichtig)",
         difficulty: 3,
         category: "Komplex"
       },
       {
         german: "Problem",
         english: "Problem",
-        description: "Kopf halten",
+        description: "Rechte Hand an Stirn (denken), dann Gesicht sorgt/Problemausdruck",
         difficulty: 3,
         category: "Komplex"
       },
       {
         german: "Hilfe",
         english: "Help",
-        description: "Hand ausstrecken",
+        description: "Rechte Hand ausstrecken, um Hilfe bitten",
         difficulty: 3,
         category: "Komplex"
       },
       {
         german: "Frage",
         english: "Question",
-        description: "Fragezeichen formen",
+        description: "Rechter Zeigefinger zeichnet Fragezeichen in die Luft, Augenbrauen hoch",
         difficulty: 3,
         category: "Komplex"
       },
       {
         german: "Antwort",
         english: "Answer",
-        description: "Zurückgeben",
+        description: "Rechte Hand nimmt etwas von linker Hand und gibt es nach vorne zurück (Antwort)",
         difficulty: 3,
         category: "Komplex"
       },
       {
         german: "Verstehen",
         english: "Understand",
-        description: "Licht aufgehen",
+        description: "Rechte Hand an Stirn, dann Finger öffnen nach oben (Aha/Verstehen)",
         difficulty: 3,
         category: "Komplex"
       },
       {
         german: "Lösung",
         english: "Solution",
-        description: "Problem lösen",
+        description: "Beide Hände auseinanderziehen (Knoten lösen), dann Daumen hoch (Lösung)",
         difficulty: 3,
         category: "Komplex"
       },
       {
         german: "Erklärung",
         english: "Explanation",
-        description: "Erklären",
+        description: "Beide Hände flach, in kleinen Schritten von dir nach außen (Erklärung geben)",
         difficulty: 3,
         category: "Komplex"
       },
       {
         german: "Meinung",
         english: "Opinion",
-        description: "Perspektive zeigen",
+        description: "Rechter Zeigefinger tippt an Stirn (denken), dann Zeigefinger nach vorne (eigene Meinung äußern)",
         difficulty: 3,
         category: "Komplex"
       },
       {
         german: "Entscheidung",
         english: "Decision",
-        description: "Entscheiden",
+        description: "Rechter Zeigefinger wechselt zwischen zwei Punkten links/rechts, dann zeigt auf eine Wahl (entscheiden)",
         difficulty: 3,
         category: "Komplex"
       },
       {
         german: "Plan",
         english: "Plan",
-        description: "Planen",
+        description: "Beide Hände flach, zeichnen eine Linie/Route in die Luft (Plan erstellen)",
         difficulty: 3,
         category: "Komplex"
       },
       {
         german: "Ziel",
         english: "Goal",
-        description: "Ziel zeigen",
+        description: "Rechter Zeigefinger zeigt auf Punkt in der Ferne (Ziel)",
         difficulty: 3,
         category: "Komplex"
       },
       {
         german: "Erfolg",
         english: "Success",
-        description: "Erfolg zeigen",
+        description: "Beide Fäuste nach oben reißen (Jubel), Lächeln (Erfolg)",
         difficulty: 3,
         category: "Komplex"
       },
       {
         german: "Misserfolg",
         english: "Failure",
-        description: "Scheitern zeigen",
+        description: "Rechte Hand flach kippt nach unten (abstürzen), Gesicht enttäuscht",
         difficulty: 3,
         category: "Komplex"
       },
       {
         german: "Versuch",
         english: "Attempt",
-        description: "Versuchen",
+        description: "Rechte Hand Faust, einmal nach vorne drücken (Anlauf/Versuch)",
         difficulty: 3,
         category: "Komplex"
       }
@@ -1828,105 +1828,105 @@ export const DGS_VOCABULARY = {
       {
         german: "Sprechen",
         english: "Speak",
-        description: "Mund bewegen",
+        description: "Rechter Zeigefinger am Mund, dann nach vorne bewegen (sprechen)",
         difficulty: 3,
         category: "Kommunikation"
       },
       {
         german: "Hören",
         english: "Listen",
-        description: "Ohr berühren",
+        description: "Rechter Zeigefinger tippt am Ohr, Kopf leicht neigen (hören)",
         difficulty: 3,
         category: "Kommunikation"
       },
       {
         german: "Schreiben",
         english: "Write",
-        description: "Schreiben",
+        description: "Rechte Hand hält Stift, schreibt auf linke flache Hand",
         difficulty: 3,
         category: "Kommunikation"
       },
       {
         german: "Lesen",
         english: "Read",
-        description: "Buch lesen",
+        description: "Rechte Hand flach, Augen folgen von links nach rechts (lesen)",
         difficulty: 3,
         category: "Kommunikation"
       },
       {
         german: "Erklären",
         english: "Explain",
-        description: "Erklären",
+        description: "Beide Hände flach, von dir nach außen in kleinen Schritten bewegen (erklären)",
         difficulty: 3,
         category: "Kommunikation"
       },
       {
         german: "Beschreiben",
         english: "Describe",
-        description: "Beschreiben",
+        description: "Rechte Hand flach, zeichnet Umriss in die Luft (beschreiben)",
         difficulty: 3,
         category: "Kommunikation"
       },
       {
         german: "Diskutieren",
         english: "Discuss",
-        description: "Gespräch führen",
+        description: "Beide Hände abwechselnd nach vorne (Sprechwechsel), dazu Kopf-/Blickkontakt (diskutieren)",
         difficulty: 3,
         category: "Kommunikation"
       },
       {
         german: "Argumentieren",
         english: "Argue",
-        description: "Argumente vorbringen",
+        description: "Beide Hände flach, abwechselnd nach vorne stoßen (Punkte setzen), Gesicht bestimmt",
         difficulty: 3,
         category: "Kommunikation"
       },
       {
         german: "Zuhören",
         english: "Listen",
-        description: "Aufmerksam zuhören",
+        description: "Rechte Hand cupt hinter Ohr, Kopf leicht zur Quelle neigen (zuhören)",
         difficulty: 3,
         category: "Kommunikation"
       },
       {
         german: "Verstehen",
         english: "Understand",
-        description: "Verstehen zeigen",
+        description: "Rechte Hand an Stirn, dann Finger öffnen nach oben (Aha/Verstehen)",
         difficulty: 3,
         category: "Kommunikation"
       },
       {
         german: "Missverstehen",
         english: "Misunderstand",
-        description: "Verwirrung zeigen",
+        description: "Rechte Hand an Stirn kreist, Gesicht verwirrt, Kopf schütteln (missverstehen)",
         difficulty: 3,
         category: "Kommunikation"
       },
       {
         german: "Übersetzen",
         english: "Translate",
-        description: "Übersetzen",
+        description: "Linke Hand flach (Text), rechte Hand nimmt 'Wort' und legt es auf andere Seite (übersetzen)",
         difficulty: 3,
         category: "Kommunikation"
       },
       {
         german: "Interpretieren",
         english: "Interpret",
-        description: "Interpretieren",
+        description: "Rechte Hand an Stirn (denken), dann nach vorne öffnen (deuten/interpretieren)",
         difficulty: 3,
         category: "Kommunikation"
       },
       {
         german: "Kommunizieren",
         english: "Communicate",
-        description: "Kommunizieren",
+        description: "Beide Hände wechseln ab zwischen dir und Gegenüber (Info hin und her)",
         difficulty: 3,
         category: "Kommunikation"
       },
       {
         german: "Informieren",
         english: "Inform",
-        description: "Information geben",
+        description: "Rechte Hand nimmt 'Info' von Stirn und gibt sie nach vorne (informieren)",
         difficulty: 3,
         category: "Kommunikation"
       }
@@ -1937,182 +1937,182 @@ export const DGS_VOCABULARY = {
       {
         german: "Krank",
         english: "Sick",
-        description: "Krank aussehen",
+        description: "Rechte Handrücken an Stirn (Fieber), Gesicht erschöpft (krank)",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Schmerzen",
         english: "Pain",
-        description: "Schmerzhafte Grimasse",
+        description: "Rechte Hand Schmerz ausdrücken, Grimasse",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Kopfschmerzen",
         english: "Headache",
-        description: "Kopf halten",
+        description: "Beide Hände an den Kopf, schmerzend halten",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Zahn",
         english: "Tooth",
-        description: "Zahn zeigen",
+        description: "Rechter Zeigefinger tippt auf Zahn im Mund (Zahn)",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Herz",
         english: "Heart",
-        description: "Herz berühren",
+        description: "Rechte Faust auf Herz klopft 1-2x (Herzschlag)",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Atem",
         english: "Breath",
-        description: "Atmen zeigen",
+        description: "Rechte flache Hand vor Mund/Nase, nach außen bewegen (ausatmen)",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Medizin",
         english: "Medicine",
-        description: "Tablette nehmen",
+        description: "Rechte Hand hält kleine Tablette (Pinzettengriff) und führt sie zum Mund",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Fieber",
         english: "Fever",
-        description: "Heiße Stirn zeigen",
+        description: "Rechte Handrücken an Stirn legen, dann Gesicht heiß/erschöpft",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Husten",
         english: "Cough",
-        description: "Husten",
+        description: "Rechte Faust vor Mund, 2x kurze Hustenbewegung",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Erkältung",
         english: "Cold",
-        description: "Schnupfen zeigen",
+        description: "Rechte Hand wischt an Nase, dann schnieft/zieht hoch (Erkältung)",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Grippe",
         english: "Flu",
-        description: "Schwer krank aussehen",
+        description: "Beide Hände an Bauch/Brust, Schultern hängen, Gesicht sehr krank/erschöpft",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Allergie",
         english: "Allergy",
-        description: "Niesen und jucken",
+        description: "Rechte Faust vor Nase, einmal niesen, dann mit Fingern an Arm/Hals kratzen (jucken)",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Asthma",
         english: "Asthma",
-        description: "Atemnot zeigen",
+        description: "Beide Hände an Brust, kurz nach innen drücken, schwer ausatmen (Atemnot)",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Diabetes",
         english: "Diabetes",
-        description: "Insulin zeigen",
+        description: "Rechte Hand hält Spritze, sticht in linken Oberarm (Insulin)",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Krebs",
         english: "Cancer",
-        description: "Kampf zeigen",
+        description: "Beide Fäuste vor Brust, kämpfen/boxen kurz (Kampf gegen Krebs)",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Depression",
         english: "Depression",
-        description: "Traurig und niedergeschlagen",
+        description: "Kopf senken, Schultern hängen, beide Hände sinken nach unten (niedergeschlagen)",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Angststörung",
         english: "Anxiety",
-        description: "Nervös und unruhig",
+        description: "Beide Hände vor Brust zittern, schneller Atem, Blick nervös hin und her",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Schlaflosigkeit",
         english: "Insomnia",
-        description: "Wach liegen",
+        description: "Beide Hände an Wange (schlafen) abbrechen, Augen weit offen, Kopf schütteln",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Burnout",
         english: "Burnout",
-        description: "Erschöpft und ausgebrannt",
+        description: "Beide Hände sinken kraftlos nach unten, Kopf hängt, kurzes Ausatmen (erschöpft)",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Migräne",
         english: "Migraine",
-        description: "Starke Kopfschmerzen",
+        description: "Rechte Hand presst an Schläfe, Augen schließen, Gesicht schmerzverzerrt",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Rückenschmerzen",
         english: "Back Pain",
-        description: "Rücken halten",
+        description: "Rechte Hand greift an unteren Rücken, Körper krümmt sich leicht vor Schmerz",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Magenschmerzen",
         english: "Stomach Pain",
-        description: "Bauch halten",
+        description: "Beide Hände auf Bauch, leicht zusammenziehen, Gesicht schmerzhaft",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Übelkeit",
         english: "Nausea",
-        description: "Brechreiz zeigen",
+        description: "Rechte Hand vor Mund, würgen andeuten, Gesicht übel",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Durchfall",
         english: "Diarrhea",
-        description: "Bauchprobleme zeigen",
+        description: "Beide Hände auf Bauch, dann schnelle Bewegung Richtung unten (Toilette dringend)",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Verstopfung",
         english: "Constipation",
-        description: "Blockiert zeigen",
+        description: "Rechte Faust drückt gegen linke Handfläche (stop/blockiert), Gesicht angestrengt",
         difficulty: 4,
         category: "Gesundheit"
       },
       {
         german: "Bluthochdruck",
         english: "High Blood Pressure",
-        description: "Druck zeigen",
+        description: "Zwei Finger der rechten Hand fühlen Puls am linken Handgelenk, dann beide Hände nach oben drücken (hoch)",
         difficulty: 4,
         category: "Gesundheit"
       }
@@ -2121,154 +2121,154 @@ export const DGS_VOCABULARY = {
       {
         german: "Kopf",
         english: "Head",
-        description: "Kopf berühren",
+        description: "Rechte Faust an den Kopf tippen",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Auge",
         english: "Eye",
-        description: "Auge berühren",
+        description: "Rechter Zeigefinger an das Auge",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Ohr",
         english: "Ear",
-        description: "Ohr berühren",
+        description: "Rechter Zeigefinger tippt 1-2x an Ohrläppchen",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Nase",
         english: "Nose",
-        description: "Nase berühren",
+        description: "Rechter Zeigefinger tippt an Nasenspitze",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Mund",
         english: "Mouth",
-        description: "Mund berühren",
+        description: "Rechter Zeigefinger zeigt auf Mund/Lippen",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Arm",
         english: "Arm",
-        description: "Arm zeigen",
+        description: "Rechte Hand am Oberarm entlangfahren",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Bein",
         english: "Leg",
-        description: "Bein zeigen",
+        description: "Rechte Hand am Oberschenkel entlangfahren",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Hand",
         english: "Hand",
-        description: "Hand zeigen",
+        description: "Linke Hand offen hochhalten, rechte Handfläche tippt auf den Handrücken",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Finger",
         english: "Finger",
-        description: "Finger zeigen",
+        description: "Rechte Hand streckt Finger aus und wackelt kurz mit den Fingern",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Daumen",
         english: "Thumb",
-        description: "Daumen zeigen",
+        description: "Rechte Faust, Daumen deutlich hochhalten und kurz wippen",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Fuß",
         english: "Foot",
-        description: "Fuß zeigen",
+        description: "Rechte Hand zeigt nach unten zum Fußbereich, dann Fußform andeuten",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Hals",
         english: "Neck",
-        description: "Hals berühren",
+        description: "Rechte flache Hand streicht vorne am Hals leicht nach unten",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Schulter",
         english: "Shoulder",
-        description: "Schulter berühren",
+        description: "Rechte Hand tippt 1-2x auf linke Schulter",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Ellenbogen",
         english: "Elbow",
-        description: "Ellenbogen zeigen",
+        description: "Rechte Hand tippt auf linken Ellenbogen",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Knie",
         english: "Knee",
-        description: "Knie berühren",
+        description: "Rechte Hand tippt auf linkes Knie",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Rücken",
         english: "Back",
-        description: "Rücken zeigen",
+        description: "Rechte Hand flach streicht mittig den Rücken nach unten (Rücken)",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Bauch",
         english: "Stomach",
-        description: "Bauch berühren",
+        description: "Beide Hände flach auf Bauch legen und kurz kreisen",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Brust",
         english: "Chest",
-        description: "Brust berühren",
+        description: "Rechte flache Hand tippt mittig auf Brust",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Rippen",
         english: "Ribs",
-        description: "Rippen zeigen",
+        description: "Beide Hände tasten seitlich am Brustkorb entlang (Rippen)",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Wirbelsäule",
         english: "Spine",
-        description: "Wirbelsäule zeigen",
+        description: "Rechter Zeigefinger fährt die Mitte des Rückens von oben nach unten (Wirbelsäule)",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Haut",
         english: "Skin",
-        description: "Haut berühren",
+        description: "Rechte Hand streicht über linken Unterarm (Haut)",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Haare",
         english: "Hair",
-        description: "Haare berühren",
+        description: "Beide Hände greifen leicht ins Haar am Kopf (Haare)",
         difficulty: 4,
         category: "Körper"
       },
@@ -2282,21 +2282,21 @@ export const DGS_VOCABULARY = {
       {
         german: "Wimpern",
         english: "Eyelashes",
-        description: "Wimpern zeigen",
+        description: "Rechte Hand zeigt auf Wimpern am Auge, Finger leicht flattern",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Lippen",
         english: "Lips",
-        description: "Lippen berühren",
+        description: "Rechter Zeigefinger tippt auf die Lippen",
         difficulty: 4,
         category: "Körper"
       },
       {
         german: "Zunge",
         english: "Tongue",
-        description: "Zunge zeigen",
+        description: "Rechter Zeigefinger zeigt auf Zunge im Mund (kurz andeuten)",
         difficulty: 4,
         category: "Körper"
       }
@@ -2305,140 +2305,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Untersuchung",
         english: "Examination",
-        description: "Untersuchen",
+        description: "Rechte Hand in C-Form (Stethoskop/Instrument) an Brust ansetzen, dann prüfender Blick",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Diagnose",
         english: "Diagnosis",
-        description: "Analysieren",
+        description: "Rechte Hand Zeigefinger an Stirn (denken), dann auf linke Handfläche tippen (Ergebnis)",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Behandlung",
         english: "Treatment",
-        description: "Behandeln",
+        description: "Beide Hände legen sich auf Unterarm und streichen sanft (behandeln/pflegen)",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Operation",
         english: "Surgery",
-        description: "Operieren",
+        description: "Rechte Hand macht kleine Schneidebewegung mit Zeige/Mittel auf linkem Unterarm (Operation)",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Heilung",
         english: "Healing",
-        description: "Gesund werden",
+        description: "Beide Hände streichen von Brust nach außen (es wird besser), dann Daumen hoch",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Erholung",
         english: "Recovery",
-        description: "Ausruhen",
+        description: "Beide Hände flach auf Bauch/Brust, Schultern sinken, tief ausatmen (erholen)",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Tablette",
         english: "Pill",
-        description: "Tablette nehmen",
+        description: "Rechte Hand Pinzettengriff (klein), führt Tablette zum Mund, schlucken",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Spritze",
         english: "Injection",
-        description: "Spritze zeigen",
+        description: "Rechte Hand hält Spritze, sticht in linken Oberarm, kurz drücken",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Verband",
         english: "Bandage",
-        description: "Verbinden",
+        description: "Beide Hände wickeln Bandage um linken Unterarm (verbinden)",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Gips",
         english: "Cast",
-        description: "Gipsverband",
+        description: "Linker Arm wie in Gips halten, rechte Hand klopft darauf (hart)",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Röntgen",
         english: "X-ray",
-        description: "Durchleuchten",
+        description: "Rechte flache Hand fährt vor Körper wie Scanner, dann rechte Hand zeigt Knochen/Unterarm (Röntgen)",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Ultraschall",
         english: "Ultrasound",
-        description: "Schallwellen",
+        description: "Rechte Hand führt Schallkopf über linken Unterarm/Bauch, dann Wellenbewegung",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Bluttest",
         english: "Blood Test",
-        description: "Blut abnehmen",
+        description: "Rechte Hand sticht in Armbeuge, zieht Blut mit Spritze (Bluttest)",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Therapie",
         english: "Therapy",
-        description: "Behandeln",
+        description: "Beide Hände legen sich auf Unterarm und streichen sanft (Therapie/Behandlung)",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Rehabilitation",
         english: "Rehabilitation",
-        description: "Wiederherstellen",
+        description: "Rechte Hand zieht etwas wieder hoch/gerade, dann beide Hände üben Bewegung (Reha)",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Impfung",
         english: "Vaccination",
-        description: "Impfen",
+        description: "Rechte Hand hält Spritze, sticht in Oberarm, kurzes Nicken (Impfung)",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Notfall",
         english: "Emergency",
-        description: "Dringend helfen",
+        description: "Beide Hände schnell nach vorne (dringend), dann Hilfe-Geste (Notfall)",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Erste Hilfe",
         english: "First Aid",
-        description: "Soforthilfe",
+        description: "Rechte Hand formt Kreuz auf linker Hand/Brust, dann Verband andeuten (Erste Hilfe)",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Krankenwagen",
         english: "Ambulance",
-        description: "Krankenwagen zeigen",
+        description: "Rechte Hand formt Auto (Lenkrad), dann Blaulicht drehen oben (Krankenwagen)",
         difficulty: 4,
         category: "Medizin"
       },
       {
         german: "Intensivstation",
         english: "Intensive Care",
-        description: "Intensive Pflege",
+        description: "Rechte Hand an Herz/Brust, dann beide Hände kümmern/pflegen (sehr intensiv)",
         difficulty: 4,
         category: "Medizin"
       }
@@ -2447,140 +2447,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Angst",
         english: "Fear",
-        description: "Angst zeigen",
+        description: "Beide Hände vor Brust zittern, Augen weit, Körper weicht zurück (Angst)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Stress",
         english: "Stress",
-        description: "Angespannt aussehen",
+        description: "Beide Hände krallen an Schläfen, Schultern hochziehen, Gesicht angespannt (Stress)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Ruhe",
         english: "Peace",
-        description: "Ruhe ausstrahlen",
+        description: "Beide Hände flach, langsam nach unten sinken lassen, ruhiger Blick (Ruhe)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Erschöpfung",
         english: "Exhaustion",
-        description: "Müde aussehen",
+        description: "Schultern hängen, beide Hände sinken kraftlos, ausatmen (erschöpft)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Hoffnung",
         english: "Hope",
-        description: "Hoffnungsvoll blicken",
+        description: "Rechte Hand greift nach oben/vorne (Zukunft), Blick nach oben (Hoffnung)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Vertrauen",
         english: "Trust",
-        description: "Vertrauen zeigen",
+        description: "Rechte Hand flach auf Herz legen, dann Hand nach vorne öffnen (Vertrauen)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Frustration",
         english: "Frustration",
-        description: "Frustriert aussehen",
+        description: "Beide Hände zu Fäusten, kurz nach unten schlagen, Gesicht genervt (frustriert)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Enttäuschung",
         english: "Disappointment",
-        description: "Enttäuscht aussehen",
+        description: "Rechte Hand von Brust nach unten sinken lassen, Schultern hängen (enttäuscht)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Überforderung",
         english: "Overwhelm",
-        description: "Überfordert zeigen",
+        description: "Beide Hände an Kopf, kurze ruckartige Bewegungen, Blick hektisch (überfordert)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Unsicherheit",
         english: "Uncertainty",
-        description: "Unsicher blicken",
+        description: "Kopf leicht schütteln, Blick hin und her, Hände offen (unsicher)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Sicherheit",
         english: "Security",
-        description: "Sicher fühlen",
+        description: "Beide Hände flach auf Brust, festes Nicken (sicher)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Zufriedenheit",
         english: "Satisfaction",
-        description: "Zufrieden aussehen",
+        description: "Beide Hände flach auf Brust, sanft nach unten streichen, lächeln (zufrieden)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Dankbarkeit",
         english: "Gratitude",
-        description: "Dankbar zeigen",
+        description: "Rechte flache Hand von Mund nach außen, dann auf Herz legen (Dankbarkeit)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Empathie",
         english: "Empathy",
-        description: "Mitfühlen zeigen",
+        description: "Rechte Hand auf Herz, dann offene Hand sanft zur anderen Person (mitfühlen/Empathie)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Mitgefühl",
         english: "Compassion",
-        description: "Mitleid zeigen",
+        description: "Beide Hände flach auf Brust, dann sanft nach vorne (trösten/mitfühlen)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Eifersucht",
         english: "Jealousy",
-        description: "Eifersüchtig aussehen",
+        description: "Rechte Hand greift nach etwas, Blick schmal, Mund verziehen (eifersüchtig)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Neid",
         english: "Envy",
-        description: "Neidisch blicken",
+        description: "Rechte Hand greift nach etwas, Blick schielt seitlich (neidisch)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Scham",
         english: "Shame",
-        description: "Beschämt aussehen",
+        description: "Kopf senken, Blick abwenden, rechte Hand bedeckt kurz Gesicht (schämen)",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Schuld",
         english: "Guilt",
-        description: "Schuldig fühlen",
+        description: "Rechte Hand flach auf Brust (Herz), dann Kopf senken, Gesicht schuldbewusst",
         difficulty: 4,
         category: "Gefühle"
       },
       {
         german: "Reue",
         english: "Regret",
-        description: "Bereuen zeigen",
+        description: "Rechte Hand wischt von Stirn nach hinten (hätte ich…), Gesicht bedauernd",
         difficulty: 4,
         category: "Gefühle"
       }
@@ -2589,105 +2589,105 @@ export const DGS_VOCABULARY = {
       {
         german: "Psychotherapie",
         english: "Psychotherapy",
-        description: "Seelische Behandlung",
+        description: "Rechte Hand an Schläfe (Psyche), dann beide Hände sanft nach unten streichen (Therapie)",
         difficulty: 4,
         category: "Psychische Gesundheit"
       },
       {
         german: "Trauma",
         english: "Trauma",
-        description: "Verletzung zeigen",
+        description: "Rechte Hand trifft Brust (Schock), dann Gesicht betroffen, Hand schützt Körper (Trauma)",
         difficulty: 4,
         category: "Psychische Gesundheit"
       },
       {
         german: "PTBS",
         english: "PTSD",
-        description: "Posttraumatische Belastung",
+        description: "Rechte Hand trifft Brust (Schock), dann Hand an Stirn kreist (Flashback), Gesicht belastet",
         difficulty: 4,
         category: "Psychische Gesundheit"
       },
       {
         german: "Burnout-Syndrom",
         english: "Burnout Syndrome",
-        description: "Völlige Erschöpfung",
+        description: "Beide Hände sinken kraftlos, Kopf hängt, dann Hand wischt über Stirn (ausgebrannt)",
         difficulty: 4,
         category: "Psychische Gesundheit"
       },
       {
         german: "Panikattacke",
         english: "Panic Attack",
-        description: "Panische Angst",
+        description: "Beide Hände an Brust, schneller Atem (hecheln), Augen weit, Körper zurückweichen",
         difficulty: 4,
         category: "Psychische Gesundheit"
       },
       {
         german: "Phobie",
         english: "Phobia",
-        description: "Extreme Angst",
+        description: "Rechte Hand zeigt auf Auslöser, dann beide Hände schützend vor Gesicht (starke Angst)",
         difficulty: 4,
         category: "Psychische Gesundheit"
       },
       {
         german: "ADHS",
         english: "ADHD",
-        description: "Aufmerksamkeitsdefizit",
+        description: "Rechte Hand tippt an Stirn (Fokus), springt schnell zu verschiedenen Punkten (ablenkbar)",
         difficulty: 4,
         category: "Psychische Gesundheit"
       },
       {
         german: "Autismus",
         english: "Autism",
-        description: "Autistische Merkmale",
+        description: "Rechte Hand an Stirn (Wahrnehmung), dann Hände schließen vor Körper (Rückzug/Abgrenzung)",
         difficulty: 4,
         category: "Psychische Gesundheit"
       },
       {
         german: "Bipolar",
         english: "Bipolar",
-        description: "Stimmungsschwankungen",
+        description: "Rechte Hand zeigt hoch (oben), dann tief (unten) in schneller Folge (Stimmung schwankt)",
         difficulty: 4,
         category: "Psychische Gesundheit"
       },
       {
         german: "Schizophrenie",
         english: "Schizophrenia",
-        description: "Wahrnehmungsstörungen",
+        description: "Rechte Hand an Schläfe, dann zeigt auf Augen/Ohren und schüttelt (Wahrnehmung gestört)",
         difficulty: 4,
         category: "Psychische Gesundheit"
       },
       {
         german: "Essstörung",
         english: "Eating Disorder",
-        description: "Essverhalten gestört",
+        description: "Rechte Hand führt Essen zum Mund, stoppt abrupt, Gesicht angespannt (Essstörung)",
         difficulty: 4,
         category: "Psychische Gesundheit"
       },
       {
         german: "Sucht",
         english: "Addiction",
-        description: "Abhängigkeit zeigen",
+        description: "Rechte Hand greift wiederholt nach etwas (Verlangen), dann Faust hält fest (abhängig)",
         difficulty: 4,
         category: "Psychische Gesundheit"
       },
       {
         german: "Therapeut",
         english: "Therapist",
-        description: "Behandler",
+        description: "Rechte Hand an Schläfe (Psyche), dann beide Hände beruhigend nach unten (Therapeut)",
         difficulty: 4,
         category: "Psychische Gesundheit"
       },
       {
         german: "Beratung",
         english: "Counseling",
-        description: "Beraten",
+        description: "Beide Hände abwechselnd nach vorne (Gespräch), dann rechte Hand gibt 'Tipp' (Rat)",
         difficulty: 4,
         category: "Psychische Gesundheit"
       },
       {
         german: "Selbsthilfe",
         english: "Self-help",
-        description: "Sich selbst helfen",
+        description: "Rechte Hand hilft linkem Unterarm nach oben, dann zeigt auf sich selbst (Selbsthilfe)",
         difficulty: 4,
         category: "Psychische Gesundheit"
       }
@@ -2698,182 +2698,182 @@ export const DGS_VOCABULARY = {
       {
         german: "Reisen",
         english: "Travel",
-        description: "Reisen zeigen",
+        description: "Rechte Hand '2'-Handform läuft nach vorne, dann Koffergriff greifen (reisen)",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Flugzeug",
         english: "Airplane",
-        description: "Flugzeug fliegen",
+        description: "Rechte Hand Flugzeugform, vom Mund weg fliegen",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Flughafen",
         english: "Airport",
-        description: "Flugzeug landen",
+        description: "Rechte Hand flach (Flugzeug) sinkt nach unten (landen), dann Gebäude/Terminal andeuten",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Pass",
         english: "Passport",
-        description: "Dokument zeigen",
+        description: "Linke Hand hält kleines Buch (Pass), rechte Hand klappt es auf und hält es nach vorne (Kontrolle)",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Koffer",
         english: "Suitcase",
-        description: "Koffer tragen",
+        description: "Rechte Hand Koffergriff, nach oben heben",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Hotel",
         english: "Hotel",
-        description: "Schlafen zeigen",
+        description: "Rechte Hand formt H (Buchstabe) vor Körper, dann Bett/Schlafen (Übernachtung)",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Fremd",
         english: "Foreign",
-        description: "Unbekannt zeigen",
+        description: "Rechte Hand Fernweh, fremdes Land",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Tourist",
         english: "Tourist",
-        description: "Umherblicken",
+        description: "Rechte Hand herumsehen, Touristik",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Urlaub",
         english: "Vacation",
-        description: "Entspannen zeigen",
+        description: "Beide Hände hinter Kopf verschränken, zurücklehnen, entspannter Blick (Urlaub)",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Reiseroute",
         english: "Itinerary",
-        description: "Route planen",
+        description: "Rechte Hand planen, Reiseroute",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Visum",
         english: "Visa",
-        description: "Erlaubnis zeigen",
+        description: "Rechte Hand Erlaubnis, Visum",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Grenze",
         english: "Border",
-        description: "Grenze ziehen",
+        description: "Rechte Hand Zeigefinger zieht eine Linie in die Luft (Grenze), dann Hand stoppt an der Linie",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Einreise",
         english: "Entry",
-        description: "Hereinkommen",
+        description: "Rechte Hand hereinkommen, Einreise",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Ausreise",
         english: "Exit",
-        description: "Hinausgehen",
+        description: "Rechte Hand in '2'-Handform (Beine) bewegt nach vorne aus einem Bereich heraus (ausreisen)",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Zoll",
         english: "Customs",
-        description: "Kontrollieren",
+        description: "Rechte Hand hält Stempel, stempelt auf linke flache Hand (Kontrolle/Zoll)",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Check-in",
         english: "Check-in",
-        description: "Einchecken",
+        description: "Rechte Hand gibt Pass/Ticket nach vorne, linke Hand tippt (Schalter), dann Daumen hoch",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Check-out",
         english: "Check-out",
-        description: "Auschecken",
+        description: "Rechte Hand gibt Schlüsselkarte nach vorne ab, dann Handbewegung weg (check-out)",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Reservierung",
         english: "Reservation",
-        description: "Reservieren",
+        description: "Rechte Hand hält Telefon (Y-Hand), dann schreibt/markiert auf linker Hand (reservieren)",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Buchung",
         english: "Booking",
-        description: "Buchen",
+        description: "Rechte Hand tippt auf Tastatur/Smartphone, dann bestätigt mit Daumen hoch (buchen)",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Stornierung",
         english: "Cancellation",
-        description: "Stornieren",
+        description: "Rechte Hand macht X-Bewegung vor sich (streichen), dann schiebt etwas weg (stornieren)",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Verspätung",
         english: "Delay",
-        description: "Verspätet zeigen",
+        description: "Rechte Hand tippt auf linkes Handgelenk (Uhr), dann Hand zieht nach hinten (später)",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Ankunft",
         english: "Arrival",
-        description: "Ankommen",
+        description: "Rechte Hand in '2'-Handform (Beine) läuft und stoppt an einem Punkt (ankommen)",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Abfahrt",
         english: "Departure",
-        description: "Abfahren",
+        description: "Rechte Hand in '2'-Handform (Beine) startet von einem Punkt weg nach vorne (abfahren)",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Transfer",
         english: "Transfer",
-        description: "Übertragen",
+        description: "Rechte Hand nimmt etwas von linker Hand und legt es an einen anderen Platz (Transfer)",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Umsteigen",
         english: "Transfer/Change",
-        description: "Wechseln",
+        description: "Rechter Zeigefinger wechselt von einem Punkt zu einem anderen (umsteigen), dann weiterfahren",
         difficulty: 5,
         category: "Reisen"
       },
       {
         german: "Gepäck",
         english: "Luggage",
-        description: "Koffer zeigen",
+        description: "Rechte Hand greift Koffergriff, hebt an und zieht leicht nach vorne (Gepäck)",
         difficulty: 5,
         category: "Reisen"
       }
@@ -2882,140 +2882,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Links",
         english: "Left",
-        description: "Nach links zeigen",
+        description: "Rechter Zeigefinger weist deutlich nach links, Blick folgt Richtung",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Rechts",
         english: "Right",
-        description: "Nach rechts zeigen",
+        description: "Rechter Zeigefinger weist deutlich nach rechts, Blick folgt Richtung",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Geradeaus",
         english: "Straight ahead",
-        description: "Gerade zeigen",
+        description: "Rechte flache Hand bewegt sich gerade nach vorne, Blick folgt (geradeaus)",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Umdrehen",
         english: "Turn around",
-        description: "Drehung zeigen",
+        description: "Rechte Hand flach macht Halbkreis nach hinten, Oberkörper dreht sich mit (umdrehnen)",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Kreuzung",
         english: "Intersection",
-        description: "Kreuzung formen",
+        description: "Rechte Hand Zeigefinger, Kreuzung formen",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Weg",
         english: "Way/Path",
-        description: "Pfad zeigen",
+        description: "Rechte Hand flach zeichnet eine Linie nach vorne (Weg/Pfad)",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Norden",
         english: "North",
-        description: "Nach oben zeigen",
+        description: "Rechter Zeigefinger zeigt nach oben (Karte: Norden)",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Süden",
         english: "South",
-        description: "Nach unten zeigen",
+        description: "Rechter Zeigefinger zeigt nach unten (Karte: Süden)",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Osten",
         english: "East",
-        description: "Nach rechts zeigen",
+        description: "Rechter Zeigefinger zeigt nach rechts (Karte: Osten)",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Westen",
         english: "West",
-        description: "Nach links zeigen",
+        description: "Rechter Zeigefinger zeigt nach links (Karte: Westen)",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Oben",
         english: "Up/Above",
-        description: "Nach oben zeigen",
+        description: "Rechter Zeigefinger zeigt nach oben über Kopfhöhe (oben)",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Unten",
         english: "Down/Below",
-        description: "Nach unten zeigen",
+        description: "Rechter Zeigefinger zeigt nach unten zum Boden (unten)",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Vorne",
         english: "Front",
-        description: "Nach vorne zeigen",
+        description: "Rechter Zeigefinger zeigt nach vorne in den Raum (vorne)",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Hinten",
         english: "Back/Behind",
-        description: "Nach hinten zeigen",
+        description: "Rechter Daumen zeigt über die Schulter nach hinten (hinten)",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Neben",
         english: "Next to",
-        description: "Seitlich zeigen",
+        description: "Beide Hände flach nebeneinander halten (neben)",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Zwischen",
         english: "Between",
-        description: "Dazwischen zeigen",
+        description: "Linke und rechte Hand stehen als zwei Punkte, rechter Zeigefinger zeigt in die Mitte (zwischen)",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Gegenüber",
         english: "Opposite",
-        description: "Gegenüber zeigen",
+        description: "Beide Zeigefinger stehen sich im Raum gegenüber, Blick wechselt zwischen beiden (gegenüber)",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Mitte",
         english: "Middle/Center",
-        description: "Mitte zeigen",
+        description: "Rechter Zeigefinger tippt in die Mitte der linken Handfläche (Mitte)",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Rand",
         english: "Edge",
-        description: "Rand zeigen",
+        description: "Rechter Zeigefinger fährt am Rand der linken Handfläche entlang (Rand)",
         difficulty: 5,
         category: "Richtungen"
       },
       {
         german: "Ecke",
         english: "Corner",
-        description: "Ecke formen",
+        description: "Linke Hand bildet L-Form, rechter Zeigefinger tippt in den Winkel (Ecke)",
         difficulty: 5,
         category: "Richtungen"
       }
@@ -3024,140 +3024,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Bus",
         english: "Bus",
-        description: "Bus fahren",
+        description: "Rechte Hand Busform, vorwärts bewegen",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Zug",
         english: "Train",
-        description: "Zug fahren",
+        description: "Rechte Hand in '2'-Handform fährt auf linker Hand/Arm als Schiene nach vorne (Zug)",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Fahrrad",
         english: "Bicycle",
-        description: "Rad fahren",
+        description: "Beide Hände halten Lenker, treten mit den Füßen andeuten (Fahrrad fahren)",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Taxi",
         english: "Taxi",
-        description: "Taxi rufen",
+        description: "Rechte Hand Taxi rufen, herbeiwinken",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Straße",
         english: "Street",
-        description: "Straße zeigen",
+        description: "Rechte Hand Straße, geradeaus",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Verkehr",
         english: "Traffic",
-        description: "Verkehr zeigen",
+        description: "Beide Hände bewegen sich wie Autos in verschiedene Richtungen (Verkehr)",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Ampel",
         english: "Traffic Light",
-        description: "Ampel zeigen",
+        description: "Rechte Hand Ampel, rot gelb grün",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Parkplatz",
         english: "Parking",
-        description: "Parken zeigen",
+        description: "Rechte Hand parken, einparken",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Tankstelle",
         english: "Gas Station",
-        description: "Tanken",
+        description: "Rechte Hand hält Zapfpistole, steckt sie an Auto und drückt (tanken)",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Werkstatt",
         english: "Garage/Workshop",
-        description: "Reparieren",
+        description: "Rechte Hand dreht Schraubenschlüssel, arbeitet an Motor (Werkstatt)",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Autobahn",
         english: "Highway",
-        description: "Schnellstraße",
+        description: "Rechte Hand Autobahn, schnell",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Fahrerlaubnis",
         english: "Driver's License",
-        description: "Führerschein zeigen",
+        description: "Rechte Hand Führerschein, Ausweis",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Unfall",
         english: "Accident",
-        description: "Zusammenstoß zeigen",
+        description: "Beide Fäuste bewegen sich aufeinander zu und stoßen zusammen (Crash), Gesicht erschrocken (Unfall)",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Polizei",
         english: "Police",
-        description: "Uniform zeigen",
+        description: "Rechte Hand setzt Mütze auf (Polizei), dann Hand zeigt Abzeichen auf Brust",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Strafzettel",
         english: "Ticket/Fine",
-        description: "Bußgeld zeigen",
+        description: "Rechte Hand schreibt auf linke Handfläche (Zettel), dann Geld-Geste (Bußgeld)",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Versicherung",
         english: "Insurance",
-        description: "Sichern",
+        description: "Beide Hände umschließen etwas schützend (absichern), dann Daumen hoch",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Navigation",
         english: "Navigation",
-        description: "Navigieren",
+        description: "Linke Hand hält Smartphone, rechter Zeigefinger tippt Karte und zeigt Route",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Karte",
         english: "Map",
-        description: "Karte zeigen",
+        description: "Beide Hände halten 'Karte' auseinander, Blick folgt darauf (Karte)",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Adresse",
         english: "Address",
-        description: "Adresse zeigen",
+        description: "Rechte Hand schreibt auf linke Handfläche (Adresse notieren)",
         difficulty: 5,
         category: "Verkehr"
       },
       {
         german: "Entfernung",
         english: "Distance",
-        description: "Abstand messen",
+        description: "Beide Zeigefinger markieren zwei Punkte, dann Hände weit auseinander (Entfernung)",
         difficulty: 5,
         category: "Verkehr"
       }
@@ -3166,140 +3166,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Stadt",
         english: "City",
-        description: "Stadt zeigen",
+        description: "Beide Hände Stadt, Gebäude hoch",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Land",
         english: "Country",
-        description: "Land zeigen",
+        description: "Rechte Hand Land, begrenzte Fläche",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Berg",
         english: "Mountain",
-        description: "Berg formen",
+        description: "Rechte Hand Bergform, hochziehen",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Fluss",
         english: "River",
-        description: "Fluss fließen",
+        description: "Rechte Hand Fluss, wellenförmig fließen",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "See",
         english: "Lake",
-        description: "See formen",
+        description: "Rechte Hand See, flaches Wasser",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Wald",
         english: "Forest",
-        description: "Wald zeigen",
+        description: "Rechte Hand Wald, Bäume",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Insel",
         english: "Island",
-        description: "Insel formen",
+        description: "Beide Hände Insel, Wasser drumherum",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Meer",
         english: "Sea",
-        description: "Meer zeigen",
+        description: "Rechte Hand Meer, viel Wasser",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Ozean",
         english: "Ocean",
-        description: "Großes Meer",
+        description: "Rechte Hand groß, Ozean",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Kontinent",
         english: "Continent",
-        description: "Großes Land",
+        description: "Beide Hände Kontinent, großes Land",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Europa",
         english: "Europe",
-        description: "Europa zeigen",
+        description: "Linke Hand flach als Karte, rechter Zeigefinger zeichnet grobe Europa-Form darauf",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Deutschland",
         english: "Germany",
-        description: "Deutschland zeigen",
+        description: "Linke Hand flach als Karte, rechter Zeigefinger markiert Deutschland in der Mitte Europas",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Berlin",
         english: "Berlin",
-        description: "Berlin zeigen",
+        description: "Linke Hand flach als Karte, rechter Zeigefinger tippt oben mittig (Berlin)",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "München",
         english: "Munich",
-        description: "München zeigen",
+        description: "Linke Hand flach als Karte, rechter Zeigefinger tippt unten rechts (München)",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Hamburg",
         english: "Hamburg",
-        description: "Hamburg zeigen",
+        description: "Linke Hand flach als Karte, rechter Zeigefinger tippt oben (Hamburg)",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Köln",
         english: "Cologne",
-        description: "Köln zeigen",
+        description: "Linke Hand flach als Karte, rechter Zeigefinger tippt links (Köln)",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Frankfurt",
         english: "Frankfurt",
-        description: "Frankfurt zeigen",
+        description: "Linke Hand flach als Karte, rechter Zeigefinger tippt mittig (Frankfurt)",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Dorf",
         english: "Village",
-        description: "Kleines Dorf",
+        description: "Beide Hände formen kleine Häuser (Dächer), nahe beieinander (Dorf)",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Region",
         english: "Region",
-        description: "Gebiet zeigen",
+        description: "Linke Hand flach als Karte, rechte Hand umkreist einen Bereich (Region)",
         difficulty: 5,
         category: "Geographie"
       },
       {
         german: "Grenze",
         english: "Border",
-        description: "Grenze ziehen",
+        description: "Rechter Zeigefinger zieht Linie auf linker Handfläche (Karte), Hand stoppt an der Linie",
         difficulty: 5,
         category: "Geographie"
       }
@@ -3308,84 +3308,84 @@ export const DGS_VOCABULARY = {
       {
         german: "Sprache",
         english: "Language",
-        description: "Sprache zeigen",
+        description: "Rechte Hand Sprache, kommunizieren",
         difficulty: 5,
         category: "International"
       },
       {
         german: "Übersetzer",
         english: "Translator",
-        description: "Übersetzen",
+        description: "Linke Hand flach (Text), rechte Hand nimmt 'Wort' und legt es auf andere Seite (Übersetzer)",
         difficulty: 5,
         category: "International"
       },
       {
         german: "Kultur",
         english: "Culture",
-        description: "Kultur zeigen",
+        description: "Beide Hände kreisen um einander (Tradition/Gemeinschaft), dann nach außen öffnen (Kultur)",
         difficulty: 5,
         category: "International"
       },
       {
         german: "International",
         english: "International",
-        description: "Weltumspannend",
+        description: "Beide Hände formen Kugel (Welt) und umkreisen sie weit (international)",
         difficulty: 5,
         category: "International"
       },
       {
         german: "Ausländer",
         english: "Foreigner",
-        description: "Aus einem anderen Land",
+        description: "Linke Hand flach als Karte/Ort, rechte Hand zeigt von außen hinein (von woanders) (Ausländer)",
         difficulty: 5,
         category: "International"
       },
       {
         german: "Einwanderer",
         english: "Immigrant",
-        description: "Einwandern",
+        description: "Rechte Hand in '2'-Handform (Beine) kommt über Linie (Grenze) hinein (einwandern)",
         difficulty: 5,
         category: "International"
       },
       {
         german: "Besucher",
         english: "Visitor",
-        description: "Besuchen",
+        description: "Rechte Hand klopft an Tür (klopf), dann geht hinein (besuchen)",
         difficulty: 5,
         category: "International"
       },
       {
         german: "Gast",
         english: "Guest",
-        description: "Gast sein",
+        description: "Rechte Hand tippt auf Brust (ich), dann Hand öffnet nach außen (zu Gast)",
         difficulty: 5,
         category: "International"
       },
       {
         german: "Welt",
         english: "World",
-        description: "Erde zeigen",
+        description: "Beide Hände formen Kugel vor dem Körper und drehen sie leicht (Welt)",
         difficulty: 5,
         category: "International"
       },
       {
         german: "Global",
         english: "Global",
-        description: "Weltweit",
+        description: "Beide Hände formen Kugel (Welt), dann beide Hände weit nach außen (weltweit)",
         difficulty: 5,
         category: "International"
       },
       {
         german: "Frieden",
         english: "Peace",
-        description: "Frieden zeigen",
+        description: "Rechte Hand Frieden, harmonisch",
         difficulty: 5,
         category: "International"
       },
       {
         german: "Krieg",
         english: "War",
-        description: "Krieg zeigen",
+        description: "Rechte Hand Krieg, Kampf",
         difficulty: 5,
         category: "International"
       },
@@ -3399,193 +3399,182 @@ export const DGS_VOCABULARY = {
       {
         german: "Handel",
         english: "Trade",
-        description: "Handeln",
+        description: "Beide Hände tauschen etwas hin und her (Ware/Geld), kurzer Austausch (Handel)",
         difficulty: 5,
         category: "International"
       },
       {
         german: "Export",
         english: "Export",
-        description: "Ausführen",
+        description: "Rechte Hand nimmt etwas von linkem Bereich und bewegt es nach außen (exportieren)",
         difficulty: 5,
         category: "International"
       },
       {
         german: "Import",
         english: "Import",
-        description: "Einführen",
+        description: "Rechte Hand bringt etwas von außen in den linken Bereich hinein (importieren)",
         difficulty: 5,
         category: "International"
       },
       {
         german: "Zoll",
         english: "Customs",
-        description: "Zoll zeigen",
+        description: "Rechte Hand stempelt auf linke Handfläche (Kontrollstempel), prüfender Blick (Zoll)",
         difficulty: 5,
         category: "International"
       },
       {
         german: "Währung",
         english: "Currency",
-        description: "Geld wechseln",
+        description: "Beide Hände tauschen zwei 'Scheine/Münzen' (Währung wechseln)",
         difficulty: 5,
         category: "International"
       },
       {
         german: "Euro",
         english: "Euro",
-        description: "Euro zeigen",
+        description: "Rechte Hand reibt Daumen an Zeige/Mittel (Geld), dann macht 'E'-Form (Euro)",
         difficulty: 5,
         category: "International"
       },
       {
-        german: "Wechselkurs",
-        english: "Exchange Rate",
-        description: "Wechseln",
-        difficulty: 5,
-        category: "International"
-      }
-    ]
-  },
-  level6: {
-    arts: [
-      {
         german: "Musik",
         english: "Music",
-        description: "Musizieren",
+        description: "Rechte Hand musizieren, Musik",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Malen",
         english: "Painting",
-        description: "Malen zeigen",
+        description: "Rechte Hand malen, Pinselstrich",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Tanzen",
         english: "Dance",
-        description: "Tanzen",
+        description: "Beide Hände tanzen, Bewegung",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Theater",
         english: "Theater",
-        description: "Schauspielen",
+        description: "Beide Hände vor Gesicht, Masken wechseln (lachend/weinend) (Theater)",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Film",
         english: "Movie",
-        description: "Film zeigen",
+        description: "Rechte Hand formt Filmrolle und dreht, dann nach vorne auf imaginäre Leinwand (Film)",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Fotografie",
         english: "Photography",
-        description: "Foto machen",
+        description: "Beide Hände halten Kamera vor Auge, Zeigefinger drückt Auslöser (Fotografie)",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Sculptur",
         english: "Sculpture",
-        description: "Formen",
+        description: "Rechte Hand formen, Sculptur",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Bildhauerei",
         english: "Sculpture",
-        description: "Meißeln",
+        description: "Rechte Hand Meißel, auf linker Faust bearbeiten",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Architektur",
         english: "Architecture",
-        description: "Bauen",
+        description: "Beide Hände zeichnen Bauplan in die Luft, dann beide Hände bauen/setzen Wände auf (Architektur)",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Design",
         english: "Design",
-        description: "Entwerfen",
+        description: "Rechte Hand zeichnet Linien auf linker Handfläche (Skizze), dann Form im Raum darstellen (Design)",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Grafik",
         english: "Graphics",
-        description: "Zeichnen",
+        description: "Rechte Hand hält Stift und zeichnet auf linke Handfläche (Grafik)",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Keramik",
         english: "Ceramics",
-        description: "Töpfern",
+        description: "Beide Hände Töpferscheibe drehen, Formen",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Textil",
         english: "Textile",
-        description: "Weben",
+        description: "Beide Hände Webstuhl, Faden kreuzen",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Juwelier",
         english: "Jewelry",
-        description: "Schmuck machen",
+        description: "Rechte Hand feine Arbeit, Schmuck herstellen",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Kunsthandwerk",
         english: "Arts and Crafts",
-        description: "Handwerken",
+        description: "Beide Hände arbeiten mit Werkzeug (hämmern/schneiden), kleine Handbewegungen (Kunsthandwerk)",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Ausstellung",
         english: "Exhibition",
-        description: "Ausstellen",
+        description: "Rechte Hand zeigt Bilder an Wand entlang (ausstellen), Blick folgt (Ausstellung)",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Galerie",
         english: "Gallery",
-        description: "Kunst zeigen",
+        description: "Rechte Hand zeigt auf mehrere Bilder im Raum, langsames Vorbeigehen (Galerie)",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Museum",
         english: "Museum",
-        description: "Sammlung zeigen",
+        description: "Rechte Hand Sammlung, Museum",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Künstler",
         english: "Artist",
-        description: "Kunst machen",
+        description: "Rechte Hand Kunst, Künstler",
         difficulty: 6,
         category: "Kunst"
       },
       {
         german: "Maler",
         english: "Painter",
-        description: "Malen",
+        description: "Rechte Hand malen, Maler",
         difficulty: 6,
         category: "Kunst"
       }
@@ -3594,91 +3583,91 @@ export const DGS_VOCABULARY = {
       {
         german: "Spiel",
         english: "Game",
-        description: "Spielen",
+        description: "Beide Hände halten Controller/Spiel, Daumen bewegen (spielen)",
         difficulty: 6,
         category: "Unterhaltung"
       },
       {
         german: "Sport",
         english: "Sport",
-        description: "Sport treiben",
+        description: "Beide Fäuste vor Körper, kurze Trainingsbewegung (Sport)",
         difficulty: 6,
         category: "Unterhaltung"
       },
       {
         german: "Party",
         english: "Party",
-        description: "Feiern",
+        description: "Beide Hände Konfetti werfen, feiern",
         difficulty: 6,
         category: "Unterhaltung"
       },
       {
         german: "Festival",
         english: "Festival",
-        description: "Festival zeigen",
+        description: "Rechte Hand Festival, große Veranstaltung",
         difficulty: 6,
         category: "Unterhaltung"
       },
       {
         german: "Konzert",
         english: "Concert",
-        description: "Konzert geben",
+        description: "Rechte Hand Mikrofon, singend zur Seite",
         difficulty: 6,
         category: "Unterhaltung"
       },
       {
         german: "Urlaub",
         english: "Vacation",
-        description: "Urlaub machen",
+        description: "Rechte Hand Koffer, Reise antreten",
         difficulty: 6,
         category: "Unterhaltung"
       },
       {
         german: "Freizeit",
         english: "Leisure",
-        description: "Freizeit genießen",
+        description: "Rechte Hand Freizeit, genießen",
         difficulty: 6,
         category: "Unterhaltung"
       },
       {
         german: "Hobby",
         english: "Hobby",
-        description: "Hobby betreiben",
+        description: "Rechte Hand Hobby, Freizeitbeschäftigung",
         difficulty: 6,
         category: "Unterhaltung"
       },
       {
         german: "Unterhaltung",
         english: "Entertainment",
-        description: "Unterhalten",
+        description: "Rechte Hand unterhalten, Entertainment",
         difficulty: 6,
         category: "Unterhaltung"
       },
       {
         german: "Show",
         english: "Show",
-        description: "Vorstellung geben",
+        description: "Rechte Hand Vorstellung, Show",
         difficulty: 6,
         category: "Unterhaltung"
       },
       {
         german: "Kabarett",
         english: "Cabaret",
-        description: "Humor zeigen",
+        description: "Rechte Hand humorvoll, Kabarett",
         difficulty: 6,
         category: "Unterhaltung"
       },
       {
         german: "Comedy",
         english: "Comedy",
-        description: "Lachen machen",
+        description: "Rechte Hand lachen, Comedy",
         difficulty: 6,
         category: "Unterhaltung"
       },
       {
         german: "Zirkus",
         english: "Circus",
-        description: "Artistik zeigen",
+        description: "Beide Hände jonglieren/akrobatische Bewegung, dann Zeltform andeuten (Zirkus)",
         difficulty: 6,
         category: "Unterhaltung"
       },
@@ -3692,7 +3681,7 @@ export const DGS_VOCABULARY = {
       {
         german: "Kino",
         english: "Cinema",
-        description: "Film schauen",
+        description: "Rechte Hand formt Filmrolle, dann beide Hände wie Fernglas zum Schauen (Kino)",
         difficulty: 6,
         category: "Unterhaltung"
       },
@@ -3706,28 +3695,28 @@ export const DGS_VOCABULARY = {
       {
         german: "Oper",
         english: "Opera",
-        description: "Oper singen",
+        description: "Rechte Hand hält Mikrofon, Kopf zurück, 'groß' singen andeuten (Oper)",
         difficulty: 6,
         category: "Unterhaltung"
       },
       {
         german: "Ballett",
         english: "Ballet",
-        description: "Ballett tanzen",
+        description: "Beide Hände elegant seitlich, Füße/Arme anmutig bewegen (Ballett)",
         difficulty: 6,
         category: "Unterhaltung"
       },
       {
         german: "Jonglieren",
         english: "Juggling",
-        description: "Jonglieren",
+        description: "Beide Hände werfen abwechselnd unsichtbare Bälle nach oben (jonglieren)",
         difficulty: 6,
         category: "Unterhaltung"
       },
       {
         german: "Zauberei",
         english: "Magic",
-        description: "Zaubern",
+        description: "Rechte Hand macht Zauberstab-Bewegung, dann plötzlich öffnen (ta-da) (Zauberei)",
         difficulty: 6,
         category: "Unterhaltung"
       }
@@ -3736,140 +3725,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Lesen",
         english: "Reading",
-        description: "Buch lesen",
+        description: "Beide Hände halten Buch offen, Augen folgen von links nach rechts (lesen)",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Schwimmen",
         english: "Swimming",
-        description: "Schwimmen",
+        description: "Beide Arme führen Schwimmbewegung nach vorne (schwimmen)",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Laufen",
         english: "Running",
-        description: "Laufen",
+        description: "Beide Hände bilden laufende Beine (Zeige/Mittel) und bewegen nach vorne",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Garten",
         english: "Garden",
-        description: "Gärtnern",
+        description: "Beide Hände Gartengerät, Blumen pflanzen",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Kochen",
         english: "Cooking",
-        description: "Kochen",
+        description: "Rechte Hand rührt in linker Faust (Topf), dann Pfanne wenden (kochen)",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Zeichnen",
         english: "Drawing",
-        description: "Zeichnen",
+        description: "Rechte Hand hält Stift und zeichnet auf linke Handfläche (zeichnen)",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Stricken",
         english: "Knitting",
-        description: "Stricken",
+        description: "Rechte Hand Nadel, strickende Bewegung",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Nähen",
         english: "Sewing",
-        description: "Nähen",
+        description: "Rechte Hand Nadel, nähende Bewegung",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Basteln",
         english: "Crafting",
-        description: "Basteln",
+        description: "Beide Hände schneiden/kleben (Schere), kleine Handarbeiten (basteln)",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Fotografieren",
         english: "Photography",
-        description: "Foto machen",
+        description: "Beide Hände halten Kamera vor Auge, Zeigefinger drückt Auslöser",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Reisen",
         english: "Traveling",
-        description: "Reisen",
+        description: "Rechte Hand '2'-Handform läuft nach vorne, dann Koffergriff greifen (reisen)",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Wandern",
         english: "Hiking",
-        description: "Wandern",
+        description: "Beide Hände halten Wanderstöcke, schreiten nach vorne (wandern)",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Radfahren",
         english: "Cycling",
-        description: "Rad fahren",
+        description: "Beide Hände halten Lenker, treten mit den Füßen andeuten (radfahren)",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Angeln",
         english: "Fishing",
-        description: "Angeln",
+        description: "Rechte Hand wirft Angel aus, dann kurbelt ein (angeln)",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Jagen",
         english: "Hunting",
-        description: "Jagen",
+        description: "Rechte Hand hält Gewehr/Peilbewegung, schaut in die Ferne (jagen)",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Sammeln",
         english: "Collecting",
-        description: "Sammeln",
+        description: "Beide Hände greifen mehrere Dinge und legen sie zusammen (sammeln)",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Musizieren",
         english: "Making Music",
-        description: "Musik machen",
+        description: "Beide Hände spielen Instrument (z.B. Klavier/ Gitarre), rhythmisch bewegen",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Singen",
         english: "Singing",
-        description: "Singen",
+        description: "Rechte Hand am Mund, dann nach vorne öffnen (Stimme), Kopf leicht wippen (singen)",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Schreiben",
         english: "Writing",
-        description: "Schreiben",
+        description: "Rechte Hand hält Stift und schreibt auf linke Handfläche",
         difficulty: 6,
         category: "Hobbys"
       },
       {
         german: "Tagebuch",
         english: "Diary",
-        description: "Tagebuch führen",
+        description: "Beide Hände öffnen Buch, rechte Hand schreibt darin (Tagebuch)",
         difficulty: 6,
         category: "Hobbys"
       }
@@ -3878,77 +3867,77 @@ export const DGS_VOCABULARY = {
       {
         german: "Fußball",
         english: "Soccer",
-        description: "Ball treten",
+        description: "Rechte Fuß Bewegung, Ball treten",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Basketball",
         english: "Basketball",
-        description: "Ball werfen",
+        description: "Beide Hände Ball werfen, in Korb",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Tennis",
         english: "Tennis",
-        description: "Schläger schwingen",
+        description: "Rechte Hand Schläger, Vorhand schlagen",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Schwimmen",
         english: "Swimming",
-        description: "Schwimmen",
+        description: "Beide Arme Schwimmbewegung, Kraulen",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Radfahren",
         english: "Cycling",
-        description: "Rad fahren",
+        description: "Beide Hände halten Lenker, treten mit den Füßen andeuten (radfahren)",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Training",
         english: "Training",
-        description: "Trainieren",
+        description: "Beide Fäuste, sportliche Bewegung",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Laufen",
         english: "Running",
-        description: "Laufen",
+        description: "Beide Arme Lauf Bewegung, schnell",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Springen",
         english: "Jumping",
-        description: "Springen",
+        description: "Beide Hände flach nach unten, dann kurz nach oben schnellen (Sprung)",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Werfen",
         english: "Throwing",
-        description: "Werfen",
+        description: "Rechte Hand greift Ball und wirft ihn nach vorne (werfen)",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Klettern",
         english: "Climbing",
-        description: "Klettern",
+        description: "Beide Hände greifen abwechselnd nach oben, ziehen Körper hoch (klettern)",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Skifahren",
         english: "Skiing",
-        description: "Ski fahren",
+        description: "Beide Hände halten Skistöcke, schieben abwechselnd nach hinten (skifahren)",
         difficulty: 6,
         category: "Sport"
       },
@@ -3962,56 +3951,56 @@ export const DGS_VOCABULARY = {
       {
         german: "Eislaufen",
         english: "Ice Skating",
-        description: "Eis laufen",
+        description: "Beide Arme seitlich ausbalancieren, gleitende Schritte (eislaufen)",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Turnen",
         english: "Gymnastics",
-        description: "Turnen",
+        description: "Beide Hände stützen am Boden (Handstand andeuten), dann Körper strecken (turnen)",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Boxen",
         english: "Boxing",
-        description: "Boxen",
+        description: "Beide Fäuste vor Gesicht, 2 kurze Schläge nach vorne (boxen)",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Kampfsport",
         english: "Martial Arts",
-        description: "Kampf zeigen",
+        description: "Beide Hände in Kampfhaltung, Block + Schlag andeuten (Kampfsport)",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Judo",
         english: "Judo",
-        description: "Judo werfen",
+        description: "Beide Hände greifen Ärmel (Gegner), dann Wurfbewegung nach vorne/unten (Judo)",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Karate",
         english: "Karate",
-        description: "Karate schlagen",
+        description: "Rechte Faust schlägt nach vorne, linke Hand blockt (Karate)",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Yoga",
         english: "Yoga",
-        description: "Yoga position",
+        description: "Beide Hände vor Brust zusammen (Namaste), ruhiger Atem, kurze Pose halten (Yoga)",
         difficulty: 6,
         category: "Sport"
       },
       {
         german: "Meditation",
         english: "Meditation",
-        description: "Meditieren",
+        description: "Beide Hände auf Knie, Augen schließen, ruhig atmen (meditieren)",
         difficulty: 6,
         category: "Sport"
       }
@@ -4020,119 +4009,119 @@ export const DGS_VOCABULARY = {
       {
         german: "Entspannung",
         english: "Relaxation",
-        description: "Entspannen",
+        description: "Beide Hände sinken locker nach unten, Schultern fallen lassen, ausatmen (Entspannung)",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Ausflug",
         english: "Excursion",
-        description: "Ausflug machen",
+        description: "Rechte Hand zeigt nach vorne (los), dann beide Hände gehen (2-Handform) (Ausflug)",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Picknick",
         english: "Picnic",
-        description: "Picknick machen",
+        description: "Beide Hände breiten Decke aus, dann Essen auflegen (Picknick)",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Camping",
         english: "Camping",
-        description: "Campen",
+        description: "Beide Hände Zelt aufbauen, Outdoor",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Wandern",
         english: "Hiking",
-        description: "Wandern",
+        description: "Beide Hände halten Wanderstöcke, schreiten nach vorne (wandern)",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Bergsteigen",
         english: "Mountaineering",
-        description: "Bergsteigen",
+        description: "Beide Hände greifen abwechselnd nach oben, dann Fuß hochsetzen (bergsteigen)",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Kanufahren",
         english: "Canoeing",
-        description: "Kanu fahren",
+        description: "Beide Hände halten Paddel und paddeln abwechselnd links/rechts (Kanu)",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Segeln",
         english: "Sailing",
-        description: "Segeln",
+        description: "Beide Hände ziehen Seil, dann Segel formen (Segeln)",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Tauchen",
         english: "Diving",
-        description: "Tauchen",
+        description: "Rechte Hand Tauchermaske, unter Wasser",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Surfen",
         english: "Surfing",
-        description: "Surfen",
+        description: "Beide Hände balancieren wie auf Brett, Knie leicht, Wellenbewegung (surfen)",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Skateboard",
         english: "Skateboarding",
-        description: "Skateboard fahren",
+        description: "Beide Hände balancieren, ein Fuß stößt ab (Skateboard)",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Rollschuh",
         english: "Rollerblading",
-        description: "Rollschuh laufen",
+        description: "Beide Hände balancieren, gleitende Schritte seitlich (Rollschuh)",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Bowling",
         english: "Bowling",
-        description: "Bowling spielen",
+        description: "Rechte Hand hält Ball, schwingt nach vorne und rollt ihn (Bowling)",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Billard",
         english: "Billiards",
-        description: "Billard spielen",
+        description: "Linke Hand bildet Brücke, rechte Hand stößt Queue nach vorne (Billard)",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Schach",
         english: "Chess",
-        description: "Schach spielen",
+        description: "Rechte Hand nimmt Figur und setzt sie auf Brett (Schach)",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Kartenspiel",
         english: "Card Game",
-        description: "Karten spielen",
+        description: "Linke Hand hält Kartenfächer, rechte Hand legt Karte ab (Kartenspiel)",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Puzzle",
         english: "Puzzle",
-        description: "Puzzle lösen",
+        description: "Beide Hände nehmen Teil und setzen es ein (Puzzle)",
         difficulty: 6,
         category: "Freizeit"
       },
@@ -4146,14 +4135,14 @@ export const DGS_VOCABULARY = {
       {
         german: "Brettspiel",
         english: "Board Game",
-        description: "Brettspiel spielen",
+        description: "Rechte Hand bewegt Spielfigur auf Brett, linke Hand hält Karten/Würfel (Brettspiel)",
         difficulty: 6,
         category: "Freizeit"
       },
       {
         german: "Computerspiel",
         english: "Video Game",
-        description: "Computerspiel spielen",
+        description: "Beide Hände halten Controller/Tastatur, schnelle Daumen/Fingerbewegung (Computerspiel)",
         difficulty: 6,
         category: "Freizeit"
       }
@@ -4164,182 +4153,182 @@ export const DGS_VOCABULARY = {
       {
         german: "Computer",
         english: "Computer",
-        description: "Tastatur tippen",
+        description: "Beide Hände Tastatur, schnelles Tippen",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Internet",
         english: "Internet",
-        description: "Netz weben",
+        description: "Beide Hände Spinnennetz formen, verbinden",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Telefon",
         english: "Telephone",
-        description: "Telefonieren",
+        description: "Rechte Hand Y-Form, am Ohr telefonieren",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "E-Mail",
         english: "Email",
-        description: "Brief senden",
+        description: "Rechte Hand Umschlag, wegschicken",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Video",
         english: "Video",
-        description: "Film zeigen",
+        description: "Rechte Hand formt Filmrolle, dreht sich, dann Play-Geste nach vorne (Video)",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Programm",
         english: "Program",
-        description: "Codieren",
+        description: "Beide Hände tippen auf Tastatur, dann rechte Hand zeichnet Code-Zeilen in die Luft (Programm)",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "App",
         english: "App",
-        description: "Anwendung zeigen",
+        description: "Linke Hand hält Smartphone, rechter Zeigefinger tippt auf ein Symbol (App öffnen)",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Smartphone",
         english: "Smartphone",
-        description: "Handy zeigen",
+        description: "Rechte Hand Handy, swipen",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Tablet",
         english: "Tablet",
-        description: "Tablet bedienen",
+        description: "Rechte Hand Tablet, bedienen",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Laptop",
         english: "Laptop",
-        description: "Laptop öffnen",
+        description: "Beide Hände Laptop öffnen, arbeiten",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Drucker",
         english: "Printer",
-        description: "Drucken",
+        description: "Rechte Hand drucken, Drucker",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Scanner",
         english: "Scanner",
-        description: "Scannen",
+        description: "Rechte Hand scannen, Scanner",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Kamera",
         english: "Camera",
-        description: "Foto machen",
+        description: "Beide Hände halten Kamera vor Auge, Zeigefinger drückt Auslöser (Kamera)",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Mikrofon",
         english: "Microphone",
-        description: "Sprechen",
+        description: "Rechte Hand sprechen, Mikrofon",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Lautsprecher",
         english: "Speaker",
-        description: "Ton ausgeben",
+        description: "Rechte Hand Ton ausgeben, Lautsprecher",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Bildschirm",
         english: "Screen",
-        description: "Anzeigen",
+        description: "Rechte Hand Bildschirm, anzeigen",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Tastatur",
         english: "Keyboard",
-        description: "Tippen",
+        description: "Rechte Hand tippen, Tastatur",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Maus",
         english: "Mouse",
-        description: "Bewegen",
+        description: "Rechte Hand bewegen, Maus",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Software",
         english: "Software",
-        description: "Programme",
+        description: "Rechte Hand Programme, Software",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Hardware",
         english: "Hardware",
-        description: "Geräte",
+        description: "Rechte Hand Geräte, Hardware",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Datei",
         english: "File",
-        description: "Dokument",
+        description: "Rechte Hand Dokument, Datei",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Ordner",
         english: "Folder",
-        description: "Ordnen",
+        description: "Rechte Hand ordnen, Ordner",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Speichern",
         english: "Save",
-        description: "Aufbewahren",
+        description: "Rechte Hand speichern, aufbewahren",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Löschen",
         english: "Delete",
-        description: "Entfernen",
+        description: "Rechte Hand entfernen, löschen",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Kopieren",
         english: "Copy",
-        description: "Duplizieren",
+        description: "Rechte Hand kopieren, duplizieren",
         difficulty: 7,
         category: "Technologie"
       },
       {
         german: "Einfügen",
         english: "Paste",
-        description: "Einfügen",
+        description: "Rechte Hand einfügen, paste",
         difficulty: 7,
         category: "Technologie"
       }
@@ -4348,140 +4337,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Umwelt",
         english: "Environment",
-        description: "Erde schützen",
+        description: "Beide Hände Erde umarmen, schützen",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Klima",
         english: "Climate",
-        description: "Wetter zeigen",
+        description: "Beide Hände formen Wetter (Wolke/Sonne), dann rechte Hand zieht langen Zeitraum nach vorne (Klima)",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Energie",
         english: "Energy",
-        description: "Energie fließen",
+        description: "Rechte Hand Blitz, Energie fließen lassen",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Recycling",
         english: "Recycling",
-        description: "Wiederverwenden",
+        description: "Beide Hände führen Kreis-Pfeil-Bewegung (Wiederverwertung), dann etwas in Behälter legen (Recycling)",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Nachhaltig",
         english: "Sustainable",
-        description: "Langfristig denken",
+        description: "Rechte Hand an Stirn (planen), dann rechte Hand bewegt sich weit nach vorne (langfristig) (nachhaltig)",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Ökologie",
         english: "Ecology",
-        description: "Natur schützen",
+        description: "Rechte Hand Natur schützen, Ökologie",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Erderwärmung",
         english: "Global Warming",
-        description: "Erde erwärmen",
+        description: "Rechte Hand Erde erwärmen, Erderwärmung",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Verschmutzung",
         english: "Pollution",
-        description: "Verschmutzen",
+        description: "Rechte Hand verschmutzen, Verschmutzung",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Luftqualität",
         english: "Air Quality",
-        description: "Luft atmen",
+        description: "Rechte Hand luftige Bewegung, atmen",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Wasserqualität",
         english: "Water Quality",
-        description: "Wasser trinken",
+        description: "Rechte Hand Welle, Wasser trinken",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Boden",
         english: "Soil",
-        description: "Erde zeigen",
+        description: "Linke Hand flach als Fläche, rechte Hand streicht/klopft darauf (Boden/Erde)",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Dünger",
         english: "Fertilizer",
-        description: "Düngen",
+        description: "Rechte Hand düngen, Dünger",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Pestizid",
         english: "Pesticide",
-        description: "Sprühen",
+        description: "Rechte Hand sprühen, Pestizid",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Solarenergie",
         english: "Solar Energy",
-        description: "Sonne sammeln",
+        description: "Beide Hände Sonne sammeln, Energie",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Windenergie",
         english: "Wind Energy",
-        description: "Wind nutzen",
+        description: "Rechte Hand Windkraft, Turbinen drehen",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Wasserkraft",
         english: "Hydro Power",
-        description: "Wasser fließen",
+        description: "Beide Hände führen Wellenbewegung (Wasser), dann rechte Hand dreht wie Turbine (Wasserkraft)",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Atomkraft",
         english: "Nuclear Power",
-        description: "Atom spalten",
+        description: "Rechte Hand Atom spalten, Atomkraft",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Kohlekraft",
         english: "Coal Power",
-        description: "Kohle verbrennen",
+        description: "Rechte Hand Kohle verbrennen, Kohlekraft",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "Emission",
         english: "Emission",
-        description: "Ausstoßen",
+        description: "Rechte Hand an Mund/Nase, pustet nach vorne (Ausstoß), Finger spreizen (Emission)",
         difficulty: 7,
         category: "Umwelt"
       },
       {
         german: "CO2",
         english: "CO2",
-        description: "Kohlendioxid",
+        description: "Rechte Hand formt 'C' und 'O' (buchstabieren), dann rechte Hand zeigt '2' (CO2)",
         difficulty: 7,
         category: "Umwelt"
       }
@@ -4490,140 +4479,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Wissenschaft",
         english: "Science",
-        description: "Forschen",
+        description: "Rechte Hand an Stirn (denken), dann rechte Hand schreibt/notiert (Wissenschaft)",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Experiment",
         english: "Experiment",
-        description: "Testen",
+        description: "Beide Hände halten Reagenzglas, rechte Hand tropft hinein, beobachtender Blick (Experiment)",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Entdeckung",
         english: "Discovery",
-        description: "Entdecken",
+        description: "Rechte Hand entdecken, finden",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Theorie",
         english: "Theory",
-        description: "Denken",
+        description: "Rechte Hand an Stirn, dann beide Hände formen Konzept/Modell im Raum (Theorie)",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Analyse",
         english: "Analysis",
-        description: "Analysieren",
+        description: "Linke Hand flach (Daten), rechte Hand teilt/markiert Bereiche darauf (Analyse)",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Erfindung",
         english: "Invention",
-        description: "Erfinden",
+        description: "Rechte Hand an Stirn (Idee), dann beide Hände bauen/setzen etwas zusammen (Erfindung)",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Mathematik",
         english: "Mathematics",
-        description: "Rechnen",
+        description: "Beide Hände zählen/rechnen (Finger), dann Zeichen in die Luft schreiben (Mathematik)",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Physik",
         english: "Physics",
-        description: "Bewegung studieren",
+        description: "Rechte Hand Bewegung studieren, Physik",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Chemie",
         english: "Chemistry",
-        description: "Reagieren",
+        description: "Rechte Hand reagieren, Chemie",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Biologie",
         english: "Biology",
-        description: "Leben studieren",
+        description: "Rechte Hand formt Kreis (Mikroskop/Lupe) vor Auge, dann auf Pflanze/Tier deuten (Biologie)",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Astronomie",
         english: "Astronomy",
-        description: "Sterne beobachten",
+        description: "Rechte Hand Sterne beobachten, Astronomie",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Geologie",
         english: "Geology",
-        description: "Erde studieren",
+        description: "Rechte Hand Erde studieren, Geologie",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Meteorologie",
         english: "Meteorology",
-        description: "Wetter vorhersagen",
+        description: "Rechte Hand Wetter vorhersagen, Meteorologie",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Archäologie",
         english: "Archaeology",
-        description: "Ausgraben",
+        description: "Rechte Hand ausgraben, Archäologie",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Anthropologie",
         english: "Anthropology",
-        description: "Menschen studieren",
+        description: "Rechte Hand Menschen studieren, Anthropologie",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Soziologie",
         english: "Sociology",
-        description: "Gesellschaft studieren",
+        description: "Rechte Hand Gesellschaft studieren, Soziologie",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Psychologie",
         english: "Psychology",
-        description: "Geist erforschen",
+        description: "Rechte Hand an Stirn (Geist), dann rechte Hand hält Lupe vor Auge (erforschen) (Psychologie)",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Medizin",
         english: "Medicine",
-        description: "Heilen",
+        description: "Rechte Hand macht Kreuz auf linkem Oberarm/Brust, dann heilende Bewegung über Körper (Medizin)",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Pharmazie",
         english: "Pharmacy",
-        description: "Medikamente",
+        description: "Linke Hand flach (Tabletten), rechte Hand nimmt eine und legt sie in den Mund (Pharmazie)",
         difficulty: 7,
         category: "Wissenschaft"
       },
       {
         german: "Ingenieurwesen",
         english: "Engineering",
-        description: "Konstruieren",
+        description: "Beide Hände zeichnen Plan in die Luft, dann bauen/fügen Teile zusammen (Ingenieurwesen)",
         difficulty: 7,
         category: "Wissenschaft"
       }
@@ -4632,140 +4621,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Natur",
         english: "Nature",
-        description: "Natur zeigen",
+        description: "Beide Hände öffnen sich nach außen wie Landschaft, dann rechte Hand streicht über Raum (Natur)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Tier",
         english: "Animal",
-        description: "Tier zeigen",
+        description: "Beide Hände formen Pfoten-/Krallenbewegung vor dem Körper (Tier)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Pflanze",
         english: "Plant",
-        description: "Pflanze zeigen",
+        description: "Linke Hand bildet Erde (flach), rechte Hand wächst von unten nach oben mit Fingeröffnung (Pflanze)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Ökosystem",
         english: "Ecosystem",
-        description: "Zusammenwirken",
+        description: "Beide Hände markieren mehrere Elemente (Pflanze/Tier), dann greifen ineinander (Zusammenhang) (Ökosystem)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Evolution",
         english: "Evolution",
-        description: "Entwicklung zeigen",
+        description: "Rechte Hand macht Schritt-für-Schritt-Bewegung nach oben/vorne (Fortschritt) (Evolution)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Biologie",
         english: "Biology",
-        description: "Leben studieren",
+        description: "Rechte Hand formt Kreis (Mikroskop/Lupe) vor Auge, dann auf Pflanze/Tier deuten (Biologie)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Säugetier",
         english: "Mammal",
-        description: "Säugen",
+        description: "Rechte Hand säugen, Säugetier",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Vogel",
         english: "Bird",
-        description: "Fliegen",
+        description: "Rechte Hand fliegen, Vogel",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Fisch",
         english: "Fish",
-        description: "Schwimmen",
+        description: "Rechte Hand flach/geschlossen, wackelt seitlich (Schwanzflosse) (Fisch)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Reptil",
         english: "Reptile",
-        description: "Kriechen",
+        description: "Rechte Hand flach bewegt sich schlängelnd nach vorne nah am Boden (Reptil)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Insekt",
         english: "Insect",
-        description: "Kriechen",
+        description: "Rechte Hand Zeige/Mittel als Beine, krabbelt schnell auf linker Handfläche (Insekt)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Blume",
         english: "Flower",
-        description: "Blühen",
+        description: "Linke Hand bildet Stiel, rechte Hand geschlossen oben und öffnet als Blüte (Blume)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Baum",
         english: "Tree",
-        description: "Wachsen",
+        description: "Linker Unterarm senkrecht (Stamm), rechte Hand spreizt als Krone nach oben (Baum)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Gras",
         english: "Grass",
-        description: "Kurz zeigen",
+        description: "Rechte Hand Finger nach oben spreizen und wackeln knapp über Bodenlinie (Gras)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Blatt",
         english: "Leaf",
-        description: "Blatt formen",
+        description: "Rechte flache Hand formt Blatt, zieht kurze Mittelrippe mit Finger nach (Blatt)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Wurzel",
         english: "Root",
-        description: "Unterirdisch",
+        description: "Rechte Hand zeigt nach unten (unter Erde), Finger verzweigen sich (Wurzel)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Frucht",
         english: "Fruit",
-        description: "Frucht zeigen",
+        description: "Rechte Hand formt runde Frucht vor dem Körper, kurze Pflückbewegung (Frucht)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Samen",
         english: "Seed",
-        description: "Keimen",
+        description: "Rechte Hand pincht kleines Korn, legt es in linke Hand (Erde), dann öffnet nach oben (keimen) (Samen)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Pilz",
         english: "Mushroom",
-        description: "Pilz formen",
+        description: "Rechte Faust als Stiel, linke Hand als Hut darüber legen (Pilz)",
         difficulty: 7,
         category: "Natur"
       },
       {
         german: "Bakterie",
         english: "Bacteria",
-        description: "Klein und viele",
+        description: "Rechte Hand zeigt viele kleine Punkte im Raum, dann krabbelnde Mikro-Bewegung (Bakterie)",
         difficulty: 7,
         category: "Natur"
       }
@@ -4774,105 +4763,105 @@ export const DGS_VOCABULARY = {
       {
         german: "Innovation",
         english: "Innovation",
-        description: "Neues schaffen",
+        description: "Rechte Hand Neues schaffen, Innovation",
         difficulty: 7,
         category: "Innovation"
       },
       {
         german: "Erfindung",
         english: "Invention",
-        description: "Erfinden",
+        description: "Rechte Hand an Stirn (Idee), dann beide Hände bauen/setzen etwas zusammen (Erfindung)",
         difficulty: 7,
         category: "Innovation"
       },
       {
         german: "Technologie",
         english: "Technology",
-        description: "Fortschritt",
+        description: "Rechte Hand Fortschritt, Technologie",
         difficulty: 7,
         category: "Innovation"
       },
       {
         german: "Forschung",
         english: "Research",
-        description: "Forschen",
+        description: "Rechte Hand hält Lupe vor Auge, dann Notiz schreiben (Forschung)",
         difficulty: 7,
         category: "Innovation"
       },
       {
         german: "Entwicklung",
         english: "Development",
-        description: "Wachsen",
+        description: "Beide Hände übereinander, dann obere Hand steigt stufenweise nach oben (Entwicklung)",
         difficulty: 7,
         category: "Innovation"
       },
       {
         german: "Prototyp",
         english: "Prototype",
-        description: "Erstes Modell",
+        description: "Rechte Hand erstes Modell, Prototyp",
         difficulty: 7,
         category: "Innovation"
       },
       {
         german: "Patent",
         english: "Patent",
-        description: "Schützen",
+        description: "Rechte Hand schützen, Patent",
         difficulty: 7,
         category: "Innovation"
       },
       {
         german: "Roboter",
         english: "Robot",
-        description: "Automatisch",
+        description: "Beide Hände bewegen sich eckig/abgehackt wie Maschine (Roboter)",
         difficulty: 7,
         category: "Innovation"
       },
       {
         german: "KI",
         english: "AI",
-        description: "Intelligenz",
+        description: "Rechte Hand Intelligenz, KI",
         difficulty: 7,
         category: "Innovation"
       },
       {
         german: "Maschine",
         english: "Machine",
-        description: "Mechanisch",
+        description: "Rechte Hand mechanisch, Maschine",
         difficulty: 7,
         category: "Innovation"
       },
       {
         german: "Algorithmus",
         english: "Algorithm",
-        description: "Berechnen",
+        description: "Rechte Hand berechnen, Algorithmus",
         difficulty: 7,
         category: "Innovation"
       },
       {
         german: "Daten",
         english: "Data",
-        description: "Informationen",
+        description: "Rechte Hand Informationen, Daten",
         difficulty: 7,
         category: "Innovation"
       },
       {
         german: "Netzwerk",
         english: "Network",
-        description: "Verbinden",
+        description: "Beide Zeigefinger tippen mehrere Punkte an und verbinden sie mit Linien (Netzwerk)",
         difficulty: 7,
         category: "Innovation"
       },
       {
         german: "Digital",
         english: "Digital",
-        description: "Elektronisch",
+        description: "Rechte Hand elektronisch, Digital",
         difficulty: 7,
         category: "Innovation"
       },
       {
         german: "Virtuell",
         english: "Virtual",
-        description: "Nicht real",
+        description: "Rechte Hand nicht real, Virtuell",
         difficulty: 7,
         category: "Innovation"
       }
@@ -4883,105 +4872,105 @@ export const DGS_VOCABULARY = {
       {
         german: "Gesellschaft",
         english: "Society",
-        description: "Gruppe zeigen",
+        description: "Beide Hände markieren mehrere Personen im Halbkreis (Gruppe), dann Hände verbinden (Gesellschaft)",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Kultur",
         english: "Culture",
-        description: "Kultur zeigen",
+        description: "Beide Hände kreisen umeinander (Gemeinschaft/Tradition), dann nach außen öffnen (Kultur)",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Tradition",
         english: "Tradition",
-        description: "Überlieferung",
+        description: "Rechte Hand über Generationen, weitergeben",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Gemeinschaft",
         english: "Community",
-        description: "Zusammen",
+        description: "Rechte Hand zusammen, Gemeinschaft",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Integration",
         english: "Integration",
-        description: "Eingliedern",
+        description: "Rechte Hand zusammenführen, integrieren",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Vielfalt",
         english: "Diversity",
-        description: "Verschiedenheit",
+        description: "Beide Hände verschiedene Zeichen, Vielfalt",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Solidarität",
         english: "Solidarity",
-        description: "Zusammenhalten",
+        description: "Beide Hände zusammenhalten, Solidarität",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Gerechtigkeit",
         english: "Justice",
-        description: "Gerecht sein",
+        description: "Rechte Hand Waage, gerecht balancieren",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Gleichheit",
         english: "Equality",
-        description: "Gleich sein",
+        description: "Beide Hände gleich hoch, Gleichheit",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Freiheit",
         english: "Freedom",
-        description: "Frei sein",
+        description: "Rechte Hand frei, Freiheit",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Menschenrechte",
         english: "Human Rights",
-        description: "Rechte für alle",
+        description: "Rechte Hand Menschenrechte, Rechte für alle",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Diskriminierung",
         english: "Discrimination",
-        description: "Benachteiligen",
+        description: "Rechte Hand benachteiligen, Diskriminierung",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Vorurteil",
         english: "Prejudice",
-        description: "Voreingenommen",
+        description: "Rechte Hand voreingenommen, Vorurteil",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Rassismus",
         english: "Racism",
-        description: "Rassendiskriminierung",
+        description: "Rechte Hand Rassendiskriminierung, Rassismus",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Sexismus",
         english: "Sexism",
-        description: "Geschlechterdiskriminierung",
+        description: "Rechte Hand Geschlechterdiskriminierung, Sexismus",
         difficulty: 8,
         category: "Gesellschaft"
       },
@@ -4995,28 +4984,28 @@ export const DGS_VOCABULARY = {
       {
         german: "Ableismus",
         english: "Ableism",
-        description: "Behinderung diskriminieren",
+        description: "Rechte Hand Behinderung diskriminieren, Ableismus",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Inklusion",
         english: "Inclusion",
-        description: "Einbeziehung",
+        description: "Rechte Hand holt etwas/jemanden von außen in die Gruppe hinein (Inklusion)",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Barrierefreiheit",
         english: "Accessibility",
-        description: "Zugang für alle",
+        description: "Rechte Hand räumt Hindernis weg, dann beide Hände öffnen Weg nach vorne (barrierefrei)",
         difficulty: 8,
         category: "Gesellschaft"
       },
       {
         german: "Teilhabe",
         english: "Participation",
-        description: "Mitwirkung",
+        description: "Rechte Hand tippt auf Brust (ich), dann beide Hände arbeiten gemeinsam (mitmachen) (Teilhabe)",
         difficulty: 8,
         category: "Gesellschaft"
       }
@@ -5025,56 +5014,56 @@ export const DGS_VOCABULARY = {
       {
         german: "Politik",
         english: "Politics",
-        description: "Regieren",
+        description: "Rechte Hand regieren, Politik",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Regierung",
         english: "Government",
-        description: "Lenken",
+        description: "Rechte Hand lenken, Regierung",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Wahl",
         english: "Election",
-        description: "Wählen",
+        description: "Rechte Hand wählen, Wahl",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Demokratie",
         english: "Democracy",
-        description: "Volk regiert",
+        description: "Rechte Hand Volk regiert, Demokratie",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Recht",
         english: "Law",
-        description: "Gesetz",
+        description: "Rechte Hand Gesetz, Recht",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Freiheit",
         english: "Freedom",
-        description: "Frei sein",
+        description: "Beide Hände sind gebunden (Handgelenke), dann lösen und nach außen öffnen (Freiheit)",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Partei",
         english: "Party",
-        description: "Politische Gruppe",
+        description: "Rechte Hand politische Gruppe, Partei",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Abgeordneter",
         english: "Parliamentarian",
-        description: "Vertreter",
+        description: "Rechte Hand Vertreter, Abgeordneter",
         difficulty: 8,
         category: "Politik"
       },
@@ -5088,77 +5077,77 @@ export const DGS_VOCABULARY = {
       {
         german: "Kanzler",
         english: "Chancellor",
-        description: "Regierungschef",
+        description: "Rechte Hand Regierungschef, Kanzler",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Präsident",
         english: "President",
-        description: "Staatsoberhaupt",
+        description: "Rechte Hand salutiert an Stirn (Amt), dann nach oben/auf Person deuten (Präsident)",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Verfassung",
         english: "Constitution",
-        description: "Grundgesetz",
+        description: "Beide Hände öffnen ein Buch (Gesetz), dann rechte Hand legt es fest/klopft darauf (Verfassung)",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Grundgesetz",
         english: "Basic Law",
-        description: "Deutsche Verfassung",
+        description: "Beide Hände öffnen Buch (Gesetz), rechte Hand zeigt 'Grund' (unten) und klopft darauf (Grundgesetz)",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Wahlrecht",
         english: "Voting Rights",
-        description: "Recht zu wählen",
+        description: "Rechte Hand macht Kreuz auf Stimmzettel (Wahl), dann rechte Hand zeigt 'Recht' (fest) (Wahlrecht)",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Meinungsfreiheit",
         english: "Freedom of Speech",
-        description: "Frei sprechen",
+        description: "Rechte Hand vom Mund nach vorne (sprechen), dann beide Hände öffnen weit (frei) (Meinungsfreiheit)",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Pressefreiheit",
         english: "Press Freedom",
-        description: "Frei berichten",
+        description: "Beide Hände halten Zeitung (lesen), dann rechte Hand berichtet nach vorne, Hände öffnen (frei)",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Versammlungsfreiheit",
         english: "Freedom of Assembly",
-        description: "Versammeln",
+        description: "Beide Hände kommen als Gruppe zusammen (versammeln), dann Hände öffnen (frei) (Versammlungsfreiheit)",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Opposition",
         english: "Opposition",
-        description: "Gegenspieler",
+        description: "Beide Zeigefinger stehen gegeneinander, leichte Gegenbewegung (Opposition)",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Koalition",
         english: "Coalition",
-        description: "Zusammenarbeit",
+        description: "Beide Hände greifen ineinander/verbinden sich (Zusammenschluss), dann gemeinsam nach vorne (Koalition)",
         difficulty: 8,
         category: "Politik"
       },
       {
         german: "Referendum",
         english: "Referendum",
-        description: "Volksabstimmung",
+        description: "Beide Hände markieren Gruppe (Volk), dann rechte Hand macht Kreuz auf Zettel (Abstimmung) (Referendum)",
         difficulty: 8,
         category: "Politik"
       }
@@ -5167,140 +5156,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Geschichte",
         english: "History",
-        description: "Vergangenheit",
+        description: "Rechte Hand Vergangenheit, Geschichte",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Vergangenheit",
         english: "Past",
-        description: "Zurückblicken",
+        description: "Rechte Hand zurückblicken, Vergangenheit",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Zukunft",
         english: "Future",
-        description: "Vorausschauen",
+        description: "Rechte Hand vorausschauen, Zukunft",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Erinnerung",
         english: "Memory",
-        description: "Erinnern",
+        description: "Rechte Hand erinnern, Erinnerung",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Erbe",
         english: "Heritage",
-        description: "Vermächtnis",
+        description: "Rechte Hand Vermächtnis, Erbe",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Entwicklung",
         english: "Development",
-        description: "Wachsen",
+        description: "Beide Hände übereinander, dann obere Hand steigt stufenweise nach oben (Entwicklung)",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Revolution",
         english: "Revolution",
-        description: "Umsturz",
+        description: "Rechte Hand Umsturz, Revolution",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Krieg",
         english: "War",
-        description: "Kämpfen",
+        description: "Rechte Hand kämpfen, Krieg",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Frieden",
         english: "Peace",
-        description: "Friedlich",
+        description: "Beide Hände flach, gleiten ruhig nach außen (beruhigen), Gesicht entspannt (Frieden)",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Kolonialismus",
         english: "Colonialism",
-        description: "Kolonien erobern",
+        description: "Linke Hand zeigt Gebiet (Karte), rechte Hand greift/es packt und zieht zu sich (Kolonialismus)",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Industrialisierung",
         english: "Industrialization",
-        description: "Fabriken bauen",
+        description: "Beide Hände formen Fabrik (Dach), dann rechte Hand dreht wie Zahnrad (Industrialisierung)",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Migration",
         english: "Migration",
-        description: "Wandern",
+        description: "Rechte Hand '2'-Handform (Beine) bewegt sich von einem Ort zum anderen (Migration)",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Globalisierung",
         english: "Globalization",
-        description: "Welt vernetzen",
+        description: "Beide Hände formen Kugel (Welt), dann mehrere Punkte verbinden (Globalisierung)",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Digitalisierung",
         english: "Digitalization",
-        description: "Digital werden",
+        description: "Beide Hände tippen auf Tastatur, dann rechte Hand zeigt Pixel/Punkte (digital) (Digitalisierung)",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Nachhaltigkeit",
         english: "Sustainability",
-        description: "Langfristig denken",
+        description: "Rechte Hand an Stirn (planen), dann rechte Hand bewegt sich weit nach vorne (langfristig) (Nachhaltigkeit)",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Klimawandel",
         english: "Climate Change",
-        description: "Klima verändern",
+        description: "Beide Hände formen Wetter (Wolke), dann drehen/wechseln in Sonne (Veränderung) (Klimawandel)",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Nachkriegszeit",
         english: "Post-war Period",
-        description: "Nach dem Krieg",
+        description: "Rechte Hand zeigt Krieg (Kampf), dann beide Hände wischen/beruhigen (danach) (Nachkriegszeit)",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "Wiedervereinigung",
         english: "Reunification",
-        description: "Zusammenkommen",
+        description: "Beide Hände getrennt, dann zusammenführen und fest verbinden (Wiedervereinigung)",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "EU",
         english: "EU",
-        description: "Europäische Union",
+        description: "Linke Hand flach als Karte (Europa), rechte Hand umkreist und verbindet (Union) (EU)",
         difficulty: 8,
         category: "Geschichte"
       },
       {
         german: "UNO",
         english: "UN",
-        description: "Vereinte Nationen",
+        description: "Beide Hände markieren viele Länder (Punkte), dann Hände führen zusammen (vereint) (UNO)",
         difficulty: 8,
         category: "Geschichte"
       }
@@ -5309,140 +5298,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Bildung",
         english: "Education",
-        description: "Lernen",
+        description: "Rechte Hand lernen, Bildung",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Wissen",
         english: "Knowledge",
-        description: "Wissen haben",
+        description: "Rechte Hand tippt an Stirn (Wissen), dann Handfläche kurz öffnen (Wissen)",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Lernen",
         english: "Learning",
-        description: "Lernprozess",
+        description: "Rechte Hand nimmt Wissen von außen an Stirn (aufnehmen), dann kurze Wiederholung (lernen)",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Universität",
         english: "University",
-        description: "Hochschule",
+        description: "Rechte Hand Hochschule, Universität",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Qualifikation",
         english: "Qualification",
-        description: "Befähigung",
+        description: "Rechte Hand befähigen, Qualifikation",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Kompetenz",
         english: "Competence",
-        description: "Fähigkeit",
+        description: "Rechte Hand Fähigkeit, Kompetenz",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Lehrplan",
         english: "Curriculum",
-        description: "Lehrstoff",
+        description: "Rechte Hand Lehrstoff, Lehrplan",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Unterricht",
         english: "Teaching",
-        description: "Unterrichten",
+        description: "Rechte Hand unterrichten, Unterricht",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Prüfung",
         english: "Examination",
-        description: "Testen",
+        description: "Rechte Hand schreibt auf Blatt, dann Haken/Kontrollblick (Prüfung)",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Note",
         english: "Grade",
-        description: "Bewerten",
+        description: "Rechte Hand bewerten, Note",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Diplom",
         english: "Diploma",
-        description: "Abschluss",
+        description: "Rechte Hand Abschluss, Diplom",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Promotion",
         english: "Doctorate",
-        description: "Doktor",
+        description: "Rechte Hand Doktor, Promotion",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Forschung",
         english: "Research",
-        description: "Forschen",
+        description: "Rechte Hand hält Lupe vor Auge, dann Notiz schreiben (Forschung)",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Wissenschaftler",
         english: "Scientist",
-        description: "Wissenschaft betreiben",
+        description: "Rechte Hand Wissenschaft betreiben, Wissenschaftler",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Akademiker",
         english: "Academic",
-        description: "Hochschulabschluss",
+        description: "Rechte Hand Hochschulabschluss, Akademiker",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Weiterbildung",
         english: "Continuing Education",
-        description: "Weiter lernen",
+        description: "Rechte Hand weiter lernen, Weiterbildung",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Berufsausbildung",
         english: "Vocational Training",
-        description: "Beruf lernen",
+        description: "Rechte Hand Beruf lernen, Berufsausbildung",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Sprachkurs",
         english: "Language Course",
-        description: "Sprache lernen",
+        description: "Linke Hand flach (Kurs/Heft), rechte Hand schreibt, dann rechte Hand an Mund (Sprache) (Sprachkurs)",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Online-Lernen",
         english: "Online Learning",
-        description: "Digital lernen",
+        description: "Beide Hände tippen (Computer), dann rechte Hand nimmt Wissen an Stirn (lernen) (online)",
         difficulty: 8,
         category: "Bildung"
       },
       {
         german: "Lebenslanges Lernen",
         english: "Lifelong Learning",
-        description: "Immer lernen",
+        description: "Rechte Hand nimmt Wissen an Stirn (lernen), dann rechte Hand zeigt langen Weg nach vorne (lebenslang)",
         difficulty: 8,
         category: "Bildung"
       }
@@ -5451,140 +5440,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Wirtschaft",
         english: "Economy",
-        description: "Wirtschaften",
+        description: "Rechte Hand wirtschaften, Wirtschaft",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Arbeitsmarkt",
         english: "Labor Market",
-        description: "Arbeit finden",
+        description: "Rechte Hand Arbeit finden, Arbeitsmarkt",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Arbeitslosigkeit",
         english: "Unemployment",
-        description: "Keine Arbeit",
+        description: "Rechte Hand keine Arbeit, Arbeitslosigkeit",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Gehalt",
         english: "Salary",
-        description: "Bezahlung",
+        description: "Rechte Hand bezahlen, Gehalt",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Mindestlohn",
         english: "Minimum Wage",
-        description: "Mindesteinkommen",
+        description: "Rechte Hand Mindesteinkommen, Mindestlohn",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Sozialversicherung",
         english: "Social Security",
-        description: "Sozial absichern",
+        description: "Rechte Hand sozial absichern, Sozialversicherung",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Rente",
         english: "Pension",
-        description: "Ruhestand",
+        description: "Rechte Hand Ruhestand, Rente",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Steuer",
         english: "Tax",
-        description: "Abgaben",
+        description: "Rechte Hand Abgaben, Steuer",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Inflation",
         english: "Inflation",
-        description: "Preise steigen",
+        description: "Linke Hand zeigt Geld/Preisschild, rechte Hand bewegt sich stufenweise nach oben (Inflation)",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Rezession",
         english: "Recession",
-        description: "Wirtschaftskrise",
+        description: "Rechte Hand zeigt Diagramm, dann Linie deutlich nach unten ziehen (Rezession)",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Konjunktur",
         english: "Economic Cycle",
-        description: "Wirtschaftszyklus",
+        description: "Rechte Hand zeichnet Wellenlinie hoch-runter (Konjunkturverlauf) (Konjunktur)",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Export",
         english: "Export",
-        description: "Ausführen",
+        description: "Rechte Hand nimmt 'Ware' von links und bewegt sie deutlich nach außen (Export)",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Import",
         english: "Import",
-        description: "Einführen",
+        description: "Rechte Hand bringt 'Ware' von außen nach innen in den linken Bereich (Import)",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Handelsbilanz",
         english: "Balance of Trade",
-        description: "Handelsbilanz",
+        description: "Beide Hände wie Waage (Balance), dann eine Hand 'Export' nach außen, andere 'Import' nach innen (Handelsbilanz)",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Unternehmen",
         english: "Company",
-        description: "Firma",
+        description: "Beide Hände formen Gebäude/Logo, dann rechte Hand zeigt Gruppe/Team (Unternehmen)",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Startup",
         english: "Startup",
-        description: "Neue Firma",
+        description: "Beide Hände formen kleines Unternehmen, dann rechte Hand schnell nach oben (starten/wachsen) (Startup)",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Investition",
         english: "Investment",
-        description: "Investieren",
+        description: "Rechte Hand gibt Geld in linke Hand (Kapital), dann rechte Hand zeigt Wachstum nach oben (Investition)",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Kapital",
         english: "Capital",
-        description: "Geld für Investition",
+        description: "Beide Hände reiben Daumen an Zeige/Mittel (Geld), dann in der linken Hand sammeln (Kapital)",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Aktie",
         english: "Stock",
-        description: "Unternehmensanteil",
+        description: "Linke Hand zeigt Unternehmen (Gebäude), rechte Hand trennt kleinen Teil ab und hält ihn (Aktie)",
         difficulty: 8,
         category: "Wirtschaft"
       },
       {
         german: "Börse",
         english: "Stock Exchange",
-        description: "Wertpapierhandel",
+        description: "Beide Hände tauschen Papiere/Geld hin und her, schneller Handel (Börse)",
         difficulty: 8,
         category: "Wirtschaft"
       }
@@ -5595,140 +5584,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Philosophie",
         english: "Philosophy",
-        description: "Denken über Sein",
+        description: "Rechte Hand an Kinn (nachdenken), Blick nach oben, kurze Pause (Philosophie)",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Ethik",
         english: "Ethics",
-        description: "Moral überlegen",
+        description: "Rechte Hand moralisch abwägen, Ethik",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Logik",
         english: "Logic",
-        description: "Logisch denken",
+        description: "Rechte Hand logisch denken, Verstand",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Bewusstsein",
         english: "Consciousness",
-        description: "Bewusst sein",
+        description: "Rechte Hand an Stirn (wach/denken), dann auf beide Augen deuten (bewusst) (Bewusstsein)",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Existenz",
         english: "Existence",
-        description: "Existieren",
+        description: "Rechte Hand auf Brust (sein/da), dann Hand bleibt fest (Existenz)",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Wahrheit",
         english: "Truth",
-        description: "Wahr sein",
+        description: "Rechte Hand flach vor Mund (ehrlich), dann gerade nach vorne (Wahrheit)",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Wirklichkeit",
         english: "Reality",
-        description: "Tatsächlich sein",
+        description: "Rechte Hand tatsächlich sein, Wirklichkeit",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Illusion",
         english: "Illusion",
-        description: "Täuschung",
+        description: "Rechte Hand Täuschung, Illusion",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Dualismus",
         english: "Dualism",
-        description: "Zweiheit",
+        description: "Rechte Hand Zweiheit, Dualismus",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Monismus",
         english: "Monism",
-        description: "Einheit",
+        description: "Rechte Hand Einheit, Monismus",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Determinismus",
         english: "Determinism",
-        description: "Bestimmt sein",
+        description: "Rechte Hand bestimmt sein, Determinismus",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Freier Wille",
         english: "Free Will",
-        description: "Frei entscheiden",
+        description: "Rechte Hand frei entscheiden, Freier Wille",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Kausalität",
         english: "Causality",
-        description: "Ursache und Wirkung",
+        description: "Rechte Hand Ursache Wirkung, Kausalität",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Kontingenz",
         english: "Contingency",
-        description: "Zufällig",
+        description: "Rechte Hand zufällig, Kontingenz",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Notwendigkeit",
         english: "Necessity",
-        description: "Unvermeidlich",
+        description: "Rechte Hand unvermeidlich, Notwendigkeit",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Transzendenz",
         english: "Transcendence",
-        description: "Jenseits",
+        description: "Rechte Hand Jenseits, Transzendenz",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Immanenz",
         english: "Immanence",
-        description: "Innerweltlich",
+        description: "Beide Hände formen Welt/Umfeld vor dem Körper, dann nach innen auf den Raum deuten (immanent)",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Absolut",
         english: "Absolute",
-        description: "Vollkommen",
+        description: "Rechte Hand vollkommen, Absolut",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Relativ",
         english: "Relative",
-        description: "Bezogen auf",
+        description: "Rechte Hand bezogen auf, Relativ",
         difficulty: 9,
         category: "Philosophie"
       },
       {
         german: "Paradox",
         english: "Paradox",
-        description: "Widersprüchlich",
+        description: "Rechte Hand widersprüchlich, Paradox",
         difficulty: 9,
         category: "Philosophie"
       }
@@ -5737,119 +5726,119 @@ export const DGS_VOCABULARY = {
       {
         german: "Abstrakt",
         english: "Abstract",
-        description: "Nicht konkret",
+        description: "Rechte Hand abstrakt, nicht greifbar",
         difficulty: 9,
         category: "Abstrakt"
       },
       {
         german: "Konzept",
         english: "Concept",
-        description: "Idee",
+        description: "Rechte Hand Idee, Konzept bilden",
         difficulty: 9,
         category: "Abstrakt"
       },
       {
         german: "Metapher",
         english: "Metaphor",
-        description: "Übertragung",
+        description: "Linke Hand flach (Bedeutung 1), rechte Hand nimmt sie und legt sie auf anderen Bereich (Übertragung) (Metapher)",
         difficulty: 9,
         category: "Abstrakt"
       },
       {
         german: "Paradox",
         english: "Paradox",
-        description: "Widerspruch",
+        description: "Beide Zeigefinger kreuzen sich (widersprechen), Gesicht fragend (Paradox)",
         difficulty: 9,
         category: "Abstrakt"
       },
       {
         german: "Ironie",
         english: "Irony",
-        description: "Gegenteil meinen",
+        description: "Rechte Hand zeigt Aussage nach vorne, dann Kopf schütteln + Mundwinkel schief (anders meinen) (Ironie)",
         difficulty: 9,
         category: "Abstrakt"
       },
       {
         german: "Symbol",
         english: "Symbol",
-        description: "Sinnbild",
+        description: "Rechte Hand zeichnet kleines Zeichen in die Luft, dann auf Bedeutung/Herz deuten (Symbol)",
         difficulty: 9,
         category: "Abstrakt"
       },
       {
         german: "Allegorie",
         english: "Allegory",
-        description: "Sinnbildliche Erzählung",
+        description: "Rechte Hand Sinnbildlich, Allegorie",
         difficulty: 9,
         category: "Abstrakt"
       },
       {
         german: "Analogie",
         english: "Analogy",
-        description: "Vergleich",
+        description: "Rechte Hand vergleichen, Analogie",
         difficulty: 9,
         category: "Abstrakt"
       },
       {
         german: "Homologie",
         english: "Homology",
-        description: "Entsprechung",
+        description: "Rechte Hand Entsprechung, Homologie",
         difficulty: 9,
         category: "Abstrakt"
       },
       {
         german: "Isomorphie",
         english: "Isomorphism",
-        description: "Gleiche Struktur",
+        description: "Rechte Hand gleiche Struktur, Isomorphie",
         difficulty: 9,
         category: "Abstrakt"
       },
       {
         german: "Epistemologie",
         english: "Epistemology",
-        description: "Erkenntnistheorie",
+        description: "Rechte Hand an Stirn (Erkenntnis), dann beide Hände formen Rahmen/Regel (Theorie) (Epistemologie)",
         difficulty: 9,
         category: "Abstrakt"
       },
       {
         german: "Ontologie",
         english: "Ontology",
-        description: "Seinslehre",
+        description: "Rechte Hand zeigt auf sich (sein), dann beide Hände formen Grundlagen/Struktur (Ontologie)",
         difficulty: 9,
         category: "Abstrakt"
       },
       {
         german: "Hermeneutik",
         english: "Hermeneutics",
-        description: "Auslegungskunst",
+        description: "Linke Hand hält Text (Buch), rechte Hand deutet/übersetzt Bedeutung heraus (Hermeneutik)",
         difficulty: 9,
         category: "Abstrakt"
       },
       {
         german: "Phänomenologie",
         english: "Phenomenology",
-        description: "Erscheinungslehre",
+        description: "Rechte Hand zeigt 'erscheinen' (aufblitzen), dann rechte Hand an Stirn (beschreiben) (Phänomenologie)",
         difficulty: 9,
         category: "Abstrakt"
       },
       {
         german: "Deconstruction",
         english: "Deconstruction",
-        description: "Dekonstruktion",
+        description: "Beide Hände bauen Struktur (Form), dann auseinandernehmen in Teile (Deconstruction)",
         difficulty: 9,
         category: "Abstrakt"
       },
       {
         german: "Postmoderne",
         english: "Postmodernism",
-        description: "Nachmoderne",
+        description: "Rechte Hand zeigt Zeitlinie nach hinten (modern), dann weiter nach hinten/neu (post) (Postmoderne)",
         difficulty: 9,
         category: "Abstrakt"
       },
       {
         german: "Strukturalismus",
         english: "Structuralism",
-        description: "Strukturanalyse",
+        description: "Beide Hände formen Gitter/Struktur, dann rechte Hand zeigt Analyse/Teilen (Strukturalismus)",
         difficulty: 9,
         category: "Abstrakt"
       },
@@ -5870,7 +5859,7 @@ export const DGS_VOCABULARY = {
       {
         german: "Diskurs",
         english: "Discourse",
-        description: "Gesprächsweise",
+        description: "Beide Hände wechseln hin und her (Austausch), dann kreisende Gesprächsbewegung (Diskurs)",
         difficulty: 9,
         category: "Abstrakt"
       }
@@ -5879,140 +5868,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Psychologie",
         english: "Psychology",
-        description: "Geist erforschen",
+        description: "Rechte Hand an Stirn (Geist), dann rechte Hand hält Lupe vor Auge (erforschen) (Psychologie)",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Persönlichkeit",
         english: "Personality",
-        description: "Charakter",
+        description: "Rechte Hand Charakter, Persönlichkeit",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Motivation",
         english: "Motivation",
-        description: "Antreiben",
+        description: "Rechte Hand antreiben, Motivation",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Intelligenz",
         english: "Intelligence",
-        description: "Klugheit",
+        description: "Rechte Hand Klugheit, Intelligenz",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Kreativität",
         english: "Creativity",
-        description: "Schöpferisch",
+        description: "Rechte Hand schöpferisch, Kreativität",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Intuition",
         english: "Intuition",
-        description: "Instinkt",
+        description: "Rechte Hand Instinkt, Intuition",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Kognition",
         english: "Cognition",
-        description: "Denken",
+        description: "Rechte Hand an Stirn, kleine kreisende Bewegung (Denken) (Kognition)",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Emotion",
         english: "Emotion",
-        description: "Gefühl",
+        description: "Rechte Hand Gefühl, Emotion",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Gedächtnis",
         english: "Memory",
-        description: "Merken",
+        description: "Rechte Hand merken, Gedächtnis",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Lernen",
         english: "Learning",
-        description: "Lernprozess",
+        description: "Rechte Hand nimmt Wissen von außen an Stirn (aufnehmen), dann kurze Wiederholung (lernen)",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Verhalten",
         english: "Behavior",
-        description: "Verhalten zeigen",
+        description: "Rechte Hand spielt eine Handlung kurz nach (nachmachen), dann auf Person/Gruppe beziehen (Verhalten)",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Instinkt",
         english: "Instinct",
-        description: "Angeboren",
+        description: "Rechte Hand angeboren, Instinkt",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Reflex",
         english: "Reflex",
-        description: "Automatisch",
+        description: "Rechte Hand tippt kurz auf Arm (Reiz), dann sofortige Zuckbewegung (Reflex)",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Bewusst",
         english: "Conscious",
-        description: "Bewusst sein",
+        description: "Rechte Hand an Stirn (wach), dann auf Augen deuten (bewusst)",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Unbewusst",
         english: "Unconscious",
-        description: "Unbewusst",
+        description: "Rechte Hand an Stirn (Bewusst), dann Hand weg/abdecken (nicht) (unbewusst)",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Trauma",
         english: "Trauma",
-        description: "Verletzung",
+        description: "Rechte Hand trifft Brust (Schock), dann rechte Hand an Stirn kreist (belastet) (Trauma)",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Neurose",
         english: "Neurosis",
-        description: "Nervosität",
+        description: "Rechte Hand Nervosität, Neurose",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Psychose",
         english: "Psychosis",
-        description: "Wahrnehmungsstörung",
+        description: "Rechte Hand Wahrnehmungsstörung, Psychose",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Therapie",
         english: "Therapy",
-        description: "Behandlung",
+        description: "Rechte Hand Behandlung, Therapie",
         difficulty: 9,
         category: "Psychologie"
       },
       {
         german: "Analyse",
         english: "Analysis",
-        description: "Zerlegen",
+        description: "Rechte Hand zerlegen, Analyse",
         difficulty: 9,
         category: "Psychologie"
       }
@@ -6021,140 +6010,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Literatur",
         english: "Literature",
-        description: "Schriftkunst",
+        description: "Rechte Hand Schriftkunst, Literatur",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Roman",
         english: "Novel",
-        description: "Erzählung",
+        description: "Rechte Hand Erzählung, Roman",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Poesie",
         english: "Poetry",
-        description: "Gedicht",
+        description: "Rechte Hand Gedicht, Poesie",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Drama",
         english: "Drama",
-        description: "Schauspiel",
+        description: "Rechte Hand Schauspiel, Drama",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Metaphorik",
         english: "Metaphorical",
-        description: "Bildersprache",
+        description: "Rechte Hand Bildersprache, Metaphorik",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Erzählung",
         english: "Narration",
-        description: "Geschichte",
+        description: "Rechte Hand Geschichte, Erzählung",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Prosa",
         english: "Prose",
-        description: "Erzählende Literatur",
+        description: "Rechte Hand erzählend, Prosa",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Vers",
         english: "Verse",
-        description: "Gedichtzeile",
+        description: "Rechte Hand Gedichtzeile, Vers",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Strophe",
         english: "Stanza",
-        description: "Gedichtabschnitt",
+        description: "Rechte Hand Gedichtabschnitt, Strophe",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Reim",
         english: "Rhyme",
-        description: "Gleichklang",
+        description: "Rechte Hand Gleichklang, Reim",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Rhythmus",
         english: "Rhythm",
-        description: "Takt",
+        description: "Rechte Hand Takt, Rhythmus",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Metrum",
         english: "Meter",
-        description: "Versmaß",
+        description: "Rechte Hand Versmaß, Metrum",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Allegorie",
         english: "Allegory",
-        description: "Sinnbild",
+        description: "Rechte Hand zeichnet Bild/Symbol, dann rechte Hand deutet dahinterliegende Bedeutung an (Allegorie)",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Symbolik",
         english: "Symbolism",
-        description: "Symbolhaft",
+        description: "Rechte Hand Symbolhaft, Symbolik",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Intertextualität",
         english: "Intertextuality",
-        description: "Textverweise",
+        description: "Rechte Hand Textverweise, Intertextualität",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Narrativ",
         english: "Narrative",
-        description: "Erzählend",
+        description: "Rechte Hand erzählend, Narrativ",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Figur",
         english: "Character",
-        description: "Person in Geschichte",
+        description: "Rechte Hand Person Geschichte, Figur",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Plot",
         english: "Plot",
-        description: "Handlung",
+        description: "Rechte Hand Handlung, Plot",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Konflikt",
         english: "Conflict",
-        description: "Gegensatz",
+        description: "Rechte Hand Gegensatz, Konflikt",
         difficulty: 9,
         category: "Literatur"
       },
       {
         german: "Auflösung",
         english: "Resolution",
-        description: "Lösung",
+        description: "Rechte Hand Lösung, Auflösung",
         difficulty: 9,
         category: "Literatur"
       }
@@ -6163,140 +6152,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Spiritualität",
         english: "Spirituality",
-        description: "Geistigkeit",
+        description: "Rechte Hand Geistigkeit, Spiritualität",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Transzendenz",
         english: "Transcendence",
-        description: "Übersinnlich",
+        description: "Rechte Hand übersinnlich, Transzendenz",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Immanenz",
         english: "Immanence",
-        description: "Innerweltlich",
+        description: "Beide Hände formen Welt/Umfeld vor dem Körper, dann nach innen auf den Raum deuten (immanent)",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Mystik",
         english: "Mysticism",
-        description: "Geheimnisvoll",
+        description: "Rechte Hand geheimnisvoll, Mystik",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Esoterik",
         english: "Esotericism",
-        description: "Geheimlehre",
+        description: "Rechte Hand Geheimlehre, Esoterik",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Meditation",
         english: "Meditation",
-        description: "Versenkung",
+        description: "Rechte Hand Versenkung, Meditation",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Kontemplation",
         english: "Contemplation",
-        description: "Betrachtung",
+        description: "Rechte Hand betrachten, Kontemplation",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Erleuchtung",
         english: "Enlightenment",
-        description: "Erhellung",
+        description: "Rechte Hand erhellen, Erleuchtung",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Erwachen",
         english: "Awakening",
-        description: "Aufwachen",
+        description: "Beide Hände öffnen sich vor den Augen (auf), Blick wird wach (Erwachen)",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Bewusstseinserweiterung",
         english: "Expanded Consciousness",
-        description: "Bewusstsein erweitern",
+        description: "Rechte Hand erweitern, Bewusstseinserweiterung",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Seelenreise",
         english: "Soul Journey",
-        description: "Seelenwanderung",
+        description: "Rechte Hand Seelenwanderung, Seelenreise",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Chakra",
         english: "Chakra",
-        description: "Energiepunkt",
+        description: "Rechte Hand Energiepunkt, Chakra",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Aura",
         english: "Aura",
-        description: "Energiefeld",
+        description: "Rechte Hand Energiefeld, Aura",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Karma",
         english: "Karma",
-        description: "Schicksal",
+        description: "Rechte Hand Schicksal, Karma",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Reinkarnation",
         english: "Reincarnation",
-        description: "Wiedergeburt",
+        description: "Rechte Hand Wiedergeburt, Reinkarnation",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Nirvana",
         english: "Nirvana",
-        description: "Erlösung",
+        description: "Rechte Hand Erlösung, Nirvana",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Satori",
         english: "Satori",
-        description: "Erleuchtungsmoment",
+        description: "Rechte Hand Erleuchtungsmoment, Satori",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Zen",
         english: "Zen",
-        description: "Achtsamkeit",
+        description: "Rechte Hand Achtsamkeit, Zen",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Yoga",
         english: "Yoga",
-        description: "Vereinigung",
+        description: "Rechte Hand Vereinigung, Yoga",
         difficulty: 9,
         category: "Spiritualität"
       },
       {
         german: "Mantra",
         english: "Mantra",
-        description: "Heiliger Spruch",
+        description: "Rechte Hand Heiliger Spruch, Mantra",
         difficulty: 9,
         category: "Spiritualität"
       }
@@ -6307,56 +6296,56 @@ export const DGS_VOCABULARY = {
       {
         german: "Dolmetschen",
         english: "Interpreting",
-        description: "Übersetzen in Echtzeit",
+        description: "Beide Hände wechseln, Dolmetschen in Echtzeit",
         difficulty: 10,
         category: "Dolmetschen"
       },
       {
         german: "Gebärdensprache",
         english: "Sign Language",
-        description: "DGS zeigen",
+        description: "Beide Hände gebärden im Raum vor dem Körper, Blickkontakt halten (Gebärdensprache)",
         difficulty: 10,
         category: "Dolmetschen"
       },
       {
         german: "Kommunikation",
         english: "Communication",
-        description: "Austausch",
+        description: "Beide Hände wechseln abwechselnd nach vorne (Austausch), Blick zwischen Personen (Kommunikation)",
         difficulty: 10,
         category: "Dolmetschen"
       },
       {
         german: "Barrierefreiheit",
         english: "Accessibility",
-        description: "Zugang für alle",
+        description: "Rechte Hand räumt Hindernis weg, dann beide Hände öffnen Weg nach vorne (barrierefrei)",
         difficulty: 10,
         category: "Dolmetschen"
       },
       {
         german: "Inklusion",
         english: "Inclusion",
-        description: "Einbeziehung",
+        description: "Rechte Hand holt etwas/jemanden von außen in die Gruppe hinein (Inklusion)",
         difficulty: 10,
         category: "Dolmetschen"
       },
       {
         german: "Teilhabe",
         english: "Participation",
-        description: "Mitwirkung",
+        description: "Rechte Hand tippt auf Brust (ich), dann beide Hände arbeiten gemeinsam (mitmachen) (Teilhabe)",
         difficulty: 10,
         category: "Dolmetschen"
       },
       {
         german: "Simultan",
         english: "Simultaneous",
-        description: "Gleichzeitig",
+        description: "Rechte Hand schnell, Simultandolmetschen",
         difficulty: 10,
         category: "Dolmetschen"
       },
       {
         german: "Konsekutiv",
         english: "Consecutive",
-        description: "Nacheinander",
+        description: "Rechte Hand nacheinander, Konsekutivdolmetschen",
         difficulty: 10,
         category: "Dolmetschen"
       },
@@ -6370,21 +6359,21 @@ export const DGS_VOCABULARY = {
       {
         german: "Ausdruckskraft",
         english: "Expressiveness",
-        description: "Ausdrucksstärke",
+        description: "Rechte Hand Ausdrucksstärke, Ausdruckskraft",
         difficulty: 10,
         category: "Dolmetschen"
       },
       {
         german: "Kulturelle Nuancen",
         english: "Cultural Nuances",
-        description: "Kulturelle Feinheiten",
+        description: "Rechte Hand kult. Feinheiten, Kulturelle Nuancen",
         difficulty: 10,
         category: "Dolmetschen"
       },
       {
         german: "Kontextverständnis",
         english: "Context Understanding",
-        description: "Kontext verstehen",
+        description: "Beide Hände rahmen Situation (Kontext), dann rechte Hand an Stirn (verstehen) (Kontextverständnis)",
         difficulty: 10,
         category: "Dolmetschen"
       },
@@ -6398,7 +6387,7 @@ export const DGS_VOCABULARY = {
       {
         german: "Fachterminologie",
         english: "Technical Terminology",
-        description: "Fachbegriffe",
+        description: "Linke Hand flach (Wortliste), rechte Hand markiert spezielle Wörter (Fachterminologie)",
         difficulty: 10,
         category: "Dolmetschen"
       },
@@ -6440,7 +6429,7 @@ export const DGS_VOCABULARY = {
       {
         german: "Körperliche Präsenz",
         english: "Physical Presence",
-        description: "Körperliche Ausstrahlung",
+        description: "Rechte Hand Körper Ausstrahlung, Körperliche Präsenz",
         difficulty: 10,
         category: "Dolmetschen"
       }
@@ -6449,140 +6438,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Rhetorik",
         english: "Rhetoric",
-        description: "Redegewandtheit",
+        description: "Rechte Hand spricht nach vorne (Mund->Raum), dann Hand bewegt sich überzeugend/führend (Rhetorik)",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Diskurs",
         english: "Discourse",
-        description: "Gespräch",
+        description: "Beide Hände wechseln hin und her (Austausch), dann kreisende Gesprächsbewegung (Diskurs)",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Argumentation",
         english: "Argumentation",
-        description: "Beweisführung",
+        description: "Beide Hände Beweis führen, Argumentation",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Persuasion",
         english: "Persuasion",
-        description: "Überzeugung",
+        description: "Rechte Hand überzeugen, Persuasion",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Empathie",
         english: "Empathy",
-        description: "Einfühlung",
+        description: "Rechte Hand Herz, Einfühlung Empathie",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Kongruenz",
         english: "Congruence",
-        description: "Übereinstimmung",
+        description: "Beide Hände übereinstimmen, Kongruenz",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Authentizität",
         english: "Authenticity",
-        description: "Echtheit",
+        description: "Rechte Hand klopft auf Brust (echt/ich), dann Hand öffnet nach vorne (authentisch) (Authentizität)",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Integrität",
         english: "Integrity",
-        description: "Unversehrtheit",
+        description: "Rechte Hand Unversehrtheit, Integrität",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Weisheit",
         english: "Wisdom",
-        description: "Weisheit",
+        description: "Rechte Hand an Stirn (wissen), dann langsam nach unten auf Herz (Erfahrung) (Weisheit)",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Intuition",
         english: "Intuition",
-        description: "Eingebung",
+        description: "Rechte Hand an Bauch/Brust (Gefühl), dann kurzer 'Aha'-Impuls an Stirn (Intuition)",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Kreativität",
         english: "Creativity",
-        description: "Schöpferkraft",
+        description: "Rechte Hand an Stirn (Idee), dann beide Hände erschaffen/formen etwas im Raum (Kreativität)",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Innovation",
         english: "Innovation",
-        description: "Neuerung",
+        description: "Rechte Hand macht 'neu' (vorne öffnen), dann beide Hände bauen etwas Neues (Innovation)",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Transformation",
         english: "Transformation",
-        description: "Veränderung",
+        description: "Beide Hände formen etwas, dann drehen/wechseln Form deutlich (Transformation)",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Evolution",
         english: "Evolution",
-        description: "Entwicklung",
+        description: "Rechte Hand macht Schritt-für-Schritt-Bewegung nach oben/vorne (Fortschritt) (Evolution)",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Harmonie",
         english: "Harmony",
-        description: "Einklang",
+        description: "Beide Hände schwingen gleichmäßig zusammen (gleich), Gesicht ruhig (Harmonie)",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Balance",
         english: "Balance",
-        description: "Gleichgewicht",
+        description: "Beide Hände wie Waage, kurz ausgleichen in der Mitte (Balance)",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Synergie",
         english: "Synergy",
-        description: "Zusammenwirken",
+        description: "Beide Hände kommen aus zwei Richtungen, greifen ineinander und bewegen gemeinsam nach vorne (Synergie)",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Resonanz",
         english: "Resonance",
-        description: "Mitschwingung",
+        description: "Rechte Hand tippt (Impuls), linke Hand schwingt sichtbar mit (Resonanz)",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Transparenz",
         english: "Transparency",
-        description: "Durchsichtigkeit",
+        description: "Beide Hände vor Gesicht wie Glas, dann 'durchsehen' nach vorne (Transparenz)",
         difficulty: 10,
         category: "Fortgeschritten"
       },
       {
         german: "Nachhaltigkeit",
         english: "Sustainability",
-        description: "Nachhaltigkeit",
+        description: "Rechte Hand an Stirn (planen), dann rechte Hand bewegt sich weit nach vorne (langfristig) (Nachhaltigkeit)",
         difficulty: 10,
         category: "Fortgeschritten"
       }
@@ -6591,126 +6580,126 @@ export const DGS_VOCABULARY = {
       {
         german: "Regionale Variante",
         english: "Regional Variant",
-        description: "Lokale Unterschiede",
+        description: "Rechte Hand lokal, Regionale Variante",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Dialekt",
         english: "Dialect",
-        description: "Mundart",
+        description: "Rechte Hand Mundart, Dialekt",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Kulturspezifisch",
         english: "Culture-specific",
-        description: "Kulturell gebunden",
+        description: "Rechte Hand kulturell, Kulturspezifisch",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Kontextabhängig",
         english: "Context-dependent",
-        description: "Situationsbedingt",
+        description: "Rechte Hand Situation, Kontextabhängig",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Idiomatisch",
         english: "Idiomatic",
-        description: "Sprachlich eigen",
+        description: "Linke Hand hält 'Sprache' (Wortliste), rechte Hand zeigt besondere feste Wendung (Idiomatisch)",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Authentisch",
         english: "Authentic",
-        description: "Echt",
+        description: "Rechte Hand echt, Authentisch",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Norddeutsch",
         english: "North German",
-        description: "Norddeutsche Variante",
+        description: "Rechte Hand norddeutsch, Norddeutsche Variante",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Süddeutsch",
         english: "South German",
-        description: "Süddeutsche Variante",
+        description: "Rechte Hand süddeutsch, Süddeutsche Variante",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Österreichisch",
         english: "Austrian",
-        description: "Österreichische DGS",
+        description: "Rechte Hand österreichisch, Österreichische DGS",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Schweizerisch",
         english: "Swiss",
-        description: "Schweizerische DGS",
+        description: "Rechte Hand zeigt 'CH'/kleines Kreuz (Schweiz), dann gebärden (Variante) (Schweizerisch)",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Berliner Variante",
         english: "Berlin Variant",
-        description: "Berliner Gebärden",
+        description: "Rechte Hand zeigt Ort auf imaginärer Karte (Berlin), dann kleine Variantenbewegung (Berliner Variante)",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Hamburger Variante",
         english: "Hamburg Variant",
-        description: "Hamburger Gebärden",
+        description: "Rechte Hand zeigt Ort auf imaginärer Karte (Hamburg), dann kleine Variantenbewegung (Hamburger Variante)",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Münchner Variante",
         english: "Munich Variant",
-        description: "Münchner Gebärden",
+        description: "Rechte Hand zeigt Ort auf imaginärer Karte (München), dann kleine Variantenbewegung (Münchner Variante)",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Kölner Variante",
         english: "Cologne Variant",
-        description: "Kölner Gebärden",
+        description: "Rechte Hand zeigt Ort auf imaginärer Karte (Köln), dann kleine Variantenbewegung (Kölner Variante)",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Generationenspezifisch",
         english: "Generation-specific",
-        description: "Generationsbedingt",
+        description: "Rechte Hand zeigt 'alt' (über Schulter), dann 'jung' nach vorne (Generation) (generationenspezifisch)",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Sozialschichtspezifisch",
         english: "Class-specific",
-        description: "Schichtspezifisch",
+        description: "Linke Hand zeigt Ebene/Schicht (flach), rechte Hand zeigt andere Ebene darüber (Unterschied) (sozialschichtspezifisch)",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Berufsspezifisch",
         english: "Profession-specific",
-        description: "Berufsspezifisch",
+        description: "Rechte Hand zeigt Werkzeug/Job, dann markiert spezielle Variante (nur im Beruf) (berufsspezifisch)",
         difficulty: 10,
         category: "Regional"
       },
       {
         german: "Altersspezifisch",
         english: "Age-specific",
-        description: "Altersspezifisch",
+        description: "Rechte Hand zeigt 'jung' nach vorne, dann 'alt' über Schulter (Altersgruppe) (altersspezifisch)",
         difficulty: 10,
         category: "Regional"
       },
@@ -6724,7 +6713,7 @@ export const DGS_VOCABULARY = {
       {
         german: "Multikulturell",
         english: "Multicultural",
-        description: "Mehrkulturell",
+        description: "Beide Hände markieren mehrere Gruppen/Kulturen, dann zusammenführen (multikulturell)",
         difficulty: 10,
         category: "Regional"
       }
@@ -6733,140 +6722,140 @@ export const DGS_VOCABULARY = {
       {
         german: "Meisterschaft",
         english: "Mastery",
-        description: "Vollendung",
+        description: "Rechte Hand vollendet, Meisterschaft",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Exzellenz",
         english: "Excellence",
-        description: "Vortrefflichkeit",
+        description: "Rechte Hand exzellent, Vortrefflichkeit",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Perfektion",
         english: "Perfection",
-        description: "Vollkommenheit",
+        description: "Rechte Hand macht Kreis (perfekt/ohne Fehler), dann Daumen hoch (Perfektion)",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Innovation",
         english: "Innovation",
-        description: "Neuerung",
+        description: "Rechte Hand macht 'neu' (vorne öffnen), dann beide Hände bauen etwas Neues (Innovation)",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Mentoring",
         english: "Mentoring",
-        description: "Anleitung",
+        description: "Rechte Hand zeigt auf Person (Mentor), dann führt/lenkt die andere Hand (Mentoring)",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Vorbild",
         english: "Role Model",
-        description: "Beispiel",
+        description: "Rechte Hand deutet auf Person, dann Daumen hoch/anerkennend (Vorbild)",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Leidenschaft",
         english: "Passion",
-        description: "Leidenschaft",
+        description: "Rechte Faust auf Herz drücken, Gesicht intensiv/entschlossen (Leidenschaft)",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Hingabe",
         english: "Dedication",
-        description: "Hingabe",
+        description: "Beide Hände geben etwas nach vorne (widmen), dann Hand aufs Herz (Hingabe)",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Disziplin",
         english: "Discipline",
-        description: "Disziplin",
+        description: "Rechte Hand macht strenge/gerade Bewegung nach unten (Ordnung), Gesicht ernst (Disziplin)",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Ausdauer",
         english: "Endurance",
-        description: "Ausdauer",
+        description: "Rechte Faust pumpt wiederholt nach vorne (weitermachen), Gesicht entschlossen (Ausdauer)",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Resilienz",
         english: "Resilience",
-        description: "Widerstandskraft",
+        description: "Rechte Hand widerstandsfähig, Resilienz",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Anmut",
         english: "Grace",
-        description: "Anmut",
+        description: "Rechte Hand bewegt sich weich/elegant, Körperhaltung sanft (Anmut)",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Eleganz",
         english: "Elegance",
-        description: "Eleganz",
+        description: "Rechte Hand elegant, Eleganz",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Präzision",
         english: "Precision",
-        description: "Präzision",
+        description: "Rechte Hand Pinzettengriff macht kleine genaue Bewegung, Blick fokussiert (Präzision)",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Meisterschaftswerk",
         english: "Masterpiece",
-        description: "Meisterwerk",
+        description: "Rechte Hand Meisterwerk, vollendetes Werk",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Virtuosität",
         english: "Virtuosity",
-        description: "Virtuosität",
+        description: "Rechte Hand schnelle, sehr präzise Fingerbewegungen (virtuos) (Virtuosität)",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Genialität",
         english: "Genius",
-        description: "Genialität",
+        description: "Rechte Hand genial, Genialität",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Intuition",
         english: "Intuition",
-        description: "Intuition",
+        description: "Rechte Hand an Bauch/Brust (Gefühl), dann kurzer 'Aha'-Impuls an Stirn (Intuition)",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Inspiration",
         english: "Inspiration",
-        description: "Inspiration",
+        description: "Rechte Hand Inspiration, Eingebung, dann Feder an Papier (Inspiration)",
         difficulty: 10,
         category: "Meisterschaft"
       },
       {
         german: "Transzendenz",
         english: "Transcendence",
-        description: "Transzendenz",
+        description: "Rechte Hand transzendieren, Transzendenz",
         difficulty: 10,
         category: "Meisterschaft"
       }

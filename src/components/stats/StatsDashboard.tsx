@@ -1,4 +1,6 @@
-import React from 'react';
+'use client'
+
+import React, { useEffect, useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
@@ -12,50 +14,63 @@ import {
   Award,
   Activity
 } from 'lucide-react';
-import { User, UserTestResult, LoginStat } from '@prisma/client';
 
-interface StatsDashboardProps {
-  user: User & {
-    testResults: (UserTestResult & {
-      test: {
-        title: string;
-        category?: string;
-      };
-    })[];
-    loginStats: LoginStat[];
-  };
+interface TestResult {
+  score: number;
+  totalPoints: number;
+  earnedPoints: number;
+  timeSpent: number;
+  completedAt?: string;
+}
+
+interface UserData {
+  testResults: TestResult[];
+  totalXp: number;
+  lastLoginDate?: string;
+  currentStreak: number;
 }
 
 interface WeeklyStats {
   week: string;
-  logins: number;
   testsTaken: number;
   avgScore: number;
   xpEarned: number;
 }
 
-export function StatsDashboard({ user }: StatsDashboardProps) {
+export function StatsDashboard() {
+  const [userData, setUserData] = useState<UserData>({
+    testResults: [],
+    totalXp: 0,
+    currentStreak: 0
+  });
+
+  useEffect(() => {
+    const stored = localStorage.getItem('userData');
+    if (stored) {
+      setUserData(JSON.parse(stored));
+    }
+  }, []);
   // Calculate stats
-  const totalTestsTaken = user.testResults.length;
-  const passedTests = user.testResults.filter(r => r.score >= 70).length;
+  const totalTestsTaken = userData.testResults.length;
+  const passedTests = userData.testResults.filter((r: TestResult) => r.score >= 70).length;
   const averageScore = totalTestsTaken > 0 
-    ? Math.round(user.testResults.reduce((sum, r) => sum + r.score, 0) / totalTestsTaken)
+    ? Math.round(userData.testResults.reduce((sum: number, r: TestResult) => sum + r.score, 0) / totalTestsTaken)
     : 0;
   
-  const totalTimeSpent = user.testResults.reduce((sum, r) => sum + r.timeSpent, 0);
+  const totalTimeSpent = userData.testResults.reduce((sum: number, r: TestResult) => sum + r.timeSpent, 0);
   const averageTimePerTest = totalTestsTaken > 0 
     ? Math.round(totalTimeSpent / totalTestsTaken)
     : 0;
   
   // Calculate weekly stats (last 4 weeks)
-  const weeklyStats: WeeklyStats[] = calculateWeeklyStats(user.loginStats, user.testResults);
+  const weeklyStats: WeeklyStats[] = calculateWeeklyStats(userData.testResults);
   
   // Achievement progress
   const achievements = [
     { name: 'Erste Schritte', description: 'Ersten Test abgeschlossen', progress: totalTestsTaken > 0 ? 100 : 0, icon: BookOpen },
     { name: 'Lernanfänger', description: '5 Tests bestanden', progress: Math.min((passedTests / 5) * 100, 100), icon: Target },
-    { name: 'Streak Meister', description: '7 Tage Serie', progress: Math.min((user.currentStreak / 7) * 100, 100), icon: Calendar },
-    { name: 'XP Sammler', description: '100 XP gesammelt', progress: Math.min((user.totalXp / 100) * 100, 100), icon: Trophy },
+    { name: 'Streak Meister', description: '7 Tage Serie', progress: Math.min((userData.currentStreak / 7) * 100, 100), icon: Calendar },
+    { name: 'XP Sammler', description: '100 XP gesammelt', progress: Math.min((userData.totalXp / 100) * 100, 100), icon: Trophy },
   ];
 
   const formatTime = (seconds: number) => {
@@ -74,7 +89,7 @@ export function StatsDashboard({ user }: StatsDashboardProps) {
         <Card>
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
             <CardTitle className="text-sm font-medium">Tests abgeschlossen</CardTitle>
-            <BookOpen className="h-4 w-4 text-muted-foreground" />
+            <BookOpen suppressHydrationWarning className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">{totalTestsTaken}</div>
@@ -87,7 +102,7 @@ export function StatsDashboard({ user }: StatsDashboardProps) {
         <Card>
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
             <CardTitle className="text-sm font-medium">Durchschnittliche Punktzahl</CardTitle>
-            <Target className="h-4 w-4 text-muted-foreground" />
+            <Target suppressHydrationWarning className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">{averageScore}%</div>
@@ -100,7 +115,7 @@ export function StatsDashboard({ user }: StatsDashboardProps) {
         <Card>
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
             <CardTitle className="text-sm font-medium">Lernzeit</CardTitle>
-            <Clock className="h-4 w-4 text-muted-foreground" />
+            <Clock suppressHydrationWarning className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">{formatTime(totalTimeSpent)}</div>
@@ -113,10 +128,10 @@ export function StatsDashboard({ user }: StatsDashboardProps) {
         <Card>
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
             <CardTitle className="text-sm font-medium">Aktuelle Serie</CardTitle>
-            <Activity className="h-4 w-4 text-muted-foreground" />
+            <Activity suppressHydrationWarning className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">{user.currentStreak}</div>
+            <div className="text-2xl font-bold">{userData.currentStreak}</div>
             <p className="text-xs text-muted-foreground">
               Tage in Folge
             </p>
@@ -128,7 +143,7 @@ export function StatsDashboard({ user }: StatsDashboardProps) {
       <Card>
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
-            <TrendingUp className="w-5 h-5" />
+            <TrendingUp suppressHydrationWarning className="w-5 h-5" />
             Wöchentlicher Fortschritt
           </CardTitle>
         </CardHeader>
@@ -139,7 +154,7 @@ export function StatsDashboard({ user }: StatsDashboardProps) {
                 <div className="flex justify-between text-sm">
                   <span>{week.week}</span>
                   <span className="text-muted-foreground">
-                    {week.testsTaken} Tests, {week.logins} Logins
+                    {week.testsTaken} Tests
                   </span>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
@@ -171,12 +186,12 @@ export function StatsDashboard({ user }: StatsDashboardProps) {
         </CardHeader>
         <CardContent>
           <div className="space-y-3">
-            {user.testResults.slice(-5).reverse().map((result) => (
-              <div key={result.id} className="flex items-center justify-between p-3 rounded-lg border">
+            {userData.testResults.slice(-5).reverse().map((result: TestResult, idx: number) => (
+              <div key={idx} className="flex items-center justify-between p-3 rounded-lg border">
                 <div>
-                  <p className="font-medium">{result.test.title}</p>
+                  <p className="font-medium">Test #{totalTestsTaken - idx}</p>
                   <p className="text-sm text-muted-foreground">
-                    {new Date(result.completedAt || result.startedAt).toLocaleDateString('de-DE')}
+                    {result.completedAt ? new Date(result.completedAt).toLocaleDateString('de-DE') : 'Gerade eben'}
                   </p>
                 </div>
                 <div className="text-right">
@@ -189,7 +204,7 @@ export function StatsDashboard({ user }: StatsDashboardProps) {
                 </div>
               </div>
             ))}
-            {user.testResults.length === 0 && (
+            {userData.testResults.length === 0 && (
               <p className="text-center text-muted-foreground py-4">
                 Noch keine Tests absolviert
               </p>
@@ -202,7 +217,7 @@ export function StatsDashboard({ user }: StatsDashboardProps) {
       <Card>
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
-            <Award className="w-5 h-5" />
+            <Award suppressHydrationWarning className="w-5 h-5" />
             Erfolge in Arbeit
           </CardTitle>
         </CardHeader>
@@ -213,7 +228,7 @@ export function StatsDashboard({ user }: StatsDashboardProps) {
               return (
                 <div key={idx} className="space-y-2">
                   <div className="flex items-center gap-2">
-                    <Icon className="w-4 h-4 text-muted-foreground" />
+                    <Icon className="w-4 h-4 text-muted-foreground" suppressHydrationWarning />
                     <span className="text-sm font-medium">{achievement.name}</span>
                   </div>
                   <p className="text-xs text-muted-foreground">{achievement.description}</p>
@@ -228,7 +243,7 @@ export function StatsDashboard({ user }: StatsDashboardProps) {
   );
 }
 
-function calculateWeeklyStats(loginStats: LoginStat[], testResults: any[]): WeeklyStats[] {
+function calculateWeeklyStats(testResults: TestResult[]): WeeklyStats[] {
   const weeks: WeeklyStats[] = [];
   const now = new Date();
   
@@ -240,9 +255,7 @@ function calculateWeeklyStats(loginStats: LoginStat[], testResults: any[]): Week
     const weekEnd = new Date(weekStart);
     weekEnd.setDate(weekStart.getDate() + 7);
     
-    const weekLogins = loginStats.filter(
-      login => login.loginAt >= weekStart && login.loginAt < weekEnd
-    ).length;
+    const weekLogins = 0;
     
     const weekTests = testResults.filter(
       test => test.completedAt && 
@@ -258,10 +271,9 @@ function calculateWeeklyStats(loginStats: LoginStat[], testResults: any[]): Week
     
     weeks.push({
       week: weekName,
-      logins: weekLogins,
       testsTaken: weekTests.length,
       avgScore,
-      xpEarned: weekTests.reduce((sum, t) => sum + t.earnedPoints, 0)
+      xpEarned: weekTests.reduce((sum: number, t: TestResult) => sum + t.earnedPoints, 0)
     });
   }
   

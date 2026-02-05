@@ -48,6 +48,15 @@ const translations = {
     // Lessons Page
     'lessons_title': 'DGS Lessons',
     'lessons_subtitle': 'Structured learning paths for German Sign Language',
+    'lessons_count': 'lessons',
+    'vocab_count': 'words',
+    'learning_methods': 'Learning Methods',
+    'learning_goals': 'Learning Goals',
+    'how_it_works': 'How do the lessons work?',
+    'lesson_in_development': 'Lessons in Development',
+    'coming_soon': 'Interactive lessons will be available soon. In the meantime, you can:',
+    'explore_vocab': 'Explore Vocabulary',
+    'take_tests': 'Take Tests',
 
     // Theme & Language
     'toggle_theme': 'Toggle theme',

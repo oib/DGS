@@ -46,7 +46,7 @@ export function LevelSystem({ user, showDetails = false }: LevelSystemProps) {
     <Card className={showDetails ? 'w-full' : 'w-auto'}>
       <CardHeader className={showDetails ? '' : 'pb-3'}>
         <CardTitle className="flex items-center gap-2">
-          <Trophy className={`w-5 h-5 ${currentLevel.color.replace('bg-', 'text-')}`} />
+          <Trophy suppressHydrationWarning className={`w-5 h-5 ${currentLevel.color.replace('bg-', 'text-')}`} />
           <span>Level {user.level}</span>
           <Badge variant="secondary">{currentLevel.name}</Badge>
         </CardTitle>
@@ -56,7 +56,7 @@ export function LevelSystem({ user, showDetails = false }: LevelSystemProps) {
           <div>
             <div className="flex justify-between text-sm mb-2">
               <span className="flex items-center gap-1">
-                <Zap className="w-4 h-4 text-yellow-500" />
+                <Zap suppressHydrationWarning className="w-4 h-4 text-yellow-500" />
                 {user.xp} XP
               </span>
               {xpToNextLevel > 0 && (
@@ -70,25 +70,25 @@ export function LevelSystem({ user, showDetails = false }: LevelSystemProps) {
           
           <div className="grid grid-cols-2 gap-4 text-sm">
             <div className="flex items-center gap-2">
-              <Star className="w-4 h-4 text-yellow-500" />
+              <Star suppressHydrationWarning className="w-4 h-4 text-yellow-500" />
               <span>Gesamte XP: {user.totalXp}</span>
             </div>
             <div className="flex items-center gap-2">
-              <Trophy className="w-4 h-4 text-blue-500" />
+              <Trophy suppressHydrationWarning className="w-4 h-4 text-blue-500" />
               <span>Logins: {user.loginCount}</span>
             </div>
           </div>
           
           {user.currentStreak > 0 && (
             <div className="flex items-center gap-2 text-sm">
-              <Zap className="w-4 h-4 text-orange-500" />
+              <Zap suppressHydrationWarning className="w-4 h-4 text-orange-500" />
               <span>Aktuelle Serie: {user.currentStreak} Tage</span>
             </div>
           )}
           
           {user.longestStreak > 0 && (
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
-              <Trophy className="w-4 h-4" />
+              <Trophy suppressHydrationWarning className="w-4 h-4" />
               <span>Längste Serie: {user.longestStreak} Tage</span>
             </div>
           )}

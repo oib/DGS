@@ -7,6 +7,7 @@ import { ThemeToggle } from '@/components/theme-toggle'
 import { LanguageToggle } from '@/components/language-toggle'
 import { useLanguage } from '@/components/language-provider'
 import { useEffect, useState } from 'react'
+import { Lightbulb } from 'lucide-react'
 
 export default function Home() {
   const [mounted, setMounted] = useState(false)
@@ -21,10 +22,10 @@ export default function Home() {
   // Show loading state until mounted
   if (!mounted) {
     return (
-      <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 p-8">
+      <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-8">
         <div className="max-w-4xl mx-auto">
           <div className="flex justify-between items-center mb-8">
-            <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
+            <h1 className="text-4xl font-bold text-gray-900">
               Deutsche Gebärdensprache Lernplattform
             </h1>
             <div className="flex items-center gap-2">
@@ -34,9 +35,9 @@ export default function Home() {
           </div>
           <div className="animate-pulse space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border dark:border-gray-700 h-48"></div>
-              <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border dark:border-gray-700 h-48"></div>
-              <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border dark:border-gray-700 h-48"></div>
+              <div className="bg-white rounded-lg p-6 shadow-sm border h-48"></div>
+              <div className="bg-white rounded-lg p-6 shadow-sm border h-48"></div>
+              <div className="bg-white rounded-lg p-6 shadow-sm border h-48"></div>
             </div>
           </div>
         </div>
@@ -57,7 +58,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           <Card className="dark:bg-gray-800 dark:border-gray-700">
             <CardHeader>
               <CardTitle className="dark:text-white">{t('lessons')}</CardTitle>
@@ -96,6 +97,23 @@ export default function Home() {
               </p>
               <Link href="/tests">
                 <Button className="w-full" variant="outline">{t('tests')}</Button>
+              </Link>
+            </CardContent>
+          </Card>
+
+          <Card className="dark:bg-gray-800 dark:border-gray-700">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2 dark:text-white">
+                <Lightbulb suppressHydrationWarning className="w-5 h-5 text-yellow-500" />
+                Vorschlag
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                Verbessern Sie Zeichenerklärungen mit Ihren Ideen
+              </p>
+              <Link href="/suggest">
+                <Button className="w-full" variant="secondary">Vorschlag senden</Button>
               </Link>
             </CardContent>
           </Card>
