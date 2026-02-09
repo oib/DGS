@@ -12,6 +12,8 @@ export const metadata: Metadata = {
   description: 'Deutsche Gebärdensprache lernen',
   icons: {
     icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
   },
 }
 
