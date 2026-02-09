@@ -48,3 +48,11 @@ The service will:
 - Log output to `/tmp/dgs-platform.log`
 - Store PID in `/tmp/dgs-platform.pid`
 - Provide systemd-like command interface
+
+## Known Issue
+
+The `stop` command may not properly kill child processes spawned by `npm start`. 
+If encountering `EADDRINUSE` errors, manually kill processes:
+```bash
+kill -9 $(lsof -ti:3100)
+```

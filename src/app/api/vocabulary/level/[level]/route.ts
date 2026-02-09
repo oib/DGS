@@ -3,9 +3,11 @@ import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
 
-export async function GET(request: NextRequest) {
-  const { searchParams } = new URL(request.url)
-  const levelParam = searchParams.get('level')
+export async function GET(
+  request: NextRequest,
+  { params }: { params: { level: string } }
+) {
+  const levelParam = params.level
 
   if (!levelParam) {
     return NextResponse.json({ error: 'Level parameter is required' }, { status: 400 })
