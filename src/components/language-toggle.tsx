@@ -59,7 +59,7 @@ export function LanguageToggle() {
     >
       <Languages className="h-[1.2rem] w-[1.2rem]" suppressHydrationWarning />
       <span className="ml-1 text-xs font-bold">
-        {language.toUpperCase()}
+        {(language === 'de' ? 'EN' : 'DE')}
       </span>
     </Button>
   )

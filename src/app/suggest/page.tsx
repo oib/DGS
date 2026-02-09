@@ -1,14 +1,19 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { searchVocabulary } from '@/data/dgsVocabulary'
+import { useLanguage } from '@/components/language-provider'
 import { ArrowLeft, Search, Send, Lightbulb } from 'lucide-react'
-import { ThemeToggle } from '@/components/theme-toggle'
+
+export const dynamic = 'force-dynamic'
+export const runtime = 'edge'
 
 export default function SuggestPage() {
+  const searchParams = useSearchParams()
+  const { t } = useLanguage()
   const [mounted, setMounted] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
   const [searchResults, setSearchResults] = useState<any[]>([])
@@ -19,20 +24,48 @@ export default function SuggestPage() {
 
   useEffect(() => {
     setMounted(true)
-  }, [])
+    
+    // Pre-fill form if coming from vocabulary page
+    if (searchParams) {
+      const word = searchParams.get('word')
+      const english = searchParams.get('english')
+      const description = searchParams.get('description')
+      
+      if (word && english && description) {
+        setSelectedWord({
+          german: word,
+          english: english,
+          description: description
+        })
+        setSearchQuery(word)
+      }
+    }
+  }, [searchParams])
 
   useEffect(() => {
-    if (searchQuery.trim().length > 0) {
-      const results = searchVocabulary(searchQuery)
-      setSearchResults(results.slice(0, 10))
-      setIsDropdownOpen(true)
-      setHighlightedIndex(-1)
+    if (searchQuery.trim().length > 0 && !selectedWord && mounted) {
+      performSearch(searchQuery)
     } else {
       setSearchResults([])
       setIsDropdownOpen(false)
       setHighlightedIndex(-1)
     }
-  }, [searchQuery])
+  }, [searchQuery, selectedWord, mounted])
+
+  const performSearch = async (query: string) => {
+    try {
+      const response = await fetch(`/api/vocabulary/search?q=${encodeURIComponent(query)}`)
+      if (!response.ok) throw new Error('Search failed')
+      const results = await response.json()
+      setSearchResults(results.slice(0, 10))
+      setIsDropdownOpen(true)
+      setHighlightedIndex(-1)
+    } catch (error) {
+      console.error('Error searching vocabulary:', error)
+      setSearchResults([])
+      setIsDropdownOpen(false)
+    }
+  }
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (!isDropdownOpen || searchResults.length === 0) return
@@ -68,6 +101,7 @@ export default function SuggestPage() {
     setSearchQuery(word.german)
     setIsDropdownOpen(false)
     setHighlightedIndex(-1)
+    setSearchResults([])
   }
 
   const handleSend = () => {
@@ -105,32 +139,31 @@ export default function SuggestPage() {
             <Link href="/">
               <Button variant="outline" size="sm">
                 <ArrowLeft suppressHydrationWarning className="w-4 h-4 mr-2" />
-                Zurück
+                {t('back')}
               </Button>
             </Link>
             <div>
               <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
-                Verbesserungsvorschlag
+                {t('suggest_title')}
               </h1>
               <p className="text-gray-600 dark:text-gray-300">
-                Hilf uns, Erklärungen zu verbessern
+                {t('suggest_desc')}
               </p>
             </div>
           </div>
-          <ThemeToggle />
         </div>
 
         <Card className="dark:bg-gray-800 dark:border-gray-700">
           <CardHeader>
             <CardTitle className="flex items-center gap-2 dark:text-white">
               <Lightbulb suppressHydrationWarning className="w-5 h-5 text-yellow-500" />
-              Besseres Zeichen beschreiben
+              {t('improve_sign_description')}
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
             <div className="relative">
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                Wort suchen
+                {t('search_word')}
               </label>
               <div className="relative">
                 <Search suppressHydrationWarning className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
@@ -139,7 +172,7 @@ export default function SuggestPage() {
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   onKeyDown={handleKeyDown}
-                  placeholder="Geben Sie ein Wort ein..."
+                  placeholder={t('enter_word_placeholder')}
                   className="w-full pl-10 pr-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
@@ -175,7 +208,7 @@ export default function SuggestPage() {
                 </p>
                 <div className="bg-white dark:bg-gray-800 rounded p-3">
                   <p className="text-sm text-gray-600 dark:text-gray-300">
-                    <span className="font-medium">Aktuelle Erklärung:</span>
+                    <span className="font-medium">{t('current_description')}:</span>
                     <br />
                     {selectedWord.description}
                   </p>
@@ -185,12 +218,12 @@ export default function SuggestPage() {
 
             <div>
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                Ihr Verbesserungsvorschlag
+                {t('your_suggestion')}
               </label>
               <textarea
                 value={suggestion}
                 onChange={(e) => setSuggestion(e.target.value)}
-                placeholder="Beschreiben Sie hier die Zeichengebärde genauer..."
+                placeholder={t('suggestion_placeholder')}
                 rows={6}
                 className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
               />
@@ -203,14 +236,14 @@ export default function SuggestPage() {
               size="lg"
             >
               <Send suppressHydrationWarning className="w-4 h-4 mr-2" />
-              An oib@bubuit.net senden
+              {t('send_suggestion')}
             </Button>
           </CardContent>
         </Card>
 
         <div className="mt-6 text-center text-sm text-gray-600 dark:text-gray-400">
           <p>
-            Ihr Vorschlag wird per E-Mail gesendet. Vielen Dank für Ihre Mithilfe!
+            {t('suggestion_footer_message')}
           </p>
         </div>
       </div>

@@ -6,7 +6,7 @@ describe('VocabularyPage', () => {
     render(<VocabularyPage />)
     
     expect(screen.getByText('DGS Wörterbuch')).toBeInTheDocument()
-    expect(screen.getByText(/926 Zeichen nach Level und Kategorie geordnet/)).toBeInTheDocument()
+    expect(screen.getByText(/Zeichen nach Level und Kategorie geordnet/)).toBeInTheDocument()
   })
 
   it('renders level tabs', () => {

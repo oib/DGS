@@ -3,7 +3,6 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { ThemeToggle } from '@/components/theme-toggle'
 import { LanguageToggle } from '@/components/language-toggle'
 import { useLanguage } from '@/components/language-provider'
 import { useEffect, useState } from 'react'
@@ -22,7 +21,7 @@ export default function Home() {
   // Show loading state until mounted
   if (!mounted) {
     return (
-      <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-8">
+      <main className="bg-gradient-to-br from-blue-50 to-indigo-100 p-8 pb-16">
         <div className="max-w-4xl mx-auto">
           <div className="flex justify-between items-center mb-8">
             <h1 className="text-4xl font-bold text-gray-900">
@@ -30,7 +29,6 @@ export default function Home() {
             </h1>
             <div className="flex items-center gap-2">
               <LanguageToggle />
-              <ThemeToggle />
             </div>
           </div>
           <div className="animate-pulse space-y-6">
@@ -46,7 +44,7 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 p-8">
+    <main className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 p-8 pb-16">
       <div className="max-w-4xl mx-auto">
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
@@ -54,31 +52,16 @@ export default function Home() {
           </h1>
           <div className="flex items-center gap-2">
             <LanguageToggle />
-            <ThemeToggle />
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-          <Card className="dark:bg-gray-800 dark:border-gray-700">
-            <CardHeader>
-              <CardTitle className="dark:text-white">{t('lessons')}</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">
-                {t('lessons_desc')}
-              </p>
-              <Link href="/lessons">
-                <Button className="w-full">{t('home')}</Button>
-              </Link>
-            </CardContent>
-          </Card>
-
-          <Card className="dark:bg-gray-800 dark:border-gray-700">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+          <Card className="dark:bg-gray-800 dark:border-gray-700 flex flex-col">
             <CardHeader>
               <CardTitle className="dark:text-white">{t('vocabulary')}</CardTitle>
             </CardHeader>
-            <CardContent>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">
+            <CardContent className="flex-1 flex flex-col">
+              <p className="text-gray-600 dark:text-gray-300 mb-4 flex-1">
                 {t('vocab_desc')}
               </p>
               <Link href="/vocabulary">
@@ -87,12 +70,12 @@ export default function Home() {
             </CardContent>
           </Card>
 
-          <Card className="dark:bg-gray-800 dark:border-gray-700">
+          <Card className="dark:bg-gray-800 dark:border-gray-700 flex flex-col">
             <CardHeader>
               <CardTitle className="dark:text-white">{t('tests')}</CardTitle>
             </CardHeader>
-            <CardContent>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">
+            <CardContent className="flex-1 flex flex-col">
+              <p className="text-gray-600 dark:text-gray-300 mb-4 flex-1">
                 {t('tests_desc')}
               </p>
               <Link href="/tests">
@@ -101,19 +84,19 @@ export default function Home() {
             </CardContent>
           </Card>
 
-          <Card className="dark:bg-gray-800 dark:border-gray-700">
+          <Card className="dark:bg-gray-800 dark:border-gray-700 flex flex-col">
             <CardHeader>
               <CardTitle className="flex items-center gap-2 dark:text-white">
                 <Lightbulb suppressHydrationWarning className="w-5 h-5 text-yellow-500" />
-                Vorschlag
+                {t('suggest_title')}
               </CardTitle>
             </CardHeader>
-            <CardContent>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">
-                Verbessern Sie Zeichenerklärungen mit Ihren Ideen
+            <CardContent className="flex-1 flex flex-col">
+              <p className="text-gray-600 dark:text-gray-300 mb-4 flex-1">
+                {t('suggest_desc')}
               </p>
               <Link href="/suggest">
-                <Button className="w-full" variant="secondary">Vorschlag senden</Button>
+                <Button className="w-full" variant="outline">{t('send_suggestion')}</Button>
               </Link>
             </CardContent>
           </Card>

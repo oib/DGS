@@ -171,8 +171,48 @@ model Achievement {
   iconUrl     String?
   xpReward    Int     @default(0)
   condition   String?  // conditions to unlock (JSON string)
-  
+
+  userAchievements UserAchievement[]
+
   @@map("achievements")
+}
+
+model Category {
+  id          String @id @default(cuid())
+  name        String @unique
+  description String?
+  words       Word[]
+
+  @@map("categories")
+}
+
+model VocabularyLevel {
+  id          Int @id
+  name        String
+  description String?
+  words       Word[]
+
+  @@map("vocabulary_levels")
+}
+
+model Word {
+  id          String @id @default(cuid())
+  german      String
+  english     String
+  description String
+  difficulty  Int
+  categoryId  String
+  levelId     Int
+
+  category Category @relation(fields: [categoryId], references: [id])
+  level    VocabularyLevel    @relation(fields: [levelId], references: [id])
+
+  // Search index
+  @@index([german])
+  @@index([english])
+  @@index([categoryId])
+  @@index([levelId])
+  @@map("words")
 }
 
 model UserAchievement {
@@ -180,9 +220,22 @@ model UserAchievement {
   userId        String
   achievementId String
   unlockedAt    DateTime @default(now())
-  
+
   user        User @relation(fields: [userId], references: [id], onDelete: Cascade)
-  
+  achievement Achievement @relation(fields: [achievementId], references: [id], onDelete: Cascade)
+
   @@unique([userId, achievementId])
   @@map("user_achievements")
+}
+
+model Translation {
+  id          String @id @default(cuid())
+  key         String
+  language    String
+  value       String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([key, language])
+  @@map("translations")
 }
