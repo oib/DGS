@@ -41,6 +41,10 @@ A modern learning platform for German Sign Language (DGS) with interactive vocab
 
 ## 🚀 **Quick Start | Schnellstart**
 
+### **🌐 Live Demo | Live-Demo**
+- **Live Site**: [dgs.bubuit.net](https://dgs.bubuit.net)
+- **GitHub**: [github.com/oib/DGS](https://github.com/oib/DGS)
+
 ### **Prerequisites | Voraussetzungen**
 - Node.js 18+ 
 - npm or yarn
@@ -49,8 +53,8 @@ A modern learning platform for German Sign Language (DGS) with interactive vocab
 ### **Installation | Installation**
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd dgs-platform
+git clone https://github.com/oib/DGS.git
+cd DGS
 
 # Install dependencies
 npm install

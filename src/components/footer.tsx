@@ -28,6 +28,16 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a 
+                  href="https://github.com/oib/DGS" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+                >
+                  GitHub Repository
+                </a>
+              </li>
+              <li>
+                <a 
                   href="https://bubuit.net" 
                   target="_blank" 
                   rel="noopener noreferrer"
